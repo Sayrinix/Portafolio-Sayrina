@@ -17,7 +17,7 @@ get_header();
 <div class="container mb-5 altura-div1">
         <h2 class="h2-brown pb-5 text-center">Próximos Proyectos</h2>
         <div class="d-flex mt-5 altura-div2">
-            <img class="me-2 imagen-arreglo" src="assets/img/proyecto-destacado.png" alt="Persona Mayor Mujer usando un celular">
+            <img class="me-2 imagen-arreglo" src="<?php echo esc_url(get_template_directory_uri() . 'assets/img/proyecto-destacado.png'?> alt="Persona Mayor Mujer usando un celular">
             <div class="col-4 fondo-destacado d-flex flex-column justify-content-center align-items-center">
                 <p class="m-3 pb-3 text-center p-brown">Este proyecto trata sobre una radio accesible para personas mayores.</p>
                 <a href="#" class="boton-ver">Ver más</a>
@@ -85,13 +85,13 @@ get_header();
         </div>
         <div class="row d-flex align-items-center">
             <div class="col">
-                <a href="#"><img class="imagen-arreglo hover-imagen" src="./assets/img/rick-morty-proy.png" alt=""></a>
+                <a href="#"><img class="imagen-arreglo hover-imagen" src="assets/img/rick-morty-proy.png" alt=""></a>
             </div>
             <div class="col">
-                <a href="#"><img class="imagen-arreglo-2 hover-imagen" src="./assets/img/fitness-proy.png" alt=""></a>
+                <a href="#"><img class="imagen-arreglo-2 hover-imagen" src="assets/img/fitness-proy.png" alt=""></a>
             </div>
             <div class="col">
-                <a href="#"><img class="imagen-arreglo hover-imagen" src="./assets/img/aurora-proy.png" alt=""></a>
+                <a href="#"><img class="imagen-arreglo hover-imagen" src="assets/img/aurora-proy.png" alt=""></a>
             </div>
         </div>
         <div class="d-flex mt-5 justify-content-center">
