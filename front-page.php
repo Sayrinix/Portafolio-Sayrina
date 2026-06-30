@@ -28,7 +28,7 @@ get_header();
     <div class="container mb-5 pb-5">
         <h2 class="h2-brown pb-5 text-center">¿Quién soy?</h2>
         <div class="d-flex mt-5 altura-div2">
-            <img class="me-4 imagen-arreglo" src="assets/img/quien-soy-home.png" alt="Paisaje de Girasoles pintados en óleo">
+            <img class="me-4 imagen-arreglo" src="<?php echo esc_url(get_template_directory_uri() . '/assets/img/quien-soy-home.png')?>" alt="Paisaje de Girasoles pintados en óleo">
             <div class="col-5 d-flex flex-column">
                 <p class="p-brown pb-3">"El fin del arte y de la ciencia es servir a la vida"</p>
                 <div class="row">
@@ -85,13 +85,13 @@ get_header();
         </div>
         <div class="row d-flex align-items-center">
             <div class="col">
-                <a href="#"><img class="imagen-arreglo hover-imagen" src="assets/img/rick-morty-proy.png" alt=""></a>
+                <a href="#"><img class="imagen-arreglo hover-imagen" src="<?php echo esc_url(get_template_directory_uri() . '/assets/img/rick-morty-proy.png')?>" alt=""></a>
             </div>
             <div class="col">
-                <a href="#"><img class="imagen-arreglo-2 hover-imagen" src="assets/img/fitness-proy.png" alt=""></a>
+                <a href="#"><img class="imagen-arreglo-2 hover-imagen" src="<?php echo esc_url(get_template_directory_uri() . '/assets/img/fitness-proy.png')?>" alt=""></a>
             </div>
             <div class="col">
-                <a href="#"><img class="imagen-arreglo hover-imagen" src="assets/img/aurora-proy.png" alt=""></a>
+                <a href="#"><img class="imagen-arreglo hover-imagen" src="<?php echo esc_url(get_template_directory_uri() . '/assets/img/aurora-proy.png')?>" alt=""></a>
             </div>
         </div>
         <div class="d-flex mt-5 justify-content-center">
