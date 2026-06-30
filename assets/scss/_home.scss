@@ -20,13 +20,14 @@
     font-weight: bold;
     list-style-type: none;
     text-decoration: none;
-    transition: all 0.3s ease;
+}
+.lista-menu li{
+transition: all 0.3s ease;
 
     &:hover{
         transform: translateY(-2px);
     }
 }
-
 .bg-image{
     background-image: url(../img/banner-home-def.png);
     background-repeat: no-repeat;
