@@ -82,6 +82,7 @@ body {
   color: #FFEFEC;
   font-weight: bold;
   list-style-type: none;
+  text-decoration: none;
   transition: all 0.3s ease;
 }
 .lista-menu li a:hover {
