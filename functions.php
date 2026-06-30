@@ -9,11 +9,19 @@ function sayrina_portfolio_assets() {
         '5.3.8'
     );
 
-    // Tu hoja de estilos principal
+    // Style.css principal del theme
     wp_enqueue_style(
-        'main-style',
+        'theme-style',
         get_stylesheet_uri(),
         array('bootstrap-css'),
+        filemtime(get_stylesheet_directory() . '/style.css')
+    );
+
+    // CSS personalizado
+    wp_enqueue_style(
+        'custom-style',
+        get_template_directory_uri() . '/assets/scss/estilos.css',
+        array('theme-style'),
         filemtime(get_template_directory() . '/assets/scss/estilos.css')
     );
 
