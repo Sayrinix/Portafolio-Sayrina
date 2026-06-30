@@ -38,10 +38,6 @@ function sayrina_portfolio_assets() {
 
 add_action('wp_enqueue_scripts', 'sayrina_portfolio_assets');
 
-?>
-
-<?php
-
 function sayrina_portfolio_setup() {
   register_nav_menus(array(
     'menu-principal' => __('Menú Principal', 'sayrina-portfolio')
@@ -50,4 +46,3 @@ function sayrina_portfolio_setup() {
 
 add_action('after_setup_theme', 'sayrina_portfolio_setup');
 
-?>
