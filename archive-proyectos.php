@@ -35,7 +35,6 @@ get_header();
                 </a>
                 <?php endif; ?>
             </div>
-           
             <div>
                 <?php if ($titulo) : ?>
                 <h3 class="h3-brown"><?php echo esc_html($titulo); ?></h3>
