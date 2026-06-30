@@ -15,15 +15,24 @@ get_header();
             ));
             ?>
             <?php if ($projects_query->have_posts()) : ?>
-            <?php
-            $titulo = get_field('titulo_del_proyecto'); 
-            $descripcion = get_field('descripcion_breve_del_proyecto')
-            ?>
+            
     <div class="row">
         <?php while ($projects_query->have_posts()) : $projects_query->the_post(); ?>
+
+        <?php
+            $titulo = get_field('titulo_del_proyecto'); 
+            $descripcion = get_field('descripcion_breve_del_proyecto');
+        ?>
+
         <div class="col-5 d-flex">
             <?php if (has_post_thumbnail()) : ?>
-            <img class="imagen-destacada-arreglo" src="<?php the_post_thumbnail('large'); ?>" alt="">
+                <a href="<?php the_permalink(); ?>">
+                    <?php the_post_thumbnail('large', array(
+                        'class' => 'imagen-destacada-arreglo',
+                        'alt'   => esc_attr(get_the_title())
+                    )); ?>
+                </a>
+            <?php endif; ?>
             <div>
                 <?php if ($titulo) : ?>
                 <h3 class="h3-brown"><?php echo esc_html($titulo); ?></h3>
@@ -37,7 +46,15 @@ get_header();
         <div class="col-1">
 
         </div>
+        <?php endwhile; ?>
     </div>
-  </div>  
+        <?php wp_reset_postdata(); ?>
+
+        <?php else : ?>
+
+            <p>No hay proyectos publicados todavía.</p>
+
+        <?php endif; ?>
+  </div> 
 </main>
 <?php get_footer(); ?>
