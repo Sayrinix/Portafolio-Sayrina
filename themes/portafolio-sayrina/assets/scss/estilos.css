@@ -1,0 +1,154 @@
+@import url("https://fonts.googleapis.com/css2?family=Cause:wght@100..900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Cause", cursive;
+  font-optical-sizing: auto;
+  font-style: normal;
+  overflow-x: hidden;
+  background-color: #FFEFEC;
+}
+
+.h1-light {
+  color: #FFEFEC;
+  font-weight: bold;
+  font-size: 48px;
+}
+
+.p-light {
+  color: #FFEFEC;
+  font-weight: 400;
+  font-size: 24px;
+}
+
+.p-brown {
+  color: #493022;
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.h2-brown {
+  color: #7B5136;
+  font-weight: bold;
+  font-size: 40px;
+}
+
+.h3-brown {
+  color: #7B5136;
+  font-weight: 400;
+  font-size: 30px;
+}
+
+.boton-ver {
+  text-decoration: none;
+  color: #493022;
+  background-color: #EFBCBC;
+  border-radius: 50px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 12px 24px;
+  font-weight: 700;
+  border: solid 1px #493022;
+  transition: all 0.3s ease;
+}
+.boton-ver:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 12px 24px rgba(73, 48, 34, 0.1);
+}
+
+.lista-menu {
+  text-decoration: none;
+  list-style-type: none;
+  display: flex;
+  height: 60px;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.menu-fondo {
+  background-color: #B07A6D;
+  border-radius: 50px;
+  width: 80%;
+  height: 60px;
+  margin-top: 65px;
+}
+
+.menu-texto {
+  color: #FFEFEC;
+  font-weight: bold;
+  list-style-type: none;
+  transition: all 0.3s ease;
+}
+.menu-texto:hover {
+  transform: translateY(-2px);
+}
+
+.bg-image {
+  background-image: url(../img/banner-home-def.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 600px;
+}
+
+.fondo-destacado {
+  background-color: #F8E1DD;
+  height: 400px;
+  border-radius: 10px;
+}
+
+.altura-div1 {
+  height: 600px;
+}
+
+.altura-div2 {
+  height: 400px;
+}
+
+.imagen-arreglo {
+  height: 400px;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 10px;
+}
+
+.borde-col {
+  border-right: solid #493022 1px;
+  height: 250px;
+}
+
+.bg-color-footer {
+  background-color: #7B5136;
+}
+
+.imagen-arreglo-2 {
+  height: 300px;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: top;
+     object-position: top;
+  border-radius: 10px;
+}
+
+.hover-imagen {
+  -o-object-position: top;
+     object-position: top;
+  transition: all 0.3s ease;
+}
+.hover-imagen:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(73, 48, 34, 0.6);
+}
+
+.caja-pdf {
+  border-radius: 10px;
+  height: 220px;
+  width: auto;
+  background-color: #F8E1DD;
+}/*# sourceMappingURL=estilos.css.map */

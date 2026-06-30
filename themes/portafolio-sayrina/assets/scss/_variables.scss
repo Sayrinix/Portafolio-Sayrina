@@ -1,0 +1,75 @@
+//FUENTE
+@import url('https://fonts.googleapis.com/css2?family=Cause:wght@100..900&display=swap'); 
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+//COLORES
+$color-1: #EFBCBC;
+$color-2: #B07A6D;
+$color-3: #7B5136;
+$color-4: #FFEFEC; 
+$color-5: #F8E1DD;
+$color-6: #E0C4BE;
+$color-7: #493022;
+
+//ENCABEZADOS
+body {
+    font-family: "Cause", cursive;
+    font-optical-sizing: auto;
+    font-style: normal;
+    overflow-x: hidden;
+    background-color: $color-4;
+}
+.h1-light {
+  color: $color-4;
+  font-weight: bold; 
+  font-size: 48px; 
+}
+
+.p-light{
+    color: $color-4;
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.p-brown{
+    color: $color-7;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.h2-brown{
+    color: $color-3;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.h3-brown{
+    color: $color-3;
+    font-weight: 400;
+    font-size: 30px;
+}
+
+.boton-ver{
+    text-decoration: none;
+    color: $color-7;
+    background-color: $color-1;
+    border-radius: 50px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 12px 24px;
+    font-weight:700;
+    border: solid 1px $color-7;
+
+    transition: all 0.3s ease;
+
+    &:hover{
+        transform: translateY(-2px);
+        box-shadow: 0 12px 24px rgba(73, 48, 34, 0.1);
+    }
+}
+
