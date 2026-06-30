@@ -24,15 +24,18 @@ get_header();
             $descripcion = get_field('descripcion_breve_del_proyecto');
         ?>
 
-        <div class="col-5 d-flex altura-div-destacada">
-            <?php if (has_post_thumbnail()) : ?>
+        <div class="col-5 d-flex">
+            <div class="altura-div-destacada">
+                <?php if (has_post_thumbnail()) : ?>
                 <a href="<?php the_permalink(); ?>">
                     <?php the_post_thumbnail('large', array(
                         'class' => 'imagen-destacada-arreglo',
                         'alt'   => esc_attr(get_the_title())
                     )); ?>
                 </a>
-            <?php endif; ?>
+                <?php endif; ?>
+            </div>
+           
             <div>
                 <?php if ($titulo) : ?>
                 <h3 class="h3-brown"><?php echo esc_html($titulo); ?></h3>
