@@ -96,7 +96,7 @@ body {
   background-image: url(../img/banner-home-def.png);
   background-repeat: no-repeat;
   background-size: contain;
-  position: relative;
+  position: absolute;
   height: 600px;
 }
 
@@ -159,7 +159,7 @@ body {
 }
 
 .site-header {
-  position: absolute;
+  position: relative;
   top: 0;
   left: 0;
   width: 100%;
