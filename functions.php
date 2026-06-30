@@ -1,30 +1,33 @@
 <?php
 
 function sayrina_portfolio_assets() {
-    // Bootstrap CSS
+
     wp_enqueue_style(
         'bootstrap-css',
         'https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css',
         array(),
         '5.3.8'
     );
-    // Style.css principal del theme
+
     wp_enqueue_style(
         'theme-style',
         get_stylesheet_uri(),
         array('bootstrap-css'),
-        filemtime(get_stylesheet_directory() . '/style.css')
-    );
-    
-    // CSS personalizado
-    wp_enqueue_style(
-        'custom-style',
-        get_template_directory_uri() . '/assets/scss/estilos.css',
-        array('theme-style'),
-        filemtime(get_template_directory() . '/assets/scss/estilos.css')
+        '1.0'
     );
 
-    // Bootstrap JS bundle
+    $custom_css_path = get_template_directory() . '/assets/scss/estilos.css';
+    $custom_css_uri  = get_template_directory_uri() . '/assets/scss/estilos.css';
+
+    if (file_exists($custom_css_path)) {
+        wp_enqueue_style(
+            'custom-style',
+            $custom_css_uri,
+            array('theme-style'),
+            filemtime($custom_css_path)
+        );
+    }
+
     wp_enqueue_script(
         'bootstrap-js',
         'https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js',
@@ -33,22 +36,27 @@ function sayrina_portfolio_assets() {
         true
     );
 
-    // Tu JS personalizado
-    wp_enqueue_script(
-        'custom-js',
-        get_template_directory_uri() . '/assets/js/main.js',
-        array('bootstrap-js'),
-        filemtime(get_template_directory() . '/assets/js/main.js'),
-        true
-    );
+    $custom_js_path = get_template_directory() . '/assets/js/main.js';
+    $custom_js_uri  = get_template_directory_uri() . '/assets/js/main.js';
+
+    if (file_exists($custom_js_path)) {
+        wp_enqueue_script(
+            'custom-js',
+            $custom_js_uri,
+            array('bootstrap-js'),
+            filemtime($custom_js_path),
+            true
+        );
+    }
 }
 
 add_action('wp_enqueue_scripts', 'sayrina_portfolio_assets');
 
+
 function sayrina_portfolio_setup() {
-  register_nav_menus(array(
-    'menu-principal' => __('Menú Principal', 'portafolio-sayrina')
-  ));
+    register_nav_menus(array(
+        'menu-principal' => __('Menú Principal', 'portafolio-sayrina')
+    ));
 }
 
 add_action('after_setup_theme', 'sayrina_portfolio_setup');
