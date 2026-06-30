@@ -54,6 +54,8 @@ add_action('wp_enqueue_scripts', 'sayrina_portfolio_assets');
 
 
 function sayrina_portfolio_setup() {
+    add_theme_support('post-thumbnails');
+    
     register_nav_menus(array(
         'menu-principal' => __('Menú Principal', 'portafolio-sayrina')
     ));
@@ -61,3 +63,41 @@ function sayrina_portfolio_setup() {
 
 add_action('after_setup_theme', 'sayrina_portfolio_setup');
 
+function sayrina_register_project_post_type() {
+
+    $labels = array(
+        'name'               => __('Proyectos', 'portafolio-sayrina'),
+        'singular_name'      => __('Proyecto', 'portafolio-sayrina'),
+        'menu_name'          => __('Proyectos', 'portafolio-sayrina'),
+        'name_admin_bar'     => __('Proyecto', 'portafolio-sayrina'),
+        'add_new'            => __('Añadir nuevo', 'portafolio-sayrina'),
+        'add_new_item'       => __('Añadir nuevo proyecto', 'portafolio-sayrina'),
+        'new_item'           => __('Nuevo proyecto', 'portafolio-sayrina'),
+        'edit_item'          => __('Editar proyecto', 'portafolio-sayrina'),
+        'view_item'          => __('Ver proyecto', 'portafolio-sayrina'),
+        'all_items'          => __('Todos los proyectos', 'portafolio-sayrina'),
+        'search_items'       => __('Buscar proyectos', 'portafolio-sayrina'),
+        'not_found'          => __('No se encontraron proyectos', 'portafolio-sayrina'),
+        'not_found_in_trash' => __('No hay proyectos en la papelera', 'portafolio-sayrina'),
+    );
+
+    $args = array(
+        'labels'             => $labels,
+        'public'             => true,
+        'has_archive'        => true,
+        'rewrite'            => array('slug' => 'proyectos'),
+        'menu_icon'          => 'dashicons-portfolio',
+        'show_in_rest'       => true,
+        'supports'           => array(
+            'title',
+            'editor',
+            'thumbnail',
+            'excerpt',
+            'custom-fields'
+        ),
+    );
+
+    register_post_type('proyecto', $args);
+}
+
+add_action('init', 'sayrina_register_project_post_type');
