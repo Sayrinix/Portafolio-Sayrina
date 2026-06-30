@@ -96,6 +96,7 @@ body {
   background-image: url(../img/banner-home-def.png);
   background-repeat: no-repeat;
   background-size: contain;
+  position: relative;
   height: 600px;
 }
 
@@ -155,4 +156,13 @@ body {
   height: 220px;
   width: auto;
   background-color: #F8E1DD;
+}
+
+.site-header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 10;
+  padding: 24px 0;
 }/*# sourceMappingURL=estilos.css.map */

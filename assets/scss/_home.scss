@@ -32,6 +32,7 @@ transition: all 0.3s ease;
     background-image: url(../img/banner-home-def.png);
     background-repeat: no-repeat;
     background-size: contain;
+    position: relative;
     height: 600px;
 }
 
@@ -88,4 +89,13 @@ transition: all 0.3s ease;
     height: 220px;
     width: auto;
     background-color: $color-5;
+}
+
+.site-header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 10;
+    padding: 24px 0;
 }
