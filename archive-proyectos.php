@@ -28,7 +28,7 @@ get_header();
             <div class="altura-div-destacada">
                 <?php if (has_post_thumbnail()) : ?>
                 <a href="<?php the_permalink(); ?>">
-                    <?php the_post_thumbnail('thumbnail', array(
+                    <?php the_post_thumbnail('medium', array(
                         'class' => 'imagen-destacada-arreglo',
                         'alt'   => esc_attr(get_the_title())
                     )); ?>
