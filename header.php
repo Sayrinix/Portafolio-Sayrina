@@ -17,7 +17,7 @@
       <?php
         wp_nav_menu(array(
           'theme_location' => 'menu-principal',
-          'menu_class'     => 'nav-list lista-menu menu-texto',
+          'menu_class'     => 'lista-menu',
           'container'      => false,
           'fallback_cb'    => false
         ));

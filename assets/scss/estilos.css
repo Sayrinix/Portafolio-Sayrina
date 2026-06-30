@@ -78,13 +78,13 @@ body {
   margin-top: 65px;
 }
 
-.menu-texto {
+.lista-menu li a {
   color: #FFEFEC;
   font-weight: bold;
   list-style-type: none;
   transition: all 0.3s ease;
 }
-.menu-texto:hover {
+.lista-menu li a:hover {
   transform: translateY(-2px);
 }
 
