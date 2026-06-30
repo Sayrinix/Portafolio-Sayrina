@@ -38,6 +38,8 @@ function sayrina_portfolio_assets() {
 
 add_action('wp_enqueue_scripts', 'sayrina_portfolio_assets');
 
+?>
+
 <?php
 
 function sayrina_portfolio_setup() {
@@ -47,3 +49,5 @@ function sayrina_portfolio_setup() {
 }
 
 add_action('after_setup_theme', 'sayrina_portfolio_setup');
+
+?>
