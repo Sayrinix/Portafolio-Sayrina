@@ -32,7 +32,7 @@ transition: all 0.3s ease;
     background-image: url(../img/banner-home-def.png);
     background-repeat: no-repeat;
     background-size: contain;
-    position: absolute;
+    position: relative;
     z-index: 1;
     height: 600px;
 }
@@ -93,10 +93,9 @@ transition: all 0.3s ease;
 }
 
 .site-header {
-    position: relative;
+    position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     z-index: 10;
-    padding: 24px 0;
 }
