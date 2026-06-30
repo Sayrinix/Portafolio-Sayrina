@@ -28,6 +28,19 @@ transition: all 0.3s ease;
         transform: translateY(-2px);
     }
 }
+
+.menu-texto{
+    color: $color-4;
+    font-weight: bold;
+    list-style-type: none;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    
+    &:hover{
+        transform: translateY(-2px);
+    }
+
+}
 .bg-image{
     background-image: url(../img/banner-home-def.png);
     background-repeat: no-repeat;
