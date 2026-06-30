@@ -33,6 +33,7 @@ transition: all 0.3s ease;
     background-repeat: no-repeat;
     background-size: contain;
     position: absolute;
+    z-index: 1;
     height: 600px;
 }
 
