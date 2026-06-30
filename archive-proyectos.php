@@ -24,7 +24,7 @@ get_header();
             $descripcion = get_field('descripcion_breve_del_proyecto');
         ?>
 
-        <div class="col-5 d-flex">
+        <div class="col-5 d-flex altura-div-destacada">
             <?php if (has_post_thumbnail()) : ?>
                 <a href="<?php the_permalink(); ?>">
                     <?php the_post_thumbnail('large', array(
