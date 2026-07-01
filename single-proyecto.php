@@ -180,7 +180,7 @@ $oportunidades = get_field('oportunidades_de_mejora');
     </div>
     
      <!-- Slide 3 -->
-    <div class="carousel-item active">
+    <div class="carousel-item">
       <div class="row g-4">
 
         <div class="col-12 col-md-6">
@@ -241,6 +241,8 @@ $oportunidades = get_field('oportunidades_de_mejora');
         <?php endif; ?>
 </div>
 </div>
+<?php endwhile; ?>
+<?php endif; ?>
 </div>
 </main>
 <?php get_footer(); ?>
