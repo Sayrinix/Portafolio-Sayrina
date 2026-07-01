@@ -269,7 +269,6 @@ $oportunidades = get_field('oportunidades_de_mejora');
                     ?>
 
                     <article class="card-proyecto-recomendado d-flex flex-column align-items-center">
-                      <div class="altura-recomendados">
                         <?php if ($imagen_recomendada) : ?>
                             <a href="<?php the_permalink(); ?>">
                                 <img
@@ -279,8 +278,6 @@ $oportunidades = get_field('oportunidades_de_mejora');
                                 >
                             </a>
                         <?php endif; ?>
-                      </div>
-                        
 
                         <h3 class="h3-brown-s">
                             <?php echo esc_html($titulo_recomendado ?: get_the_title()); ?>

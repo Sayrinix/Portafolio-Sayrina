@@ -362,15 +362,12 @@ body {
 }
 
 .imagen-destacada-recomendado {
-  height: 200px;
+  height: 280px;
+  max-width: 280px;
   width: 100%;
   -o-object-fit: cover;
      object-fit: cover;
   -o-object-position: center;
      object-position: center;
   border-radius: 10px;
-}
-
-.altura-recomendados {
-  height: 200px;
 }/*# sourceMappingURL=estilos.css.map */
