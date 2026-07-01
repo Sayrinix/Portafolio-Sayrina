@@ -295,10 +295,14 @@ body {
   margin-bottom: 80px;
 }
 
-.posicion-carrusel {
+.posicion-carrusel-1 {
   position: relative;
   width: 100%;
   z-index: 1;
+}
+
+.posicion-carrusel-2 {
+  z-index: 2;
 }
 
 .custom-carousel-control {

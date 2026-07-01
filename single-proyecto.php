@@ -107,9 +107,9 @@ $oportunidades = get_field('oportunidades_de_mejora');
         </div>
         
         <h2 class="h2-brown mb-4 pb-4">Proceso</h2>
-<div class="posicion-carrusel">
+<div class="posicion-carrusel-1">
 
-<div id="carouselProyecto" class="carousel slide mb-5 pb-5" data-bs-ride="carousel">
+<div id="carouselProyecto" class="carousel slide mb-5 pb-5 posicion-carrusel-2" data-bs-ride="carousel">
   <div class="carousel-inner">
 
     <!-- Slide 1 -->
