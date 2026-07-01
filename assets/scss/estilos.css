@@ -188,8 +188,6 @@ body {
 
 .altura-div-destacada {
   height: 350px;
-  flex: 0 0 350px;
-  max-width: auto;
 }
 
 .altura-div-filtros {
