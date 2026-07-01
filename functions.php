@@ -55,7 +55,7 @@ add_action('wp_enqueue_scripts', 'sayrina_portfolio_assets');
 
 function sayrina_portfolio_setup() {
     add_theme_support('post-thumbnails');
-    
+
     register_nav_menus(array(
         'menu-principal' => __('Menú Principal', 'portafolio-sayrina')
     ));
@@ -85,7 +85,7 @@ function sayrina_register_project_post_type() {
         'labels'             => $labels,
         'public'             => true,
         'has_archive'        => true,
-        'rewrite'            => array('slug' => 'proyectos'),
+        'rewrite'            => array('slug' => 'proyecto'),
         'menu_icon'          => 'dashicons-portfolio',
         'show_in_rest'       => true,
         'supports'           => array(
