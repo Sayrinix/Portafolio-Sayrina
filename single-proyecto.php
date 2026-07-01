@@ -259,7 +259,7 @@ $oportunidades = get_field('oportunidades_de_mejora');
 
         <?php if ($proyectos_recomendados->have_posts()) : ?>
 
-            <div class="lista-proyectos-recomendados mb-5 mt-5 pb-5 pt-5">
+            <div class="lista-proyectos-recomendados">
 
                 <?php while ($proyectos_recomendados->have_posts()) : $proyectos_recomendados->the_post(); ?>
 
@@ -268,7 +268,7 @@ $oportunidades = get_field('oportunidades_de_mejora');
                     $imagen_recomendada = get_field('imagen_destacada');
                     ?>
 
-                    <article class="card-proyecto-recomendado d-flex flex-column align-items-center">
+                    <article class="card-proyecto-recomendado d-flex flex-column align-items-center mb-5 pb-5">
                         <?php if ($imagen_recomendada) : ?>
                             <a href="<?php the_permalink(); ?>">
                                 <img
