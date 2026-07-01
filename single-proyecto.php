@@ -259,7 +259,7 @@ $oportunidades = get_field('oportunidades_de_mejora');
 
         <?php if ($proyectos_recomendados->have_posts()) : ?>
 
-            <div class="lista-proyectos-recomendados mb-5 mt-5">
+            <div class="lista-proyectos-recomendados mb-5 mt-5 pb-5 pt-5">
 
                 <?php while ($proyectos_recomendados->have_posts()) : $proyectos_recomendados->the_post(); ?>
 
