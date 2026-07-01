@@ -311,6 +311,7 @@ body {
   width: 44px;
   height: 44px;
   border: none;
+  top: 50%;
   border-radius: 50%;
   background-color: #B07A6D;
   z-index: 10;
