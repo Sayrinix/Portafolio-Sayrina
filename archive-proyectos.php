@@ -42,7 +42,7 @@ get_header();
                 </a>
                
             </div>
-            <div class="col-2 d-flex flex-column justify-content-end">
+            <div class="col-2 d-flex flex-column justify-content-end altura-div-destacada">
                 <?php if ($titulo) : ?>
                 <h3 class="h3-brown"><?php echo esc_html($titulo); ?></h3>
                 <?php endif; ?>
