@@ -179,7 +179,7 @@ body {
 }
 
 .imagen-destacada-arreglo {
-  max-height: 350px;
+  max-height: 261px;
   width: 100%;
   -o-object-fit: cover;
      object-fit: cover;
@@ -187,7 +187,7 @@ body {
 }
 
 .altura-div-destacada {
-  height: 350px;
+  height: 261px;
 }
 
 .altura-div-filtros {
