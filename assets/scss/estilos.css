@@ -293,4 +293,22 @@ body {
   justify-content: space-between;
   align-items: center;
   margin-bottom: 80px;
+}
+
+.posicion-carrusel {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1;
+}
+
+.posicion-btn-next {
+  position: relative;
+  z-index: 1;
+}
+
+.posicion-btn-aft {
+  position: relative;
+  z-index: 1;
 }/*# sourceMappingURL=estilos.css.map */
