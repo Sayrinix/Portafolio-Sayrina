@@ -220,11 +220,11 @@ $oportunidades = get_field('oportunidades_de_mejora');
 
   
 </div>
-<button class="carousel-control-prev posicion-btn-aft" type="button" data-bs-target="#carouselProyecto" data-bs-slide="prev">
+<button class="carousel-control-prev custom-carousel-control posicion-btn-aft" type="button" data-bs-target="#carouselProyecto" data-bs-slide="prev">
     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
   </button>
 
-  <button class="carousel-control-next posicion-btn-next" type="button" data-bs-target="#carouselProyecto" data-bs-slide="next">
+  <button class="carousel-control-next custom-carousel-control posicion-btn-next" type="button" data-bs-target="#carouselProyecto" data-bs-slide="next">
     <span class="carousel-control-next-icon" aria-hidden="true"></span>
     
   </button>
