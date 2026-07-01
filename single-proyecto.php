@@ -268,7 +268,7 @@ $oportunidades = get_field('oportunidades_de_mejora');
                     $imagen_recomendada = get_field('imagen_destacada');
                     ?>
 
-                    <article class="card-proyecto-recomendado">
+                    <article class="card-proyecto-recomendado d-flex flex-column align-items-center">
 
                         <?php if ($imagen_recomendada) : ?>
                             <a href="<?php the_permalink(); ?>">

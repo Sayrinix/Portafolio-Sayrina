@@ -363,7 +363,7 @@ body {
 
 .imagen-destacada-recomendado {
   height: 150px;
-  width: auto;
+  width: 100%;
   -o-object-fit: cover;
      object-fit: cover;
   -o-object-position: center;
