@@ -5,6 +5,12 @@ Template Name: Proyectos
 get_header();
 ?>
 <main>
+    <div class="container-fluid altura-imaginaria">
+
+    </div>
+    <div class="container-fluid altura-div-filtros">
+
+    </div>
   <div class="container d-flex justify-content-center">
     <?php
             $projects_query = new WP_Query(array(
@@ -31,7 +37,7 @@ get_header();
                 <a href="<?php the_permalink(); ?>">
                     <?php if ($imagen_destacada) : ?>
                     <img class="imagen-destacada-arreglo" src="<?php echo esc_url($imagen_destacada['url']); ?>" 
-        alt="<?php echo esc_attr($imagen_destacada['alt']); ?>">
+                    alt="<?php echo esc_attr($imagen_destacada['alt']); ?>">
                     <?php endif; ?>
                 </a>
                
