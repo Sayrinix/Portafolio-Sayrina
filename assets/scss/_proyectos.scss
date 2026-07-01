@@ -138,3 +138,11 @@
 .posicion-btn-aft{
      left: -64px;
 }
+
+.imagen-destacada-recomendado{
+    height: 200px;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 10px;
+}

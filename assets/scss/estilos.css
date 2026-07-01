@@ -334,4 +334,14 @@ body {
 
 .posicion-btn-aft {
   left: -64px;
+}
+
+.imagen-destacada-recomendado {
+  height: 200px;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+  border-radius: 10px;
 }/*# sourceMappingURL=estilos.css.map */
