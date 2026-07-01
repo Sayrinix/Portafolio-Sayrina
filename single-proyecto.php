@@ -260,8 +260,9 @@ $oportunidades = get_field('oportunidades_de_mejora');
     <?php while ($proyectos_recomendados->have_posts()) : $proyectos_recomendados->the_post(); ?>
 
     <?php if ($imagen_destacada) : ?>
-        <a href="<?php the_permalink(); ?>" class="imagen-destacada-recomendado">
-            <img 
+        <a href="<?php the_permalink(); ?>">
+            <img
+                class="imagen-destacada-recomendado" 
                 src="<?php echo esc_url($imagen_destacada['url']); ?>" 
                 alt="<?php echo esc_attr($imagen_destacada['alt'] ?: get_the_title()); ?>"
             >
