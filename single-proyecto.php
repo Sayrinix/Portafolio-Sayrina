@@ -287,7 +287,7 @@ $oportunidades = get_field('oportunidades_de_mejora');
                             Ver más
                         </a>
 
-                        <hr class="linea-separacion">
+                        <hr class="linea-separacion pt-3 pb-3">
 
                     </article>
 
