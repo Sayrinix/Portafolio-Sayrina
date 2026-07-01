@@ -45,7 +45,7 @@ get_header();
                 </a>
                
             </div>
-            <div class="col-3 d-flex flex-column justify-content-end altura-div-destacada mb-5 mt-5 me-3">
+            <div class="col-3 d-flex flex-column justify-content-end altura-div-destacada mb-5 mt-5">
                 <?php if ($titulo) : ?>
                 <h3 class="h3-brown"><?php echo esc_html($titulo); ?></h3>
                 <?php endif; ?>
