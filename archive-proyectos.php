@@ -22,18 +22,18 @@ get_header();
         <?php
             $titulo = get_field('titulo_del_proyecto'); 
             $descripcion = get_field('descripcion_breve_del_proyecto');
+            $imagen_destacada = get_field('imagen_destacada');
         ?>
 
         <div class="col-5 d-flex">
             <div class="altura-div-destacada">
-                <?php if (has_post_thumbnail()) : ?>
+                
                 <a href="<?php the_permalink(); ?>">
-                    <?php the_post_thumbnail('medium', array(
-                        'class' => 'imagen-destacada-arreglo',
-                        'alt'   => esc_attr(get_the_title())
-                    )); ?>
+                    <?php if ($imagen_destacada) : ?>
+                    <img class="imagen-destacada-arreglo" src="<?php echo esc_url(get_template_directory_uri() . '$imagen_destacada')?>" alt="">
+                    <?php endif; ?>
                 </a>
-                <?php endif; ?>
+               
             </div>
             <div>
                 <?php if ($titulo) : ?>
