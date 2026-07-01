@@ -74,9 +74,9 @@ $oportunidades = get_field('oportunidades_de_mejora');
         <?php endif; ?>
 
         
-        <h2 class="h2-brown mb-2 pb-2">Tecnologías</h2>
+        <h2 class="h2-brown mb-4 pb-4">Tecnologías</h2>
 
-        <div class="contenedor-tecnologias mb-4 pb-4">
+        <div class="contenedor-tecnologias">
             <?php if ($tecnologia_1) : ?>
             <img class="arreglo-icono-tec pe-1" src="<?php echo esc_url($tecnologia_1['url']); ?>" alt="<?php echo esc_attr($tecnologia_1['alt']); ?>">
             <?php endif; ?>
@@ -106,9 +106,9 @@ $oportunidades = get_field('oportunidades_de_mejora');
             <?php endif; ?>
         </div>
         
-        <h2 class="h2-brown mb-4 pb-4">Proceso</h2>
+        <h2 class="h2-brown mb-5 pb-5">Proceso</h2>
 
-<div id="carouselProyecto" class="carousel slide mb-4 pb-4" data-bs-ride="carousel">
+<div id="carouselProyecto" class="carousel slide mb-5 pb-5" data-bs-ride="carousel">
   <div class="carousel-inner">
 
     <!-- Slide 1 -->
