@@ -369,4 +369,8 @@ body {
   -o-object-position: center;
      object-position: center;
   border-radius: 10px;
+}
+
+.altura-recomendados {
+  height: 150px;
 }/*# sourceMappingURL=estilos.css.map */
