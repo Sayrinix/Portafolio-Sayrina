@@ -176,4 +176,18 @@ body {
   left: 0;
   width: 100%;
   z-index: 10;
+}
+
+.imagen-destacada-arreglo {
+  max-height: 250px;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 10px;
+}
+
+.altura-div-destacada {
+  height: 250px;
+  flex: 0 0 250px;
+  max-width: 250px;
 }/*# sourceMappingURL=estilos.css.map */
