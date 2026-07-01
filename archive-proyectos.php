@@ -35,7 +35,7 @@ get_header();
         ?>
 
         
-            <div class="col-3 altura-div-destacada mb-5 mt-5">
+            <div class="col-3 altura-div-destacada mb-5 mt-5 pe-5">
                 
                 <a href="<?php the_permalink(); ?>">
                     <?php if ($imagen_destacada) : ?>
