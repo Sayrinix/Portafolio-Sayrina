@@ -28,19 +28,22 @@ body {
 .p-brown {
   color: #493022;
   font-weight: 400;
-  font-size: 20px;
+  font-size: 24px;
+  line-height: 30px;
 }
 
 .h2-brown {
   color: #7B5136;
   font-weight: bold;
   font-size: 40px;
+  line-height: 46px;
 }
 
 .h3-brown {
   color: #7B5136;
-  font-weight: 400;
-  font-size: 30px;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 38px;
 }
 
 .boton-ver {
