@@ -96,7 +96,7 @@ $oportunidades = get_field('oportunidades_de_mejora');
             <?php endif; ?>
 
             <?php if ($tecnologia_6) : ?>
-            <img class="arreglo-icono-tec pe-1" src="<?php echo esc_url($tecnologia_6['url']); ?>" alt="<?php echo esc_attr($tecnologia_6('alt']); ?>">
+            <img class="arreglo-icono-tec pe-1" src="<?php echo esc_url($tecnologia_6['url']); ?>" alt="<?php echo esc_attr($tecnologia_6['alt']); ?>">
             <?php endif; ?>
 
             <?php if ($tecnologia_7) : ?>
