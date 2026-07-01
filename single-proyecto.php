@@ -107,8 +107,9 @@ $oportunidades = get_field('oportunidades_de_mejora');
         </div>
         
         <h2 class="h2-brown mb-4 pb-4">Proceso</h2>
+<div class="contenedor-carrusel posicion-carrusel">
 
-<div id="carouselProyecto" class="carousel slide mb-5 pb-5 posicion-carrusel" data-bs-ride="carousel">
+<div id="carouselProyecto" class="carousel slide mb-5 pb-5" data-bs-ride="carousel">
   <div class="carousel-inner">
 
     <!-- Slide 1 -->
@@ -217,7 +218,9 @@ $oportunidades = get_field('oportunidades_de_mejora');
     </div>
   </div>
 
-  <button class="carousel-control-prev posicion-btn-aft" type="button" data-bs-target="#carouselProyecto" data-bs-slide="prev">
+  
+</div>
+<button class="carousel-control-prev posicion-btn-aft" type="button" data-bs-target="#carouselProyecto" data-bs-slide="prev">
     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
   </button>
 

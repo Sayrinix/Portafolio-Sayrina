@@ -107,12 +107,32 @@
     z-index: 1;
 }
 
-.posicion-btn-next{
+.custom-carousel-control {
     position: absolute;
-    z-index: 10;
+    top: 40%;
+    transform: translateY(-50%);
+    width: 44px;
+    height: 44px;
+    border: none;
+    border-radius: 50%;
+    background-color: $color-2;
+    opacity: 1;
+    z-index: 5;
+}
+
+.custom-carousel-control .carousel-control-prev-icon,
+.custom-carousel-control .carousel-control-next-icon {
+    width: 20px;
+    height: 20px;
+}
+.custom-carousel-control:hover {
+    background-color: $color-7;
+}
+.posicion-btn-next{
+    right: -64px;
+    
 }
 
 .posicion-btn-aft{
-     position: absolute;
-    z-index: 10;
+     left: -64px;
 }
