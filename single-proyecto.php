@@ -1,6 +1,8 @@
 <?php get_header(); ?>
 <main>
+<div class="altura-imaginaria">
 
+</div>
 <div class="container">
     <?php if (have_posts()) : ?>
         <?php while (have_posts()) : the_post(); ?>
@@ -46,35 +48,35 @@ $oportunidades = get_field('oportunidades_de_mejora');
 <div class="row">
     <div class="col-8">
         <?php if ($titulo) : ?>
-        <h1 class="h1-brown"><?php echo esc_html($titulo); ?></h1>
+        <h1 class="h1-brown mb-4"><?php echo esc_html($titulo); ?></h1>
         <?php endif; ?>
         
         <?php if ($rol) : ?>
-        <h2 class="h2-brown"><?php echo esc_html($rol); ?></h2>
+        <h2 class="h2-brown mb-4"><?php echo esc_html($rol); ?></h2>
         <?php endif; ?>
         
         <?php if ($imagen_principal) : ?>
-        <img class="arreglo-imagen-principal" src="<?php echo esc_url($imagen_principal['url']); ?>" alt="<?php echo esc_attr($imagen_principal['alt']); ?>">
+        <img class="arreglo-imagen-principal mb-4" src="<?php echo esc_url($imagen_principal['url']); ?>" alt="<?php echo esc_attr($imagen_principal['alt']); ?>">
          <?php endif; ?>
 
-         <h2 class="h2-brown">Descripción</h2>
+         <h2 class="h2-brown mb-2">Descripción</h2>
         
          <?php if ($descripcion) : ?>
-        <p class="p-brown"><?php echo esc_html($descripcion); ?></p>
+        <p class="p-brown mb-4"><?php echo esc_html($descripcion); ?></p>
         <?php endif; ?>
         
-        <hr class="linea-separacion">
+        <hr class="linea-separacion mb-4">
 
-        <h2 class="h2-brown">Problemática</h2>
+        <h2 class="h2-brown mb-2">Problemática</h2>
 
         <?php if ($problematica) : ?>
-        <p class="p-brown"><?php echo esc_html($problematica); ?></p>
+        <p class="p-brown mb-4"><?php echo esc_html($problematica); ?></p>
         <?php endif; ?>
 
         
-        <h2 class="h2-brown">Tecnologías</h2>
+        <h2 class="h2-brown mb-2">Tecnologías</h2>
 
-        <div class="contenedor-tecnologias">
+        <div class="contenedor-tecnologias mb-4">
             <?php if ($tecnologia_1) : ?>
             <img class="arreglo-icono-tec pe-1" src="<?php echo esc_url($tecnologia_1['url']); ?>" alt="<?php echo esc_attr($tecnologia_1['alt']); ?>">
             <?php endif; ?>
@@ -104,9 +106,9 @@ $oportunidades = get_field('oportunidades_de_mejora');
             <?php endif; ?>
         </div>
         
-        <h2 class="h2-brown">Proceso</h2>
+        <h2 class="h2-brown mb-4">Proceso</h2>
 
-<div id="carouselProyecto" class="carousel slide" data-bs-ride="carousel">
+<div id="carouselProyecto" class="carousel slide mb-4" data-bs-ride="carousel">
   <div class="carousel-inner">
 
     <!-- Slide 1 -->
@@ -116,11 +118,11 @@ $oportunidades = get_field('oportunidades_de_mejora');
         <div class="col-12 col-md-6">
           <div class="carousel-project-card">
             <?php if ($imagen_proceso_1) : ?>
-            <img src="<?php echo esc_url($imagen_proceso_1['url']); ?>" class="d-block w-100 carousel-project-img" alt="<?php echo esc_attr($imagen_proceso_1['alt']); ?>">
+            <img src="<?php echo esc_url($imagen_proceso_1['url']); ?>" class="d-block w-100 imagen-destacada-arreglo mb-2" alt="<?php echo esc_attr($imagen_proceso_1['alt']); ?>">
             <?php endif; ?>
 
             <?php if ($descripcion_proceso_1) : ?>
-            <p class="carousel-project-text p-brown">
+            <p class="carousel-project-text p-brown text-center">
              <?php echo esc_html($descripcion_proceso_1); ?>
             </p>
             <?php endif; ?>
@@ -130,11 +132,11 @@ $oportunidades = get_field('oportunidades_de_mejora');
         <div class="col-12 col-md-6">
           <div class="carousel-project-card">
               <?php if ($imagen_proceso_2) : ?>
-            <img src="<?php echo esc_url($imagen_proceso_2['url']); ?>" class="d-block w-100 carousel-project-img" alt="<?php echo esc_attr($imagen_proceso_2['alt']); ?>">
+            <img src="<?php echo esc_url($imagen_proceso_2['url']); ?>" class="d-block w-100 imagen-destacada-arreglo mb-2" alt="<?php echo esc_attr($imagen_proceso_2['alt']); ?>">
             <?php endif; ?>
 
             <?php if ($descripcion_proceso_2) : ?>
-            <p class="carousel-project-text p-brown">
+            <p class="carousel-project-text p-brown text-center">
              <?php echo esc_html($descripcion_proceso_2); ?>
             </p>
             <?php endif; ?>
@@ -151,11 +153,11 @@ $oportunidades = get_field('oportunidades_de_mejora');
         <div class="col-12 col-md-6">
           <div class="carousel-project-card">
               <?php if ($imagen_proceso_3) : ?>
-            <img src="<?php echo esc_url($imagen_proceso_3['url']); ?>" class="d-block w-100 carousel-project-img" alt="<?php echo esc_attr($imagen_proceso_3['alt']); ?>">
+            <img src="<?php echo esc_url($imagen_proceso_3['url']); ?>" class="d-block w-100 imagen-destacada-arreglo mb-2" alt="<?php echo esc_attr($imagen_proceso_3['alt']); ?>">
             <?php endif; ?>
 
             <?php if ($descripcion_proceso_3) : ?>
-            <p class="carousel-project-text p-brown">
+            <p class="carousel-project-text p-brown text-center">
              <?php echo esc_html($descripcion_proceso_3); ?>
             </p>
             <?php endif; ?>
@@ -165,11 +167,11 @@ $oportunidades = get_field('oportunidades_de_mejora');
         <div class="col-12 col-md-6">
           <div class="carousel-project-card">
               <?php if ($imagen_proceso_4) : ?>
-            <img src="<?php echo esc_url($imagen_proceso_4['url']); ?>" class="d-block w-100 carousel-project-img" alt="<?php echo esc_attr($imagen_proceso_4['alt']); ?>">
+            <img src="<?php echo esc_url($imagen_proceso_4['url']); ?>" class="d-block w-100 imagen-destacada-arreglo mb-2" alt="<?php echo esc_attr($imagen_proceso_4['alt']); ?>">
             <?php endif; ?>
 
             <?php if ($descripcion_proceso_4) : ?>
-            <p class="carousel-project-text p-brown">
+            <p class="carousel-project-text p-brown text-center">
              <?php echo esc_html($descripcion_proceso_4); ?>
             </p>
             <?php endif; ?>
@@ -184,13 +186,13 @@ $oportunidades = get_field('oportunidades_de_mejora');
       <div class="row g-4">
 
         <div class="col-12 col-md-6">
-          <div class="carousel-project-card">
+          <div class="carousel-project-card mb-4">
             <?php if ($imagen_proceso_5) : ?>
-            <img src="<?php echo esc_url($imagen_proceso_5['url']); ?>" class="d-block w-100 carousel-project-img" alt="<?php echo esc_attr($imagen_proceso_5['alt']); ?>">
+            <img src="<?php echo esc_url($imagen_proceso_5['url']); ?>" class="d-block w-100 imagen-destacada-arreglo mb-2" alt="<?php echo esc_attr($imagen_proceso_5['alt']); ?>">
             <?php endif; ?>
 
             <?php if ($descripcion_proceso_5) : ?>
-            <p class="carousel-project-text p-brown">
+            <p class="carousel-project-text p-brown text-center">
              <?php echo esc_html($descripcion_proceso_5); ?>
             </p>
             <?php endif; ?>
@@ -198,13 +200,13 @@ $oportunidades = get_field('oportunidades_de_mejora');
         </div>
 
         <div class="col-12 col-md-6">
-          <div class="carousel-project-card">
+          <div class="carousel-project-card mb-4">
               <?php if ($imagen_proceso_6) : ?>
-            <img src="<?php echo esc_url($imagen_proceso_6['url']); ?>" class="d-block w-100 carousel-project-img" alt="<?php echo esc_attr($imagen_proceso_6['alt']); ?>">
+            <img src="<?php echo esc_url($imagen_proceso_6['url']); ?>" class="d-block w-100 imagen-destacada-arreglo mb-2" alt="<?php echo esc_attr($imagen_proceso_6['alt']); ?>">
             <?php endif; ?>
 
             <?php if ($descripcion_proceso_6) : ?>
-            <p class="carousel-project-text p-brown">
+            <p class="carousel-project-text p-brown text-center">
              <?php echo esc_html($descripcion_proceso_6); ?>
             </p>
             <?php endif; ?>
@@ -217,27 +219,26 @@ $oportunidades = get_field('oportunidades_de_mejora');
 
   <button class="carousel-control-prev" type="button" data-bs-target="#carouselProyecto" data-bs-slide="prev">
     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Anterior</span>
   </button>
 
   <button class="carousel-control-next" type="button" data-bs-target="#carouselProyecto" data-bs-slide="next">
     <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Siguiente</span>
+    
   </button>
 </div>
 
-<h2 class="h2-brown">Resultados e Impacto</h2>
+<h2 class="h2-brown mb-2">Resultados e Impacto</h2>
         
          <?php if ($resultados) : ?>
-        <p class="p-brown"><?php echo esc_html($resultados); ?></p>
+        <p class="p-brown mb-4"><?php echo esc_html($resultados); ?></p>
         <?php endif; ?>
         
-        <hr class="linea-separacion">
+        <hr class="linea-separacion mb-4">
 
-<h2 class="h2-brown">Oportunidades de Mejora</h2>
+<h2 class="h2-brown mb-2">Oportunidades de Mejora</h2>
 
         <?php if ($oportunidades) : ?>
-        <p class="p-brown"><?php echo esc_html($oportunidades); ?></p>
+        <p class="p-brown mb-4"><?php echo esc_html($oportunidades); ?></p>
         <?php endif; ?>
 </div>
 </div>
