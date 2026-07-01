@@ -25,8 +25,8 @@ get_header();
             $imagen_destacada = get_field('imagen_destacada');
         ?>
 
-        <div class="col-5 d-flex">
-            <div class="altura-div-destacada">
+        
+            <div class="col-3 altura-div-destacada">
                 
                 <a href="<?php the_permalink(); ?>">
                     <?php if ($imagen_destacada) : ?>
@@ -36,7 +36,7 @@ get_header();
                 </a>
                
             </div>
-            <div>
+            <div class="col-2">
                 <?php if ($titulo) : ?>
                 <h3 class="h3-brown"><?php echo esc_html($titulo); ?></h3>
                 <?php endif; ?>
@@ -45,10 +45,10 @@ get_header();
                 <?php endif; ?>
                 <a class="boton-ver" href="<?php the_permalink(); ?>">Ver más</a>
             </div>
-        </div>
+        
         <div class="col-1">
 
-        </div>
+        <</div>
         <?php endwhile; ?>
     </div>
         <?php wp_reset_postdata(); ?>
