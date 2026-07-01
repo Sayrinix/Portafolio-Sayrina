@@ -30,7 +30,7 @@ get_header();
                 
                 <a href="<?php the_permalink(); ?>">
                     <?php if ($imagen_destacada) : ?>
-                    <img class="imagen-destacada-arreglo" src="<?php echo esc_url(get_template_directory_uri() . '$imagen_destacada')?>" alt="">
+                    <img class="imagen-destacada-arreglo" src="<?php echo esc_html($imagen_destacada); ?>" alt="">
                     <?php endif; ?>
                 </a>
                
