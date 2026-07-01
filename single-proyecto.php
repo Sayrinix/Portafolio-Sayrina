@@ -48,35 +48,35 @@ $oportunidades = get_field('oportunidades_de_mejora');
 <div class="row">
     <div class="col-8">
         <?php if ($titulo) : ?>
-        <h1 class="h1-brown mb-4"><?php echo esc_html($titulo); ?></h1>
+        <h1 class="h1-brown mb-4 pb-4"><?php echo esc_html($titulo); ?></h1>
         <?php endif; ?>
         
         <?php if ($rol) : ?>
-        <h2 class="h2-brown mb-4"><?php echo esc_html($rol); ?></h2>
+        <h2 class="h2-brown mb-4 pb-4"><?php echo esc_html($rol); ?></h2>
         <?php endif; ?>
         
         <?php if ($imagen_principal) : ?>
-        <img class="arreglo-imagen-principal mb-4" src="<?php echo esc_url($imagen_principal['url']); ?>" alt="<?php echo esc_attr($imagen_principal['alt']); ?>">
+        <img class="arreglo-imagen-principal mb-4 pb-4" src="<?php echo esc_url($imagen_principal['url']); ?>" alt="<?php echo esc_attr($imagen_principal['alt']); ?>">
          <?php endif; ?>
 
-         <h2 class="h2-brown mb-2">Descripción</h2>
+         <h2 class="h2-brown mb-2 pb-2">Descripción</h2>
         
          <?php if ($descripcion) : ?>
-        <p class="p-brown mb-4"><?php echo esc_html($descripcion); ?></p>
+        <p class="p-brown mb-4 pb-4"><?php echo esc_html($descripcion); ?></p>
         <?php endif; ?>
         
-        <hr class="linea-separacion mb-4">
+        <hr class="linea-separacion mb-4 pb-4">
 
-        <h2 class="h2-brown mb-2">Problemática</h2>
+        <h2 class="h2-brown mb-2 pb-2">Problemática</h2>
 
         <?php if ($problematica) : ?>
-        <p class="p-brown mb-4"><?php echo esc_html($problematica); ?></p>
+        <p class="p-brown mb-4 pb-4"><?php echo esc_html($problematica); ?></p>
         <?php endif; ?>
 
         
-        <h2 class="h2-brown mb-2">Tecnologías</h2>
+        <h2 class="h2-brown mb-2 pb-2">Tecnologías</h2>
 
-        <div class="contenedor-tecnologias mb-4">
+        <div class="contenedor-tecnologias mb-4 pb-4">
             <?php if ($tecnologia_1) : ?>
             <img class="arreglo-icono-tec pe-1" src="<?php echo esc_url($tecnologia_1['url']); ?>" alt="<?php echo esc_attr($tecnologia_1['alt']); ?>">
             <?php endif; ?>
@@ -106,9 +106,9 @@ $oportunidades = get_field('oportunidades_de_mejora');
             <?php endif; ?>
         </div>
         
-        <h2 class="h2-brown mb-4">Proceso</h2>
+        <h2 class="h2-brown mb-4 pb-4">Proceso</h2>
 
-<div id="carouselProyecto" class="carousel slide mb-4" data-bs-ride="carousel">
+<div id="carouselProyecto" class="carousel slide mb-4 pb-4" data-bs-ride="carousel">
   <div class="carousel-inner">
 
     <!-- Slide 1 -->
@@ -227,18 +227,18 @@ $oportunidades = get_field('oportunidades_de_mejora');
   </button>
 </div>
 
-<h2 class="h2-brown mb-2">Resultados e Impacto</h2>
+<h2 class="h2-brown mb-2 pb-2">Resultados e Impacto</h2>
         
          <?php if ($resultados) : ?>
-        <p class="p-brown mb-4"><?php echo esc_html($resultados); ?></p>
+        <p class="p-brown mb-4 pb-4"><?php echo esc_html($resultados); ?></p>
         <?php endif; ?>
         
         <hr class="linea-separacion mb-4">
 
-<h2 class="h2-brown mb-2">Oportunidades de Mejora</h2>
+<h2 class="h2-brown mb-2 pb-2">Oportunidades de Mejora</h2>
 
         <?php if ($oportunidades) : ?>
-        <p class="p-brown mb-4"><?php echo esc_html($oportunidades); ?></p>
+        <p class="p-brown mb-4 pb-4"><?php echo esc_html($oportunidades); ?></p>
         <?php endif; ?>
 </div>
 </div>
