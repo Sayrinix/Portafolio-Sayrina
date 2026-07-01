@@ -247,9 +247,8 @@ $oportunidades = get_field('oportunidades_de_mejora');
 </div>
 <?php endwhile; ?>
 <?php endif; ?>
-</div>
-  <div class="row">
-    <div class="col-4">
+
+ <div class="col-4">
   <?php
     $proyectos_recomendados = new WP_Query(array(
         'post_type'      => 'proyecto',
@@ -289,7 +288,8 @@ $oportunidades = get_field('oportunidades_de_mejora');
         <p class="p-brown">No hay otros proyectos disponibles.</p>
 
     <?php endif; ?>
-  </div>
+</div>
+   
 </main>
 <?php get_footer(); ?>
     
