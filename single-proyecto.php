@@ -106,7 +106,7 @@ $oportunidades = get_field('oportunidades_de_mejora');
             <?php endif; ?>
         </div>
         
-        <h2 class="h2-brown mb-5 pb-5">Proceso</h2>
+        <h2 class="h2-brown mb-4 pb-4">Proceso</h2>
 
 <div id="carouselProyecto" class="carousel slide mb-5 pb-5" data-bs-ride="carousel">
   <div class="carousel-inner">
