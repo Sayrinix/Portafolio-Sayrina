@@ -245,46 +245,69 @@ $oportunidades = get_field('oportunidades_de_mejora');
         <?php endif; ?>
 </div>
 <div class="col-4">
-  <?php
-    $proyectos_recomendados = new WP_Query(array(
-        'post_type'      => 'proyecto',
-        'posts_per_page' => 4,
-        'orderby'        => 'rand',
-        'post__not_in'   => array(get_the_ID())
-    ));
-    ?>
 
-    <?php if ($proyectos_recomendados->have_posts()) : ?>
+    <aside class="aside-proyectos-recomendados">
 
-  <div>
-    <?php while ($proyectos_recomendados->have_posts()) : $proyectos_recomendados->the_post(); ?>
+        <h2 class="h2-brown mb-4">Proyectos recomendados</h2>
 
-    <?php if ($imagen_destacada) : ?>
-        <a href="<?php the_permalink(); ?>">
-            <img
-                class="imagen-destacada-recomendado" 
-                src="<?php echo esc_url($imagen_destacada['url']); ?>" 
-                alt="<?php echo esc_attr($imagen_destacada['alt'] ?: get_the_title()); ?>"
-            >
-        </a>
-    <?php endif; ?>
-     <?php if ($titulo) : ?>
-      <h3 class="h3-brown"><?php echo esc_html($titulo); ?></h3>
-      <?php endif; ?>
-      <a class="boton-ver" href="<?php the_permalink(); ?>">
-        Ver más
-      </a>
-      <hr class="linea-separacion">
-  </div>
-    <?php endwhile; ?>
+        <?php
+        $proyectos_recomendados = new WP_Query(array(
+            'post_type'      => 'proyecto',
+            'posts_per_page' => 4,
+            'orderby'        => 'rand',
+            'post__not_in'   => array(get_the_ID())
+        ));
+        ?>
+
+        <?php if ($proyectos_recomendados->have_posts()) : ?>
+
+            <div class="lista-proyectos-recomendados">
+
+                <?php while ($proyectos_recomendados->have_posts()) : $proyectos_recomendados->the_post(); ?>
+
+                    <?php
+                    $titulo_recomendado = get_field('titulo_del_proyecto');
+                    $imagen_recomendada = get_field('imagen_destacada');
+                    ?>
+
+                    <article class="card-proyecto-recomendado">
+
+                        <?php if ($imagen_recomendada) : ?>
+                            <a href="<?php the_permalink(); ?>">
+                                <img
+                                    class="imagen-destacada-recomendado"
+                                    src="<?php echo esc_url($imagen_recomendada['url']); ?>"
+                                    alt="<?php echo esc_attr($imagen_recomendada['alt'] ?: get_the_title()); ?>"
+                                >
+                            </a>
+                        <?php endif; ?>
+
+                        <h3 class="h3-brown">
+                            <?php echo esc_html($titulo_recomendado ?: get_the_title()); ?>
+                        </h3>
+
+                        <a class="boton-ver" href="<?php the_permalink(); ?>">
+                            Ver más
+                        </a>
+
+                        <hr class="linea-separacion">
+
+                    </article>
+
+                <?php endwhile; ?>
+
+            </div>
+
+            <?php wp_reset_postdata(); ?>
+
+        <?php else : ?>
+
+            <p class="p-brown">No hay otros proyectos disponibles.</p>
+
+        <?php endif; ?>
+
+    </aside>
 </div>
-<?php wp_reset_postdata(); ?>
-
-    <?php else : ?>
-
-        <p class="p-brown">No hay otros proyectos disponibles.</p>
-
-    <?php endif; ?>
 </div>
 <?php endwhile; ?>
 <?php endif; ?>
