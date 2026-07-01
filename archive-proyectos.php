@@ -49,7 +49,10 @@ get_header();
                 <?php if ($descripcion) : ?>
                 <p class="p-brown"><?php echo esc_html($descripcion); ?></p>
                 <?php endif; ?>
-                <a class="boton-ver" href="<?php the_permalink(); ?>">Ver más</a>
+                <div class="d-flex align-items-end">
+                    <a class="boton-ver" href="<?php the_permalink(); ?>">Ver más</a>
+                </div>
+
             </div>
         
         <?php endwhile; ?>
