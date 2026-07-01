@@ -119,11 +119,11 @@ $oportunidades = get_field('oportunidades_de_mejora');
         <div class="col-12 col-md-6">
           <div class="carousel-project-card">
             <?php if ($imagen_proceso_1) : ?>
-            <img src="<?php echo esc_url($imagen_proceso_1['url']); ?>" class="d-block w-100 imagen-destacada-arreglo mb-2" alt="<?php echo esc_attr($imagen_proceso_1['alt']); ?>">
+            <img src="<?php echo esc_url($imagen_proceso_1['url']); ?>" class="d-block w-100 imagen-destacada-arreglo" alt="<?php echo esc_attr($imagen_proceso_1['alt']); ?>">
             <?php endif; ?>
 
             <?php if ($descripcion_proceso_1) : ?>
-            <p class="carousel-project-text p-brown text-center">
+            <p class="carousel-project-text p-brown text-center mt-3">
              <?php echo esc_html($descripcion_proceso_1); ?>
             </p>
             <?php endif; ?>
@@ -133,11 +133,11 @@ $oportunidades = get_field('oportunidades_de_mejora');
         <div class="col-12 col-md-6">
           <div class="carousel-project-card">
               <?php if ($imagen_proceso_2) : ?>
-            <img src="<?php echo esc_url($imagen_proceso_2['url']); ?>" class="d-block w-100 imagen-destacada-arreglo mb-2" alt="<?php echo esc_attr($imagen_proceso_2['alt']); ?>">
+            <img src="<?php echo esc_url($imagen_proceso_2['url']); ?>" class="d-block w-100 imagen-destacada-arreglo" alt="<?php echo esc_attr($imagen_proceso_2['alt']); ?>">
             <?php endif; ?>
 
             <?php if ($descripcion_proceso_2) : ?>
-            <p class="carousel-project-text p-brown text-center">
+            <p class="carousel-project-text p-brown text-center mt-3">
              <?php echo esc_html($descripcion_proceso_2); ?>
             </p>
             <?php endif; ?>
@@ -154,11 +154,11 @@ $oportunidades = get_field('oportunidades_de_mejora');
         <div class="col-12 col-md-6">
           <div class="carousel-project-card">
               <?php if ($imagen_proceso_3) : ?>
-            <img src="<?php echo esc_url($imagen_proceso_3['url']); ?>" class="d-block w-100 imagen-destacada-arreglo mb-2" alt="<?php echo esc_attr($imagen_proceso_3['alt']); ?>">
+            <img src="<?php echo esc_url($imagen_proceso_3['url']); ?>" class="d-block w-100 imagen-destacada-arreglo" alt="<?php echo esc_attr($imagen_proceso_3['alt']); ?>">
             <?php endif; ?>
 
             <?php if ($descripcion_proceso_3) : ?>
-            <p class="carousel-project-text p-brown text-center">
+            <p class="carousel-project-text p-brown text-center mt-3">
              <?php echo esc_html($descripcion_proceso_3); ?>
             </p>
             <?php endif; ?>
@@ -168,11 +168,11 @@ $oportunidades = get_field('oportunidades_de_mejora');
         <div class="col-12 col-md-6">
           <div class="carousel-project-card">
               <?php if ($imagen_proceso_4) : ?>
-            <img src="<?php echo esc_url($imagen_proceso_4['url']); ?>" class="d-block w-100 imagen-destacada-arreglo mb-2" alt="<?php echo esc_attr($imagen_proceso_4['alt']); ?>">
+            <img src="<?php echo esc_url($imagen_proceso_4['url']); ?>" class="d-block w-100 imagen-destacada-arreglo" alt="<?php echo esc_attr($imagen_proceso_4['alt']); ?>">
             <?php endif; ?>
 
             <?php if ($descripcion_proceso_4) : ?>
-            <p class="carousel-project-text p-brown text-center">
+            <p class="carousel-project-text p-brown text-center mt-3">
              <?php echo esc_html($descripcion_proceso_4); ?>
             </p>
             <?php endif; ?>
@@ -193,7 +193,7 @@ $oportunidades = get_field('oportunidades_de_mejora');
             <?php endif; ?>
 
             <?php if ($descripcion_proceso_5) : ?>
-            <p class="carousel-project-text p-brown text-center">
+            <p class="carousel-project-text p-brown text-center mt-3">
              <?php echo esc_html($descripcion_proceso_5); ?>
             </p>
             <?php endif; ?>
@@ -207,7 +207,7 @@ $oportunidades = get_field('oportunidades_de_mejora');
             <?php endif; ?>
 
             <?php if ($descripcion_proceso_6) : ?>
-            <p class="carousel-project-text p-brown text-center">
+            <p class="carousel-project-text p-brown text-center mt-3">
              <?php echo esc_html($descripcion_proceso_6); ?>
             </p>
             <?php endif; ?>
