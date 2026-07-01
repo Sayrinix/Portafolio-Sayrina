@@ -56,6 +56,16 @@ get_header();
             </div>
         
         <?php endwhile; ?>
+        
+        <nav class="paginacion-proyectos" aria-label="Paginación de proyectos">
+                    <?php
+                    echo paginate_links(array(
+                        'prev_text' => '← Anterior',
+                        'next_text' => 'Siguiente →',
+                        'type'      => 'list',
+                    ));
+                    ?>
+                </nav>
     </div>
         <?php wp_reset_postdata(); ?>
 

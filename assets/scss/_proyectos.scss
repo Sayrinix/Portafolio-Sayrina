@@ -16,3 +16,54 @@
 .altura-imaginaria{
     height: 200px;
 }
+
+.paginacion-proyectos {
+    margin-top: 48px;
+    display: flex;
+    justify-content: center;
+}
+
+.paginacion-proyectos .page-numbers {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    background-color: $color-5;
+    border-radius: 50px;
+}
+
+.paginacion-proyectos .page-numbers li {
+    margin: 0;
+}
+
+.paginacion-proyectos .page-numbers a,
+.paginacion-proyectos .page-numbers span {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 42px;
+    height: 42px;
+    padding: 0 14px;
+    text-decoration: none;
+    font-weight: 400;
+    color: $color-7;
+    transition: 0.2s ease;
+}
+
+.paginacion-proyectos .page-numbers a:hover {
+    text-decoration: underline;
+    color: $color-3;
+}
+
+.paginacion-proyectos .page-numbers .current {
+    text-decoration: underline;
+    color: $color-3;
+}
+
+.paginacion-proyectos .page-numbers .prev,
+.paginacion-proyectos .page-numbers .next {
+    width: auto;
+    padding-inline: 18px;
+}
