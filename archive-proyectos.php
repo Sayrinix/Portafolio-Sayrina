@@ -22,7 +22,7 @@ get_header();
             ?>
             <?php if ($projects_query->have_posts()) : ?>
             
-    <div class="row">
+    <div class="row mb-5">
         <?php while ($projects_query->have_posts()) : $projects_query->the_post(); ?>
 
         <?php
@@ -49,7 +49,7 @@ get_header();
                 <?php if ($descripcion) : ?>
                 <p class="p-brown"><?php echo esc_html($descripcion); ?></p>
                 <?php endif; ?>
-                <div class="d-flex align-items-end w-100">
+                <div class="d-flex">
                     <a class="boton-ver" href="<?php the_permalink(); ?>">Ver más</a>
                 </div>
 
