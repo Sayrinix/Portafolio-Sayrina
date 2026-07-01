@@ -1,12 +1,13 @@
 .imagen-destacada-arreglo{
-    max-height: 261px;
+    height: 261px;
     width: 100%;
     object-fit: cover;
+    object-position: center;
     border-radius: 10px;
 }
 
 .altura-div-destacada{
-    max-height: 261px;
+    height: 261px;
 }
 
 .altura-div-filtros{

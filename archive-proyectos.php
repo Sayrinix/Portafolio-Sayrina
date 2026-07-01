@@ -13,11 +13,14 @@ get_header();
     </div>
   <div class="container d-flex justify-content-center">
     <?php
+
+    $paged = get_query_var('paged') ? get_query_var('paged') : 1;
             $projects_query = new WP_Query(array(
                 'post_type'      => 'proyecto',
                 'posts_per_page' => 4,
                 'orderby'        => 'date',
                 'order'          => 'DESC'
+                'paged'          => $paged
             ));
             ?>
             <?php if ($projects_query->have_posts()) : ?>
@@ -56,13 +59,16 @@ get_header();
             </div>
         
         <?php endwhile; ?>
-        
+
         <nav class="paginacion-proyectos" aria-label="Paginación de proyectos">
                     <?php
                     echo paginate_links(array(
+                        'total'     => $projects_query->max_num_pages,
                         'prev_text' => '← Anterior',
                         'next_text' => 'Siguiente →',
                         'type'      => 'list',
+                        'current'   => max(1, $paged),
+
                     ));
                     ?>
                 </nav>
