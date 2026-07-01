@@ -248,6 +248,48 @@ $oportunidades = get_field('oportunidades_de_mejora');
 <?php endwhile; ?>
 <?php endif; ?>
 </div>
+  <div class="row">
+    <div class="col-4">
+  <?php
+    $proyectos_recomendados = new WP_Query(array(
+        'post_type'      => 'proyecto',
+        'posts_per_page' => 4,
+        'orderby'        => 'rand',
+        'post__not_in'   => array(get_the_ID())
+    ));
+    ?>
+
+    <?php if ($proyectos_recomendados->have_posts()) : ?>
+
+  <div>
+    <?php while ($proyectos_recomendados->have_posts()) : $proyectos_recomendados->the_post(); ?>
+
+    <?php if ($imagen_destacada) : ?>
+        <a href="<?php the_permalink(); ?>" class="card-proyecto-recomendado__imagen">
+            <img 
+                src="<?php echo esc_url($imagen_destacada['url']); ?>" 
+                alt="<?php echo esc_attr($imagen_destacada['alt'] ?: get_the_title()); ?>"
+            >
+        </a>
+    <?php endif; ?>
+     <?php if ($titulo) : ?>
+      <h3 class="h3-brown"><?php echo esc_html($titulo); ?></h3>
+      <?php endif; ?>
+      <a class="boton-ver" href="<?php the_permalink(); ?>">
+        Ver más
+      </a>
+      <hr class="linea-separacion">
+  </div>
+    <?php endwhile; ?>
+</div>
+<?php wp_reset_postdata(); ?>
+
+    <?php else : ?>
+
+        <p class="p-brown">No hay otros proyectos disponibles.</p>
+
+    <?php endif; ?>
+  </div>
 </main>
 <?php get_footer(); ?>
     
