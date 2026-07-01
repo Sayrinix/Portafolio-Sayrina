@@ -310,7 +310,7 @@ body {
   border: none;
   border-radius: 50%;
   background-color: #B07A6D;
-  z-index: 5;
+  z-index: 10;
 }
 
 .custom-carousel-control .carousel-control-prev-icon,
