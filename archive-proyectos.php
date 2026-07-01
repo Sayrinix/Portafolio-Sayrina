@@ -42,7 +42,7 @@ get_header();
                 </a>
                
             </div>
-            <div class="col-2">
+            <div class="col-2 d-flex flex-column justify-content-center">
                 <?php if ($titulo) : ?>
                 <h3 class="h3-brown"><?php echo esc_html($titulo); ?></h3>
                 <?php endif; ?>
@@ -52,9 +52,6 @@ get_header();
                 <a class="boton-ver" href="<?php the_permalink(); ?>">Ver más</a>
             </div>
         
-        <div class="col-1">
-
-        <</div>
         <?php endwhile; ?>
     </div>
         <?php wp_reset_postdata(); ?>
