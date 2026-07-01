@@ -19,7 +19,7 @@ get_header();
                 'post_type'      => 'proyecto',
                 'posts_per_page' => 4,
                 'orderby'        => 'date',
-                'order'          => 'DESC'
+                'order'          => 'DESC',
                 'paged'          => $paged
             ));
             ?>
@@ -67,7 +67,7 @@ get_header();
                         'prev_text' => '← Anterior',
                         'next_text' => 'Siguiente →',
                         'type'      => 'list',
-                        'current'   => max(1, $paged),
+                        'current'   => max(1, $paged)
 
                     ));
                     ?>
