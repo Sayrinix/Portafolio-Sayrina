@@ -187,9 +187,9 @@ $oportunidades = get_field('oportunidades_de_mejora');
       <div class="row g-4">
 
         <div class="col-12 col-md-6">
-          <div class="carousel-project-card mb-4">
+          <div class="carousel-project-card">
             <?php if ($imagen_proceso_5) : ?>
-            <img src="<?php echo esc_url($imagen_proceso_5['url']); ?>" class="d-block w-100 imagen-destacada-arreglo mb-2" alt="<?php echo esc_attr($imagen_proceso_5['alt']); ?>">
+            <img src="<?php echo esc_url($imagen_proceso_5['url']); ?>" class="d-block w-100 imagen-destacada-arreglo" alt="<?php echo esc_attr($imagen_proceso_5['alt']); ?>">
             <?php endif; ?>
 
             <?php if ($descripcion_proceso_5) : ?>
@@ -201,9 +201,9 @@ $oportunidades = get_field('oportunidades_de_mejora');
         </div>
 
         <div class="col-12 col-md-6">
-          <div class="carousel-project-card mb-4">
+          <div class="carousel-project-card">
               <?php if ($imagen_proceso_6) : ?>
-            <img src="<?php echo esc_url($imagen_proceso_6['url']); ?>" class="d-block w-100 imagen-destacada-arreglo mb-2" alt="<?php echo esc_attr($imagen_proceso_6['alt']); ?>">
+            <img src="<?php echo esc_url($imagen_proceso_6['url']); ?>" class="d-block w-100 imagen-destacada-arreglo" alt="<?php echo esc_attr($imagen_proceso_6['alt']); ?>">
             <?php endif; ?>
 
             <?php if ($descripcion_proceso_6) : ?>
