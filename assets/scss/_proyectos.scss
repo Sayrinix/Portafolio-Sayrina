@@ -68,3 +68,32 @@
     width: auto;
     padding-inline: 18px;
 }
+
+.arreglo-imagen-principal{
+    height: 305px;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 10px; 
+}
+
+.linea-separacion{
+    border-top: 1px solid $color-7;
+    width: 100%;
+}
+
+.arreglo-icono-tec{
+    height: 72px;
+    width: auto;
+    object-fit: contain;
+}
+
+.contenedor-tecnologias{
+    height: 100px;
+    background-color: $color-5;
+    border-radius: 10px;
+    border: 1px solid $color-7;
+    display: flex;
+    justify-content: space-between;
+    
+}

@@ -26,7 +26,15 @@ body {
 .h1-light {
   color: $color-4;
   font-weight: bold; 
-  font-size: 48px; 
+  font-size: 48px;
+  line-height: 54px; 
+}
+
+.h1-brown {
+  color: $color-3;
+  font-weight: bold; 
+  font-size: 48px;
+  line-height: 54px;
 }
 
 .p-light{

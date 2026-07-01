@@ -17,6 +17,14 @@ body {
   color: #FFEFEC;
   font-weight: bold;
   font-size: 48px;
+  line-height: 54px;
+}
+
+.h1-brown {
+  color: #7B5136;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 54px;
 }
 
 .p-light {
@@ -252,4 +260,35 @@ body {
 .paginacion-proyectos .page-numbers .next {
   width: auto;
   padding-inline: 18px;
+}
+
+.arreglo-imagen-principal {
+  height: 305px;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+  border-radius: 10px;
+}
+
+.linea-separacion {
+  border-top: 1px solid #493022;
+  width: 100%;
+}
+
+.arreglo-icono-tec {
+  height: 72px;
+  width: auto;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.contenedor-tecnologias {
+  height: 100px;
+  background-color: #F8E1DD;
+  border-radius: 10px;
+  border: 1px solid #493022;
+  display: flex;
+  justify-content: space-between;
 }/*# sourceMappingURL=estilos.css.map */
