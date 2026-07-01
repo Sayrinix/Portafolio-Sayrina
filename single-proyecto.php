@@ -244,11 +244,9 @@ $oportunidades = get_field('oportunidades_de_mejora');
         <p class="p-brown mb-4 pb-4"><?php echo esc_html($oportunidades); ?></p>
         <?php endif; ?>
 </div>
-<div class="col-4">
+<div class="col-4 ps-5 pe-5">
 
-    <aside class="aside-proyectos-recomendados">
-
-        <h2 class="h2-brown mb-4">Proyectos recomendados</h2>
+    <aside class="d-flex flex-column align-items-center">
 
         <?php
         $proyectos_recomendados = new WP_Query(array(
@@ -261,7 +259,7 @@ $oportunidades = get_field('oportunidades_de_mejora');
 
         <?php if ($proyectos_recomendados->have_posts()) : ?>
 
-            <div class="lista-proyectos-recomendados">
+            <div class="lista-proyectos-recomendados mb-5 mt-5">
 
                 <?php while ($proyectos_recomendados->have_posts()) : $proyectos_recomendados->the_post(); ?>
 
@@ -282,11 +280,11 @@ $oportunidades = get_field('oportunidades_de_mejora');
                             </a>
                         <?php endif; ?>
 
-                        <h3 class="h3-brown">
+                        <h3 class="h3-brown-s">
                             <?php echo esc_html($titulo_recomendado ?: get_the_title()); ?>
                         </h3>
 
-                        <a class="boton-ver" href="<?php the_permalink(); ?>">
+                        <a class="boton-ver-s" href="<?php the_permalink(); ?>">
                             Ver más
                         </a>
 

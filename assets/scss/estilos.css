@@ -54,6 +54,13 @@ body {
   line-height: 38px;
 }
 
+.h3-brown-s {
+  color: #7B5136;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 30px;
+}
+
 .boton-ver {
   text-decoration: none;
   color: #493022;
@@ -68,6 +75,24 @@ body {
   transition: all 0.3s ease;
 }
 .boton-ver:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 12px 24px rgba(73, 48, 34, 0.1);
+}
+
+.boton-ver-s {
+  text-decoration: none;
+  color: #493022;
+  background-color: #EFBCBC;
+  border-radius: 50px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 20px;
+  font-weight: 700;
+  border: solid 1px #493022;
+  transition: all 0.3s ease;
+}
+.boton-ver-s:hover {
   transform: translateY(-2px);
   box-shadow: 0 12px 24px rgba(73, 48, 34, 0.1);
 }
@@ -337,8 +362,8 @@ body {
 }
 
 .imagen-destacada-recomendado {
-  height: 200px;
-  width: 100%;
+  height: 150px;
+  width: auto;
   -o-object-fit: cover;
      object-fit: cover;
   -o-object-position: center;

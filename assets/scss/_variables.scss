@@ -64,6 +64,13 @@ body {
     line-height: 38px;
 }
 
+.h3-brown-s{
+    color: $color-3;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 30px;
+}
+
 .boton-ver{
     text-decoration: none;
     color: $color-7;
@@ -73,6 +80,26 @@ body {
     align-items: center;
     justify-content: center;
     padding: 12px 24px;
+    font-weight:700;
+    border: solid 1px $color-7;
+
+    transition: all 0.3s ease;
+
+    &:hover{
+        transform: translateY(-2px);
+        box-shadow: 0 12px 24px rgba(73, 48, 34, 0.1);
+    }
+}
+
+.boton-ver-s{
+    text-decoration: none;
+    color: $color-7;
+    background-color: $color-1;
+    border-radius: 50px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 20px;
     font-weight:700;
     border: solid 1px $color-7;
 
