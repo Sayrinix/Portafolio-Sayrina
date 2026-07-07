@@ -53,24 +53,24 @@ get_header();
             <img class="arreglo-girasol" src="<?php echo esc_url(get_template_directory_uri() . '/assets/img/girasol.png')?>" alt="">
         </div>
     </div>
-    <div class="row">
+    <div class="row text-center">
         <div class="col-2 arreglo-valor">
-            <h3 class="h3-brown">Tecnología con enfoque humano</h3>
+            <p class="p-brown">Tecnología con enfoque humano</p>
         </div>
-        <div class="col-2">
-            <h3 class="h3-brown">Accesibilidad como base, no como extra</h3>
+        <div class="col-2 arreglo-valor">
+            <p class="p-brown">Accesibilidad como base, no como extra</p>
         </div>
-        <div class="col-2">
-            <h3 class="h3-brown">Visión estratégica para emprendedores</h3>
+        <div class="col-2 arreglo-valor">
+            <p class="p-brown">Visión estratégica para emprendedores</p>
         </div>
-        <div class="col-2">
-            <h3 class="h3-brown">Puente entre lo técnico y lo cotidiano</h3>
+        <div class="col-2 arreglo-valor">
+            <p class="p-brown">Puente entre lo técnico y lo cotidiano</p>
         </div>
-        <div class="col-2">
-            <h3 class="h3-brown">Seguridad digital con mirada educativa</h3>
+        <div class="col-2 arreglo-valor">
+            <p class="p-brown">Seguridad digital con mirada educativa</p>
         </div>
-        <div class="col-2">
-            <h3 class="h3-brown">Desarrollo con propósito social</h3>
+        <div class="col-2 arreglo-valor">
+            <p class="p-brown">Desarrollo con propósito social</p>
         </div>
     </div>
 </div>
