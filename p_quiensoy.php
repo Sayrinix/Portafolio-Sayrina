@@ -73,5 +73,13 @@ get_header();
             <p class="p-brown-2">Desarrollo con propósito social</p>
         </div>
     </div>
+    <div class="row">
+        <div class="col-8">
+         <p class="p-brown">Si te interesa conocer más sobre mí <br> ¡Visita mis Proyectos!</p>
+         <div class="d-flex mt-5 justify-content-center">
+            <a href="<?php echo esc_url(home_url('/proyectos')); ?>" class="boton-ver">Ver Proyectos</a>
+        </div>   
+        </div>
+    </div>
 </div>
 <?php get_footer(); ?>
