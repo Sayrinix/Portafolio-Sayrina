@@ -41,4 +41,12 @@ get_header();
         </div>
     </div>
 </div>
+
+<div class="container">
+    <div class="row">
+        <div class="col-12">
+            <img class="arreglo-girasol" src="<?php echo esc_url(get_template_directory_uri() . '/assets/img/girasol.png')?>" alt="">
+        </div>
+    </div>
+</div>
 <?php get_footer(); ?>

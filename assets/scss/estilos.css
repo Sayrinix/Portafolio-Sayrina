@@ -405,4 +405,12 @@ body {
 .enfoque-card:hover {
   transform: translateY(-2px);
   box-shadow: 0 12px 24px rgba(73, 48, 34, 0.1);
+}
+
+.arreglo-girasol {
+  border-radius: 10px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 100%;
+  height: 400px;
 }/*# sourceMappingURL=estilos.css.map */
