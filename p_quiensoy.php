@@ -21,15 +21,19 @@ get_header();
     </div>
 </div>
 <div class="container mt-5 pt-5">
-    <div class="row text-center">
-        <h2 class="h2-brown">Enfoque Profesional</h2>
+    <div class="row mb-5 d-flex justify-content-center">
+        <div class="col">
+            <h2 class="h2-brown">Enfoque Profesional</h2>
+        </div>
+    </div>
+    <div class="row d-flex justify-content-center">
         <div class="col-3 enfoque-card">
             <h3 class="h3-brown pb-3">Soluciones digitales para personas mayores</h3>
             <p class="p-brown">Me interesa desarrollar soluciones digitales accesibles, simples y funcionales que faciliten la experiencia de uso de las personas mayores en entornos digitales.</p>
         </div>
         <div class="col-3 enfoque-card">
             <h3 class="h3-brown pb-3">Posicionamiento Digital para emprendedores</h3>
-            <p class="p-brown">Me interesa apoyar a emprendedores y pequeñas marcas en la construcción de una presencia digital sólida, estratégica y coherente. Este enfoque considera el desarrollo de sitios web, optimización SEO, estructura de contenidos e identidad digital/p>
+            <p class="p-brown">Me interesa apoyar a emprendedores y pequeñas marcas en la construcción de una presencia digital sólida, estratégica y coherente. Este enfoque considera el desarrollo de sitios web, optimización SEO, estructura de contenidos e identidad digital</p>
         </div>
         <div class="col-3 enfoque-card">
             <h3 class="h3-brown pb-3">Investigación en Seguridad Digital</h3>
