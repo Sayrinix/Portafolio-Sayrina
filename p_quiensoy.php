@@ -16,7 +16,7 @@ get_header();
             <img class="arreglo-imagen-perfil" src="<?php echo esc_url(get_template_directory_uri() . '/assets/img/foto-perfil.jpeg')?>" alt="">
         </div>
         <div class="col-4 bg-color-desc d-flex justify-content-center align-items-center">
-            <p class="p-brown p-3">Mi nombre es Sayrina Luciano, tengo 23 años y vivo en Viña del Mar. Me interesa muchísimo la tecnología y crear experiencias que solucionen problemas de la vida cotidiana. También me gusta leer, escribir, el arte y la música.</p>
+            <p class="p-brown p-5">Mi nombre es Sayrina Luciano, tengo 23 años y vivo en Viña del Mar. Me interesa muchísimo la tecnología y crear experiencias que solucionen problemas de la vida cotidiana. También me gusta leer, escribir, el arte y la música.</p>
         </div>
     </div>
 </div>
