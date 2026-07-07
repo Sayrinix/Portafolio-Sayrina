@@ -22,7 +22,7 @@ get_header();
 </div>
 <div class="container mt-5 pt-5">
     <div class="row mb-5 d-flex justify-content-center">
-        <div class="col">
+        <div class="col-12">
             <h2 class="h2-brown">Enfoque Profesional</h2>
         </div>
     </div>
