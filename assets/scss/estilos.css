@@ -371,4 +371,9 @@ body {
   -o-object-position: center;
      object-position: center;
   border-radius: 10px;
+}
+
+.bg-color-qn {
+  background-color: #EFBCBC;
+  height: 450px;
 }/*# sourceMappingURL=estilos.css.map */
