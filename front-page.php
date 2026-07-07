@@ -52,7 +52,7 @@ get_header();
                     </div>
                 </div>
                 <div class="d-flex justify-content-end w-80">
-                    <a href="#" class="boton-ver">Ver más</a>
+                    <a href="<?php echo esc_url(get_permalink(17)); ?>" class="boton-ver">Ver más</a>
                 </div>
             </div>
         </div>
@@ -74,7 +74,7 @@ get_header();
             </div>
         </div>
         <div class="d-flex mt-5 justify-content-center w-100">
-            <a href="#" class="boton-ver">Ver más</a>
+            <a href="<?php echo esc_url(get_permalink(15)); ?>" class="boton-ver">Ver más</a>
         </div>
     </div>
 
@@ -88,14 +88,14 @@ get_header();
                 <a href="<?php echo esc_url(get_permalink(72)); ?>"><img class="imagen-arreglo hover-imagen" src="<?php echo esc_url(get_template_directory_uri() . '/assets/img/rick-morty-proy.png')?>" alt=""></a>
             </div>
             <div class="col">
-                <a href="#"><img class="imagen-arreglo-2 hover-imagen" src="<?php echo esc_url(get_template_directory_uri() . '/assets/img/fitness-proy.png')?>" alt=""></a>
+                <a href="<?php echo esc_url(get_permalink(74)); ?>"><img class="imagen-arreglo-2 hover-imagen" src="<?php echo esc_url(get_template_directory_uri() . '/assets/img/fitness-proy.png')?>" alt=""></a>
             </div>
             <div class="col">
-                <a href="#"><img class="imagen-arreglo hover-imagen" src="<?php echo esc_url(get_template_directory_uri() . '/assets/img/aurora-proy.png')?>" alt=""></a>
+                <a href="<?php echo esc_url(get_permalink(67)); ?>"><img class="imagen-arreglo hover-imagen" src="<?php echo esc_url(get_template_directory_uri() . '/assets/img/aurora-proy.png')?>" alt=""></a>
             </div>
         </div>
         <div class="d-flex mt-5 justify-content-center">
-            <a href="#" class="boton-ver">Ver más</a>
+            <a href="<?php echo esc_url(get_permalink(23)); ?>" class="boton-ver">Ver más</a>
         </div>
     </div>
 </main> 
