@@ -55,22 +55,22 @@ get_header();
     </div>
     <div class="row d-flex align-items-center">
         <div class="col-2 arreglo-valor">
-            <p class="p-brown">Tecnología con enfoque humano</p>
+            <p class="p-brown-2">Tecnología con enfoque humano</p>
         </div>
         <div class="col-2 arreglo-valor">
-            <p class="p-brown">Accesibilidad como base, no como extra</p>
+            <p class="p-brown-2">Accesibilidad como base, no como extra</p>
         </div>
         <div class="col-2 arreglo-valor">
-            <p class="p-brown">Visión estratégica para emprendedores</p>
+            <p class="p-brown-2">Visión estratégica para emprendedores</p>
         </div>
         <div class="col-2 arreglo-valor">
-            <p class="p-brown">Puente entre lo técnico y lo cotidiano</p>
+            <p class="p-brown-2">Puente entre lo técnico y lo cotidiano</p>
         </div>
         <div class="col-2 arreglo-valor">
-            <p class="p-brown">Seguridad digital con mirada educativa</p>
+            <p class="p-brown-2">Seguridad digital con mirada educativa</p>
         </div>
         <div class="col-2 arreglo-valor">
-            <p class="p-brown">Desarrollo con propósito social</p>
+            <p class="p-brown-2">Desarrollo con propósito social</p>
         </div>
     </div>
 </div>
