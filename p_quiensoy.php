@@ -26,7 +26,7 @@ get_header();
             <h2 class="h2-brown">Enfoque Profesional</h2>
         </div>
     </div>
-    <div class="row text-center d-flex justify-content-center">
+    <div class="row d-flex justify-content-center">
         <div class="col-3 enfoque-card">
             <h3 class="h3-brown pb-3">Soluciones digitales para personas mayores</h3>
             <p class="p-brown">Me interesa desarrollar soluciones digitales accesibles, simples y funcionales que faciliten la experiencia de uso de las personas mayores en entornos digitales.</p>
