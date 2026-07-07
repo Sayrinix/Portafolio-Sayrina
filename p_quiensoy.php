@@ -53,7 +53,7 @@ get_header();
             <img class="arreglo-girasol" src="<?php echo esc_url(get_template_directory_uri() . '/assets/img/girasol.png')?>" alt="">
         </div>
     </div>
-    <div class="row">
+    <div class="row mb-5">
         <div class="col-2 arreglo-valor d-flex align-items-center justify-content-center">
             <p class="p-brown-2">Tecnología con enfoque humano</p>
         </div>
@@ -73,7 +73,7 @@ get_header();
             <p class="p-brown-2">Desarrollo con propósito social</p>
         </div>
     </div>
-    <div class="row">
+    <div class="row mt-5">
         <div class="col-8">
          <p class="p-brown">Si te interesa conocer más sobre mí <br> ¡Visita mis Proyectos!</p>
          <div class="d-flex mt-5 justify-content-center">
