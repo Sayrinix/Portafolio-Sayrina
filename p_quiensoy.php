@@ -75,7 +75,7 @@ get_header();
     </div>
     <div class="row mt-5 d-flex justify-content-center">
         <div class="col-8 d-flex flex-column align-items-center mt-5 justify-content-center arreglo-cta">
-         <p class="p-brown text-center">Si te interesa conocer más sobre mí <br> ¡Visita mis Proyectos!</p>
+         <p class="p-brown text-center pb-4">Si te interesa conocer más sobre mí <br> ¡Visita mis Proyectos!</p>
         <a href="<?php echo esc_url(home_url('/proyectos')); ?>" class="boton-ver">Ver Proyectos</a>  
         </div>
     </div>
