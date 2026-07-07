@@ -85,7 +85,7 @@ get_header();
         </div>
         <div class="row d-flex align-items-center">
             <div class="col">
-                <a href="#"><img class="imagen-arreglo hover-imagen" src="<?php echo esc_url(get_template_directory_uri() . '/assets/img/rick-morty-proy.png')?>" alt=""></a>
+                <a href="<?php echo esc_url(get_permalink(72)); ?>"><img class="imagen-arreglo hover-imagen" src="<?php echo esc_url(get_template_directory_uri() . '/assets/img/rick-morty-proy.png')?>" alt=""></a>
             </div>
             <div class="col">
                 <a href="#"><img class="imagen-arreglo-2 hover-imagen" src="<?php echo esc_url(get_template_directory_uri() . '/assets/img/fitness-proy.png')?>" alt=""></a>
