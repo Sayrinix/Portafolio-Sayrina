@@ -29,15 +29,15 @@ get_header();
     <div class="row d-flex justify-content-center">
         <div class="col-3 enfoque-card">
             <h3 class="h3-brown pb-3">Soluciones digitales para personas mayores</h3>
-            <p class="p-brown">Me interesa desarrollar soluciones digitales accesibles, simples y funcionales que faciliten la experiencia de uso de las personas mayores en entornos digitales.</p>
+            <p class="p-brown-2">Me interesa desarrollar soluciones digitales accesibles, simples y funcionales que faciliten la experiencia de uso de las personas mayores en entornos digitales.</p>
         </div>
         <div class="col-4 enfoque-card">
             <h3 class="h3-brown pb-3">Posicionamiento Digital para emprendedores</h3>
-            <p class="p-brown">Me interesa apoyar a emprendedores y pequeñas marcas en la construcción de una presencia digital sólida, estratégica y coherente. Este enfoque considera el desarrollo de sitios web, optimización SEO, estructura de contenidos e identidad digital</p>
+            <p class="p-brown-2">Me interesa apoyar a emprendedores y pequeñas marcas en la construcción de una presencia digital sólida, estratégica y coherente. Este enfoque considera el desarrollo de sitios web, optimización SEO, estructura de contenidos e identidad digital</p>
         </div>
         <div class="col-3 enfoque-card">
             <h3 class="h3-brown pb-3">Investigación en Seguridad Digital</h3>
-            <p class="p-brown">Mi interés está especialmente orientado a acercar la seguridad digital a personas y grupos que no siempre cuentan con conocimientos técnicos, promoviendo una cultura digital más informada, responsable y preventiva.</p>
+            <p class="p-brown-2">Mi interés está especialmente orientado a acercar la seguridad digital a personas y grupos que no siempre cuentan con conocimientos técnicos, promoviendo una cultura digital más informada, responsable y preventiva.</p>
         </div>
     </div>
 </div>
