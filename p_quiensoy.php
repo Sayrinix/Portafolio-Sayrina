@@ -10,7 +10,7 @@ get_header();
     <p class="p-brown">Diseñadora y Desarrolladora Web</p>
 </div>
 
-<div class="container">
+<div class="container mt-5 pt-5">
     <div class="row">
         <div class="col-6 pe-0 me-0">
             <img class="arreglo-imagen-perfil" src="<?php echo esc_url(get_template_directory_uri() . '/assets/img/foto-perfil.jpeg')?>" alt="">
