@@ -43,9 +43,34 @@ get_header();
 </div>
 
 <div class="container mt-5 pt-5">
-    <div class="row">
+    <div class="row mb-5">
+        <div class="col-12">
+            <h2 class="h2-brown">Valor Diferencial</h2>
+        </div>
+    </div>
+    <div class="row mb-5">
         <div class="col-12">
             <img class="arreglo-girasol" src="<?php echo esc_url(get_template_directory_uri() . '/assets/img/girasol.png')?>" alt="">
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-2 arreglo-valor">
+            <h3 class="h3-brown">Tecnología con enfoque humano</h3>
+        </div>
+        <div class="col-2">
+            <h3 class="h3-brown">Accesibilidad como base, no como extra</h3>
+        </div>
+        <div class="col-2">
+            <h3 class="h3-brown">Visión estratégica para emprendedores</h3>
+        </div>
+        <div class="col-2">
+            <h3 class="h3-brown">Puente entre lo técnico y lo cotidiano</h3>
+        </div>
+        <div class="col-2">
+            <h3 class="h3-brown">Seguridad digital con mirada educativa</h3>
+        </div>
+        <div class="col-2">
+            <h3 class="h3-brown">Desarrollo con propósito social</h3>
         </div>
     </div>
 </div>
