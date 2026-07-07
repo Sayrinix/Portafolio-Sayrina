@@ -20,7 +20,7 @@ get_header();
         </div>
     </div>
 </div>
-<div class="container mt-5 pt-5 d-flex justify-content-center">
+<div class="container mt-5 pt-5 d-flex flex-column align-items-center">
     <div class="row mb-5">
         <div class="col-12">
             <h2 class="h2-brown">Enfoque Profesional</h2>
