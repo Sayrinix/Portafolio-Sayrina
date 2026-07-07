@@ -43,7 +43,7 @@ get_header();
 </div>
 
 <div class="container mt-5 pt-5">
-    <div class="row mb-5">
+    <div class="row mb-5 d-flex justify-content-center">
         <div class="col-12">
             <h2 class="h2-brown">Valor Diferencial</h2>
         </div>
@@ -53,7 +53,7 @@ get_header();
             <img class="arreglo-girasol" src="<?php echo esc_url(get_template_directory_uri() . '/assets/img/girasol.png')?>" alt="">
         </div>
     </div>
-    <div class="row d-flex align-items-center">
+    <div class="row d-flex align-items-center justify-content-center">
         <div class="col-2 arreglo-valor">
             <p class="p-brown-2">Tecnología con enfoque humano</p>
         </div>
