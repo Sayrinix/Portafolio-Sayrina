@@ -42,7 +42,7 @@ get_header();
     </div>
 </div>
 
-<div class="container">
+<div class="container mt-5 pt-5">
     <div class="row">
         <div class="col-12">
             <img class="arreglo-girasol" src="<?php echo esc_url(get_template_directory_uri() . '/assets/img/girasol.png')?>" alt="">
