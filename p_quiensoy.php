@@ -43,8 +43,8 @@ get_header();
 </div>
 
 <div class="container mt-5 pt-5">
-    <div class="row mb-5 d-flex justify-content-center">
-        <div class="col-12">
+    <div class="row mb-5">
+        <div class="col-12 d-flex justify-content-center">
             <h2 class="h2-brown">Valor Diferencial</h2>
         </div>
     </div>
@@ -53,23 +53,23 @@ get_header();
             <img class="arreglo-girasol" src="<?php echo esc_url(get_template_directory_uri() . '/assets/img/girasol.png')?>" alt="">
         </div>
     </div>
-    <div class="row d-flex align-items-center justify-content-center">
-        <div class="col-2 arreglo-valor">
+    <div class="row">
+        <div class="col-2 arreglo-valor d-flex align-items-center justify-content-center">
             <p class="p-brown-2">Tecnología con enfoque humano</p>
         </div>
-        <div class="col-2 arreglo-valor">
+        <div class="col-2 arreglo-valor d-flex align-items-center justify-content-center">
             <p class="p-brown-2">Accesibilidad como base, no como extra</p>
         </div>
-        <div class="col-2 arreglo-valor">
+        <div class="col-2 arreglo-valor d-flex align-items-center justify-content-center">
             <p class="p-brown-2">Visión estratégica para emprendedores</p>
         </div>
-        <div class="col-2 arreglo-valor">
+        <div class="col-2 arreglo-valor d-flex align-items-center justify-content-center">
             <p class="p-brown-2">Puente entre lo técnico y lo cotidiano</p>
         </div>
-        <div class="col-2 arreglo-valor">
+        <div class="col-2 arreglo-valor d-flex align-items-center justify-content-center">
             <p class="p-brown-2">Seguridad digital con mirada educativa</p>
         </div>
-        <div class="col-2 arreglo-valor">
+        <div class="col-2 arreglo-valor d-flex align-items-center justify-content-center">
             <p class="p-brown-2">Desarrollo con propósito social</p>
         </div>
     </div>
