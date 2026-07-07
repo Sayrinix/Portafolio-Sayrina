@@ -25,15 +25,15 @@ get_header();
         <h2 class="h2-brown">Enfoque Profesional</h2>
         <div class="col-4 enfoque-card">
             <h3 class="h3-brown pb-3">Soluciones digitales para personas mayores</h3>
-            <p class="p-brown">Me interesa desarrollar soluciones digitales accesibles, simples y funcionales que faciliten la experiencia de uso de las personas mayores en entornos digitales. Este enfoque nace de la necesidad de crear sitios web, plataformas y herramientas más inclusivas, considerando aspectos como la legibilidad, la navegación intuitiva, la claridad de la información y la reducción de barreras tecnológicas</p>
+            <p class="p-brown">Me interesa desarrollar soluciones digitales accesibles, simples y funcionales que faciliten la experiencia de uso de las personas mayores en entornos digitales.</p>
         </div>
         <div class="col-4 enfoque-card">
             <h3 class="h3-brown pb-3">Posicionamiento Digital para emprendedores</h3>
-            <p class="p-brown">Me interesa apoyar a emprendedores y pequeñas marcas en la construcción de una presencia digital sólida, estratégica y coherente. Este enfoque considera el desarrollo de sitios web, optimización SEO, estructura de contenidos, identidad digital y mejora de la experiencia de usuario, con el objetivo de aumentar la visibilidad, credibilidad y alcance de sus proyectos.</p>
+            <p class="p-brown">Me interesa apoyar a emprendedores y pequeñas marcas en la construcción de una presencia digital sólida, estratégica y coherente. Este enfoque considera el desarrollo de sitios web, optimización SEO, estructura de contenidos e identidad digital/p>
         </div>
         <div class="col-4 enfoque-card">
             <h3 class="h3-brown pb-3">Investigación en Seguridad Digital</h3>
-            <p class="p-brown">Me interesa la investigación en seguridad digital como un área clave para comprender, prevenir y comunicar riesgos asociados al uso de tecnologías. Este enfoque se relaciona con el análisis de amenazas digitales, buenas prácticas de protección de datos, educación en ciberseguridad y desarrollo de entornos digitales más seguros para usuarios, organizaciones y comunidades. <br> Mi interés está especialmente orientado a acercar la seguridad digital a personas y grupos que no siempre cuentan con conocimientos técnicos, promoviendo una cultura digital más informada, responsable y preventiva.</p>
+            <p class="p-brown">Mi interés está especialmente orientado a acercar la seguridad digital a personas y grupos que no siempre cuentan con conocimientos técnicos, promoviendo una cultura digital más informada, responsable y preventiva.</p>
         </div>
     </div>
 </div>
