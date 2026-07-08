@@ -439,7 +439,7 @@ body {
 
 .arreglo-hero-blog {
   height: 225px;
-  width: 100%;
+  width: auto;
   background-color: #E0C4BE;
   border-top-left-radius: 10px;
   border-bottom-left-radius: 10px;
