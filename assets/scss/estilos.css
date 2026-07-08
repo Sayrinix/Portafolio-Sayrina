@@ -464,7 +464,7 @@ body {
 
 .posicion-imagen-dest {
   display: flex;
-  position: absolute;
+  position: relative;
   z-index: 1;
   height: auto;
   width: 100%;
@@ -472,7 +472,7 @@ body {
 
 .posicion-span-left {
   display: flex;
-  position: relative;
+  position: absolute;
   z-index: 10;
   width: 100%;
   top: -10;
@@ -481,7 +481,7 @@ body {
 
 .posicion-span-right {
   display: flex;
-  position: relative;
+  position: absolute;
   z-index: 10;
   width: 100%;
   top: -10;
