@@ -40,13 +40,13 @@ get_header();
                         <img src="<?php echo get_template_directory_uri(); ?>/assets/img/placeholder.jpg" alt="Imagen por defecto" class="img-fluid">
                     <?php endif; ?>
                 </a>
-                <div class="posicion-span">
-                <span class="p-brown-2"><?php echo get_the_date(); ?></span>
+                <div>
+                <span class="p-brown-2 posicion-span"><?php echo get_the_date(); ?></span>
                 <?php
                 $categories = get_the_category();
                 if (!empty($categories)) :
                 ?>
-                    <span class="p-brown-2">
+                    <span class="p-brown-2 posicion-span">
                         <?php echo esc_html($categories[0]->name); ?>
                     </span>
                 <?php endif; ?>                        
