@@ -14,7 +14,7 @@ get_header();
     </div>
 </div>
 
-<div class="container">
+<div class="container mt-5 pt-5">
     <?php
             $paged = get_query_var('paged') ? get_query_var('paged') : 1;
 
@@ -40,7 +40,7 @@ get_header();
                         <img src="<?php echo get_template_directory_uri(); ?>/assets/img/placeholder.jpg" alt="Imagen por defecto" class="img-fluid">
                     <?php endif; ?>
                 </a>
-                <div class="d-flex justify-content-between posicion-span">
+                <div class="posicion-span">
                 <span class="p-brown-2"><?php echo get_the_date(); ?></span>
                 <?php
                 $categories = get_the_category();

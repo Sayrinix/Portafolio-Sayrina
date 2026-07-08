@@ -470,4 +470,5 @@ body {
 .posicion-span {
   position: absolute;
   z-index: 10;
+  top: -50px;
 }/*# sourceMappingURL=estilos.css.map */
