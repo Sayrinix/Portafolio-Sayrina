@@ -492,14 +492,14 @@ body {
   display: flex;
   position: absolute;
   z-index: 9;
-  bottom: 115%;
-  left: 0.6%;
+  bottom: 130%;
+  left: 10.6%;
 }
 
 .posicion-span-right {
   display: flex;
   position: absolute;
   z-index: 10;
-  bottom: 115%;
-  left: 83%;
+  bottom: 130%;
+  left: 73%;
 }/*# sourceMappingURL=estilos.css.map */
