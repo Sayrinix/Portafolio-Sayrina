@@ -492,7 +492,7 @@ body {
   display: flex;
   position: absolute;
   z-index: 9;
-  padding-bottom: 40px;
+  top: -5%;
   left: 5.3%;
   overflow-y: visible;
 }
@@ -501,7 +501,6 @@ body {
   display: flex;
   position: absolute;
   z-index: 10;
-  padding-bottom: 40px;
+  top: -5%;
   left: 78%;
-  overflow-y: visible;
 }/*# sourceMappingURL=estilos.css.map */
