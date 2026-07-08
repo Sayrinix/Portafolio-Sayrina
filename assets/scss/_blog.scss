@@ -22,7 +22,9 @@
 .posicion-imagen-dest{
     display: flex;
    position: relative;
-   z-index: 1; 
+   z-index: 1;
+   height: fit-content; 
+   width: 100%;
 }
 .posicion-span-left{
     display:flex;
@@ -38,6 +40,6 @@
     position: absolute;
     z-index: 10;
     width: 100%;
-    top: -335px;
-    right: 0px;
+    top: -110%;
+    right: -100%;
 }
