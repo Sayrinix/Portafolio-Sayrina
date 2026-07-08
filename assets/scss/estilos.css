@@ -467,8 +467,15 @@ body {
   position: relative;
   z-index: 1;
   height: 300px;
-  width: -moz-fit-content;
-  width: fit-content;
+  width: 100%;
+}
+
+.img-arreglo-dest {
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+  border-radius: 10px;
 }
 
 .posicion-imagen-dest-2 {

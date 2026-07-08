@@ -24,7 +24,13 @@
    position: relative;
    z-index: 1;
    height: 300px; 
-   width: fit-content;
+   width: 100%;
+}
+
+.img-arreglo-dest{
+    object-fit: cover;
+    object-position: center;
+    border-radius: 10px;
 }
 .posicion-imagen-dest-2{
     display: flex;

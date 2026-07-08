@@ -35,7 +35,7 @@ get_header();
         <div class="col-5 posicion-imagen-dest-1">
                 <a href="<?php the_permalink(); ?>">
                     <?php if (has_post_thumbnail()) : ?>
-                        <?php the_post_thumbnail('large', array('class' => 'img-fluid')); ?>
+                        <?php the_post_thumbnail('large', array('class' => 'img-arreglo-dest')); ?>
                     <?php else : ?>
                         <img src="<?php echo get_template_directory_uri(); ?>/assets/img/placeholder.jpg" alt="Imagen por defecto" class="img-fluid">
                     <?php endif; ?>
