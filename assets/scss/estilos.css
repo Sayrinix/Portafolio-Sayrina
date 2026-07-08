@@ -466,9 +466,6 @@ body {
   display: flex;
   position: relative;
   z-index: 1;
-  height: 300px;
-  width: -moz-fit-content;
-  width: fit-content;
 }
 
 .posicion-span-left {
