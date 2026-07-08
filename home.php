@@ -53,6 +53,14 @@ get_header();
                 </div>
                 
         </div>
+        <?php endwhile; ?>
     </div>
+    <?php wp_reset_postdata(); ?>
+
+            <?php else : ?>
+
+                <p>No hay entradas publicadas todavía.</p>
+
+            <?php endif; ?>
 </div>
 <?php get_footer(); ?>
