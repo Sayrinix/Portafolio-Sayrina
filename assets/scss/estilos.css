@@ -468,7 +468,8 @@ body {
   z-index: 1;
   height: -moz-fit-content;
   height: fit-content;
-  width: 100%;
+  width: -moz-fit-content;
+  width: fit-content;
 }
 
 .posicion-span-left {
@@ -476,8 +477,8 @@ body {
   position: absolute;
   z-index: 10;
   width: 100%;
-  top: -335px;
-  left: 0px;
+  top: 0%;
+  left: 0%;
 }
 
 .posicion-span-right {
@@ -485,6 +486,6 @@ body {
   position: absolute;
   z-index: 10;
   width: 100%;
-  top: -110%;
+  top: 0%;
   right: -100%;
 }/*# sourceMappingURL=estilos.css.map */
