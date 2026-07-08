@@ -19,3 +19,11 @@
 .margen-cont-hero{
     margin-top: 150px;
 }
+.posicion-imagen-dest{
+   position: relative;
+   z-index: 1; 
+}
+.posicion-span{
+    position: absolute;
+    z-index: 10;
+}

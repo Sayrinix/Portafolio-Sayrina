@@ -13,4 +13,46 @@ get_header();
         </div>
     </div>
 </div>
+
+<div class="container">
+    <?php
+            $paged = get_query_var('paged') ? get_query_var('paged') : 1;
+
+            $args = array(
+                'post_type'      => 'post',
+                'posts_per_page' => 1,
+                'paged'          => $paged,
+                'category_name'  => 'destacado',
+            );
+
+            $blog_query = new WP_Query($args);
+            ?>
+
+            <?php if ($blog_query->have_posts()) : ?>
+    <div class="row">
+        <?php while ($blog_query->have_posts()) : $blog_query->the_post(); ?>
+
+        <div class="col-6">
+                <a href="<?php the_permalink(); ?>" class="posicion-imagen-dest">
+                    <?php if (has_post_thumbnail()) : ?>
+                        <?php the_post_thumbnail('large', array('class' => 'img-fluid')); ?>
+                    <?php else : ?>
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/placeholder.jpg" alt="Imagen por defecto" class="img-fluid">
+                    <?php endif; ?>
+                </a>
+                <div class="d-flex justify-content-between posicion-span">
+                <span class="p-brown-2"><?php echo get_the_date(); ?></span>
+                <?php
+                $categories = get_the_category();
+                if (!empty($categories)) :
+                ?>
+                    <span class="p-brown-2">
+                        <?php echo esc_html($categories[0]->name); ?>
+                    </span>
+                <?php endif; ?>                        
+                </div>
+                
+        </div>
+    </div>
+</div>
 <?php get_footer(); ?>
