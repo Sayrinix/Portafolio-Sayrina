@@ -485,15 +485,14 @@ body {
   display: flex;
   position: absolute;
   z-index: 9;
-  top: -10%;
+  top: -8%;
   left: 5.3%;
-  overflow-y: visible;
 }
 
 .posicion-span-right {
   display: flex;
   position: absolute;
   z-index: 10;
-  top: -10%;
+  top: -8%;
   left: 78%;
 }/*# sourceMappingURL=estilos.css.map */
