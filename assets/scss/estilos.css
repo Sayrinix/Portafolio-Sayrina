@@ -489,6 +489,7 @@ body {
 }
 
 .posicion-span-left {
+  padding-left: 5px;
   display: flex;
   position: absolute;
   z-index: 9;
@@ -497,6 +498,7 @@ body {
 }
 
 .posicion-span-right {
+  padding-right: 5px;
   display: flex;
   position: absolute;
   z-index: 10;
