@@ -466,8 +466,7 @@ body {
   display: flex;
   position: relative;
   z-index: 1;
-  height: -moz-fit-content;
-  height: fit-content;
+  height: 332px;
   width: auto;
 }
 
