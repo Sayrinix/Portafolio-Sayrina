@@ -35,17 +35,11 @@
     position: absolute;
     z-index: 0;
 }
-.posicion-imagen-dest-2{
-    display: flex;
-   position: absolute;
-   z-index: 5;
-   width: 100%;
-}
 .posicion-span-left{
     display: flex;
     position: absolute;
     z-index: 9;
-    top: -5%;
+    top: -15%;
     left: 5.3%;
     overflow-y: visible;
 }
@@ -54,6 +48,6 @@
     display: flex;
     position: absolute;
     z-index: 10;
-    top: -5%;
+    top: -15%;
     left: 78%;
 }
