@@ -475,6 +475,7 @@ body {
   display: flex;
   position: absolute;
   z-index: 5;
+  width: 100%;
 }
 
 .posicion-span-left {
@@ -492,5 +493,5 @@ body {
   z-index: 10;
   width: 100%;
   bottom: 110%;
-  right: -70%;
+  right: -100%;
 }/*# sourceMappingURL=estilos.css.map */
