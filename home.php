@@ -32,7 +32,7 @@ get_header();
     <div class="row">
         <?php while ($blog_query->have_posts()) : $blog_query->the_post(); ?>
 
-        <div class="col-5 posicion-imagen-dest-1">
+        <div class="col-6 posicion-imagen-dest-1">
                 <a href="<?php the_permalink(); ?>">
                     <?php if (has_post_thumbnail()) : ?>
                         <?php the_post_thumbnail('large', array('class' => 'img-arreglo-dest')); ?>

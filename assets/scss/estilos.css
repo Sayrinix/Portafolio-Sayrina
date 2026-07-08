@@ -466,6 +466,8 @@ body {
   display: flex;
   position: relative;
   z-index: 1;
+  height: 350px;
+  width: 100%;
 }
 
 .img-arreglo-dest {
@@ -477,7 +479,7 @@ body {
      object-position: center;
   border-radius: 10px;
   position: absolute;
-  z-index: 2;
+  z-index: 0;
 }
 
 .posicion-imagen-dest-2 {
