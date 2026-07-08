@@ -466,7 +466,7 @@ body {
   display: flex;
   position: relative;
   z-index: 1;
-  height: 450px;
+  height: 350px;
 }
 
 .img-arreglo-dest {
@@ -492,7 +492,7 @@ body {
   display: flex;
   position: absolute;
   z-index: 9;
-  bottom: 130%;
+  padding-bottom: 25px;
   left: 5.3%;
 }
 
@@ -500,6 +500,6 @@ body {
   display: flex;
   position: absolute;
   z-index: 10;
-  bottom: 130%;
+  padding-bottom: 25px;
   left: 78%;
 }/*# sourceMappingURL=estilos.css.map */
