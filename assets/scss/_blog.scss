@@ -23,9 +23,12 @@
     display: flex;
    position: relative;
    z-index: 1; 
+   height: auto;
+   width: 100%;
 }
 .posicion-span{
     display:flex;
     position: absolute;
     z-index: 10;
+    width: 100%;
 }
