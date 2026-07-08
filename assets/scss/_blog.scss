@@ -24,10 +24,10 @@
    position: relative;
    z-index: 1;
    height: fit-content; 
-   width: fit-content;
+   width: auto;
 }
 .posicion-span-left{
-    display:flex;
+    display: flex;
     position: absolute;
     z-index: 10;
     width: 100%;
@@ -36,7 +36,7 @@
 }
 
 .posicion-span-right{
-    display:flex;
+    display: flex;
     position: absolute;
     z-index: 10;
     width: 100%;

@@ -468,8 +468,7 @@ body {
   z-index: 1;
   height: -moz-fit-content;
   height: fit-content;
-  width: -moz-fit-content;
-  width: fit-content;
+  width: auto;
 }
 
 .posicion-span-left {
