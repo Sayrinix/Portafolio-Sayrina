@@ -464,7 +464,7 @@ body {
 
 .posicion-imagen-dest {
   display: flex;
-  position: relative;
+  position: absolute;
   z-index: 1;
   height: auto;
   width: 100%;
@@ -472,18 +472,18 @@ body {
 
 .posicion-span-left {
   display: flex;
-  position: absolute;
+  position: relative;
   z-index: 10;
   width: 100%;
-  top: 0;
+  top: -10;
   left: 0;
 }
 
 .posicion-span-right {
   display: flex;
-  position: absolute;
+  position: relative;
   z-index: 10;
   width: 100%;
-  top: 0;
+  top: -10;
   right: 0;
 }/*# sourceMappingURL=estilos.css.map */
