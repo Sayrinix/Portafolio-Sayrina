@@ -41,12 +41,12 @@ get_header();
                     <?php endif; ?>
                 </a>
                 <div>
-                <span class="p-brown-2 posicion-span"><?php echo get_the_date(); ?></span>
+                <span class="p-brown-2 posicion-span-left"><?php echo get_the_date(); ?></span>
                 <?php
                 $categories = get_the_category();
                 if (!empty($categories)) :
                 ?>
-                    <span class="p-brown-2 posicion-span">
+                    <span class="p-brown-2 posicion-span-right">
                         <?php echo esc_html($categories[0]->name); ?>
                     </span>
                 <?php endif; ?>                        

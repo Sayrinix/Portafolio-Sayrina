@@ -26,9 +26,20 @@
    height: auto;
    width: 100%;
 }
-.posicion-span{
+.posicion-span-left{
     display:flex;
     position: absolute;
     z-index: 10;
     width: 100%;
+    top: 0;
+    left: 0;
+}
+
+.posicion-span-right{
+    display:flex;
+    position: absolute;
+    z-index: 10;
+    width: 100%;
+    top: 0;
+    right: 0;
 }
