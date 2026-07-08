@@ -42,21 +42,17 @@
    width: 100%;
 }
 .posicion-span-left{
-    margin-left: 10px;
-    margin-bottom: 10px;
     display: flex;
     position: absolute;
     z-index: 9;
-    bottom: 110%;
-    left: 0%;
+    bottom: 115%;
+    left: 0.6%;
 }
 
 .posicion-span-right{
-    margin-right: 10px;
-    margin-bottom: 10px;
     display: flex;
     position: absolute;
     z-index: 10;
-    bottom: 110%;
-    left: 83.6%;
+    bottom: 115%;
+    left: 83%;
 }
