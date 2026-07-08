@@ -492,7 +492,6 @@ body {
   display: flex;
   position: absolute;
   z-index: 10;
-  width: 100%;
   bottom: 110%;
   left: 0%;
 }
@@ -501,7 +500,6 @@ body {
   display: flex;
   position: absolute;
   z-index: 10;
-  width: 100%;
   bottom: 110%;
   right: -100%;
 }/*# sourceMappingURL=estilos.css.map */
