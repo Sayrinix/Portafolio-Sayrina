@@ -23,14 +23,16 @@
     display: flex;
    position: relative;
    z-index: 1;
-   height: 300px; 
-   width: 100%;
 }
 
 .img-arreglo-dest{
+    height: 300px; 
+   width: 100%;
     object-fit: cover;
     object-position: center;
     border-radius: 10px;
+    position: absolute;
+    z-index: 2;
 }
 .posicion-imagen-dest-2{
     display: flex;
