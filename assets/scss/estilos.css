@@ -509,7 +509,6 @@ body {
 
 .img-arreglo-category {
   height: 250px;
-  width: 100%;
   -o-object-fit: cover;
      object-fit: cover;
   -o-object-position: center;
