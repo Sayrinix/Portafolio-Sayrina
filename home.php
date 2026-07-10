@@ -89,7 +89,7 @@ get_header();
 </ul>
 <div class="tab-content" id="myTabContent">
   <div class="tab-pane fade show active" id="accesibilidad-tab-pane" role="tabpanel" aria-labelledby="accesibilidad-tab" tabindex="0">
-<div class="container">
+<div class="container mt-5 pt-5">
  <?php
     $paged = get_query_var('paged') ? get_query_var('paged') : 1;
 
@@ -115,7 +115,7 @@ get_header();
                         <?php endif; ?>
                     </a>
                 <div>
-                    <span class="p-brown-2 posicion-span-left"><?php echo get_the_date(); ?></span>
+                    <span class="p-brown-2 posicion-span-left-category"><?php echo get_the_date(); ?></span>
                 </div>
             </div>
             <?php endwhile; ?>

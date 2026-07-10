@@ -517,4 +517,13 @@ body {
   border-radius: 10px;
   position: absolute;
   z-index: 0;
+}
+
+.posicion-span-left-category {
+  display: flex;
+  position: absolute;
+  z-index: 9;
+  top: -100%;
+  left: 0;
+  padding-bottom: 5px;
 }/*# sourceMappingURL=estilos.css.map */
