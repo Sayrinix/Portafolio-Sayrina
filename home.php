@@ -114,9 +114,8 @@ get_header();
                             <img src="<?php echo get_template_directory_uri(); ?>/assets/img/placeholder.jpg" alt="Imagen por defecto" class="img-fluid">
                         <?php endif; ?>
                     </a>
-                <div>
                     <span class="p-brown-2 posicion-span-left-category">hola</span>
-                </div>
+                
             </div>
             <?php endwhile; ?>
             <div class="col-2 ps-3 display-flex flex-column justify-content-center align-items-center">
