@@ -54,8 +54,8 @@ get_header();
                 
         </div>
         <?php endwhile; ?>
-        <div class="col-5 p-3 display-flex flex-column justify-content-center align-items-center">
-            <h3 class="h3-brown"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
+        <div class="col-6 p-3 display-flex flex-column justify-content-center align-items-center">
+            <h3><a class="h3-brown" href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
             <p class="p-brown-2"><?php echo wp_trim_words(get_the_excerpt(), 20, '...'); ?></p>
             <div class="w-auto d-flex justify-content-end">
                 <a class="boton-ver-s" href="<?php the_permalink(); ?>">Ver más</a>
