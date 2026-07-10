@@ -498,4 +498,23 @@ body {
   z-index: 10;
   top: -8%;
   left: 83.6%;
+}
+
+.posicion-imagen-category {
+  display: flex;
+  position: relative;
+  z-index: 1;
+  height: 300px;
+}
+
+.img-arreglo-category {
+  height: 250px;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+  border-radius: 10px;
+  position: absolute;
+  z-index: 0;
 }/*# sourceMappingURL=estilos.css.map */
