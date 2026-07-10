@@ -72,7 +72,7 @@ get_header();
             <?php endif; ?>
 </div>
 
-<div class="container">
+<div>
   <ul class="nav nav-underline" id="myTab" role="tablist">
   <li class="nav-item" role="presentation">
     <button class="nav-link active" id="accesibilidad-tab" data-bs-toggle="tab" data-bs-target="#accesibilidad-tab-pane" type="button" role="tab" aria-controls="accesibilidad-tab-pane" aria-selected="true">Accesibilidad</button>
@@ -89,7 +89,7 @@ get_header();
 </ul>
 <div class="tab-content" id="myTabContent">
   <div class="tab-pane fade show active" id="accesibilidad-tab-pane" role="tabpanel" aria-labelledby="accesibilidad-tab" tabindex="0">
-
+<div class="container">
  <?php
     $paged = get_query_var('paged') ? get_query_var('paged') : 1;
 
@@ -134,6 +134,7 @@ get_header();
     <p>No hay entradas publicadas todavía.</p>
 
 <?php endif; ?>
+</div>
   </div>
   <div class="tab-pane fade" id="profile-tab-pane" role="tabpanel" aria-labelledby="profile-tab" tabindex="0">...</div>
   <div class="tab-pane fade" id="contact-tab-pane" role="tabpanel" aria-labelledby="contact-tab" tabindex="0">...</div>
