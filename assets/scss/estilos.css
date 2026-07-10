@@ -516,7 +516,7 @@ body {
      object-position: center;
   border-radius: 10px;
   position: absolute;
-  z-index: 0;
+  z-index: 2;
 }
 
 .posicion-span-left-category {

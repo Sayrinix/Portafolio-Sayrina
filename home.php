@@ -115,7 +115,7 @@ get_header();
                         <?php endif; ?>
                     </a>
                 <div>
-                    <span class="p-brown-2 posicion-span-left-category"><?php echo get_the_date(); ?></span>
+                    <span class="p-brown-2 posicion-span-left-category">hola</span>
                 </div>
             </div>
             <?php endwhile; ?>
