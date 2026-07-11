@@ -29,7 +29,7 @@ get_header();
             ?>
 
             <?php if ($blog_query->have_posts()) : ?>
-    <div class="row g-1">
+    <div class="row">
         <?php while ($blog_query->have_posts()) : $blog_query->the_post(); ?>
 
         <div class="col-6 posicion-imagen-dest-1">
@@ -53,8 +53,8 @@ get_header();
             </div>       
         </div>
 
-        <div class="col-6">
-            <div class="d-flex flex-column justify-content-end align-items-center">
+        <div class="col-5 ms-5">
+            <div class="d-flex flex-column justify-content-center align-items-center">
                 <h3><a class="h3-brown pb-2" href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
             <p class="p-brown-2"><?php echo wp_trim_words(get_the_excerpt(), 20, '...'); ?></p>
             </div>
