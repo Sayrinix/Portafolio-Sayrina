@@ -89,7 +89,7 @@ get_header();
 </ul>
 <div class="tab-content" id="myTabContent">
   <div class="tab-pane fade show active" id="accesibilidad-tab-pane"            role="tabpanel" aria-labelledby="accesibilidad-tab" tabindex="0">
-        <div class="container mt-5 pt-5">
+        <div class="container mt-5 pt-5 d-flex justify-content-center">
         <?php
             $paged = get_query_var('paged') ? get_query_var('paged') : 1;
 
