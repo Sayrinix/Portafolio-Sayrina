@@ -57,8 +57,8 @@ body {
 .h2-brown-link {
   color: #B07A6D;
   font-weight: bold;
-  font-size: 40px;
-  line-height: 46px;
+  font-size: 32px;
+  line-height: 38px;
   transition: all 0.3s ease;
 }
 .h2-brown-link:hover {

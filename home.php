@@ -84,7 +84,7 @@ get_header();
     <button class="nav-link h2-brown-link" id="seguridad-tab" data-bs-toggle="tab" data-bs-target="#seguridad-tab-pane" type="button" role="tab" aria-controls="seguridad-tab-pane" aria-selected="false">Seguridad Digital</button>
   </li>
   <li class="nav-item" role="presentation">
-    <button class="nav-link h2-brown-link" id="programacion-tab" data-bs-toggle="tab" data-bs-target="#programacion-tab-pane" type="button" role="tab" aria-controls="programacion-tab-pane" aria-selected="false" disabled>Programación</button>
+    <button class="nav-link h2-brown-link" id="programacion-tab" data-bs-toggle="tab" data-bs-target="#programacion-tab-pane" type="button" role="tab" aria-controls="programacion-tab-pane" aria-selected="false">Programación</button>
   </li>
 </ul>
 <div class="tab-content" id="myTabContent">
@@ -266,7 +266,7 @@ get_header();
             <?php endif; ?>
         </div>
   </div>
-  <div class="tab-pane" id="programacion-tab-pane" role="tabpanel" aria-labelledby="programacion-tab" tabindex="0">
+  <div class="tab-pane fade" id="programacion-tab-pane" role="tabpanel" aria-labelledby="programacion-tab" tabindex="0">
         <div class="container mt-5 pt-5">
         <?php
             $paged = get_query_var('paged') ? get_query_var('paged') : 1;
