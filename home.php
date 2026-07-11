@@ -53,9 +53,11 @@ get_header();
             </div>       
         </div>
 
-        <div class="col-6 posicion-texto-destacado">
-            <h3><a class="h3-brown pb-2" href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
+        <div class="col-6 ms-5">
+            <div class="w-auto d-flex justify-content-end align-items-center">
+                <h3><a class="h3-brown pb-2" href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
             <p class="p-brown-2"><?php echo wp_trim_words(get_the_excerpt(), 20, '...'); ?></p>
+            </div>
             <div class="w-auto d-flex justify-content-end">
                 <a class="boton-ver-s" href="<?php the_permalink(); ?>">Ver más</a>
             </div>
