@@ -53,8 +53,8 @@ get_header();
             </div>       
         </div>
 
-        <div class="col-5 ms-5">
-            <div class="d-flex flex-column justify-content-center align-items-center altura-cont-dest">
+        <div class="col-5 ms-5 altura-cont-dest">
+            <div class="d-flex flex-column justify-content-center align-items-center">
                 <h3><a class="h3-brown pb-2" href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
             <p class="p-brown-2"><?php echo wp_trim_words(get_the_excerpt(), 20, '...'); ?></p>
             </div>
@@ -119,8 +119,11 @@ get_header();
                         
                     </div>
                     <div class="col-3 ps-3 display-flex flex-column justify-content-center align-items-center altura-cont-category">
-                        <h3><a class="h3-brown pb-2" href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
-                        <p class="p-brown-2"><?php echo wp_trim_words(get_the_excerpt(), 20, '...'); ?></p>
+                        <div>
+                            <h3><a class="h3-brown pb-2" href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
+                            <p class="p-brown-2"><?php echo wp_trim_words(get_the_excerpt(), 20, '...'); ?></p>
+                        </div>
+                        
                         <div class="w-auto d-flex justify-content-start">
                             <a class="boton-ver-s" href="<?php the_permalink(); ?>">Ver más</a>
                         </div>
