@@ -121,7 +121,7 @@ get_header();
                     <div class="col-3 ps-3 display-flex flex-column justify-content-center align-items-center">
                         <h3><a class="h3-brown pb-2" href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
                         <p class="p-brown-2"><?php echo wp_trim_words(get_the_excerpt(), 20, '...'); ?></p>
-                        <div class="w-auto d-flex justify-content-start align-items-end h-auto">
+                        <div class="w-auto d-flex justify-content-start align-items-end altura-btn-category">
                             <a class="boton-ver-s" href="<?php the_permalink(); ?>">Ver más</a>
                         </div>
                     </div>
