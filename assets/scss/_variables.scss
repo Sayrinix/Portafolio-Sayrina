@@ -64,6 +64,27 @@ body {
     line-height: 46px;
 }
 
+.h2-brown-link{
+    color: $color-2;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 46px;
+    transition: all 0.3s ease;
+
+    &:hover{
+        color: $color-7;
+        transform: translateY(-2px);
+        box-shadow: 0 12px 24px rgba(73, 48, 34, 0.1);
+    }
+}
+
+.active{
+    color: $color-7 !important;
+    font-weight: bold !important;
+    font-size: 40px !important;
+    line-height: 46px !important;
+}
+
 .h3-brown{
     color: $color-3;
     font-weight: bold;

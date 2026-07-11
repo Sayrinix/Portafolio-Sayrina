@@ -72,72 +72,259 @@ get_header();
             <?php endif; ?>
 </div>
 
-<div>
+<div class="display-flex justify-content-center">
   <ul class="nav nav-underline" id="myTab" role="tablist">
   <li class="nav-item" role="presentation">
-    <button class="nav-link active" id="accesibilidad-tab" data-bs-toggle="tab" data-bs-target="#accesibilidad-tab-pane" type="button" role="tab" aria-controls="accesibilidad-tab-pane" aria-selected="true">Accesibilidad</button>
+    <button class="nav-link active h2-brown-link" id="accesibilidad-tab" data-bs-toggle="tab" data-bs-target="#accesibilidad-tab-pane" type="button" role="tab" aria-controls="accesibilidad-tab-pane" aria-selected="true">Accesibilidad</button>
   </li>
   <li class="nav-item" role="presentation">
-    <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile-tab-pane" type="button" role="tab" aria-controls="profile-tab-pane" aria-selected="false">Profile</button>
+    <button class="nav-link h2-brown-link" id="posicionamiento-tab" data-bs-toggle="tab" data-bs-target="#posicionamiento-tab-pane" type="button" role="tab" aria-controls="posicionamiento-tab-pane" aria-selected="false">Posicionamiento Web</button>
   </li>
   <li class="nav-item" role="presentation">
-    <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact-tab-pane" type="button" role="tab" aria-controls="contact-tab-pane" aria-selected="false">Contact</button>
+    <button class="nav-link h2-brown-link" id="seguridad-tab" data-bs-toggle="tab" data-bs-target="#seguridad-tab-pane" type="button" role="tab" aria-controls="seguridad-tab-pane" aria-selected="false">Seguridad Digital</button>
   </li>
   <li class="nav-item" role="presentation">
-    <button class="nav-link" id="disabled-tab" data-bs-toggle="tab" data-bs-target="#disabled-tab-pane" type="button" role="tab" aria-controls="disabled-tab-pane" aria-selected="false" disabled>Disabled</button>
+    <button class="nav-link h2-brown-link" id="programacion-tab" data-bs-toggle="tab" data-bs-target="#programacion-tab-pane" type="button" role="tab" aria-controls="programacion-tab-pane" aria-selected="false" disabled>Programación</button>
   </li>
 </ul>
 <div class="tab-content" id="myTabContent">
-  <div class="tab-pane fade show active" id="accesibilidad-tab-pane" role="tabpanel" aria-labelledby="accesibilidad-tab" tabindex="0">
-<div class="container mt-5 pt-5">
- <?php
-    $paged = get_query_var('paged') ? get_query_var('paged') : 1;
+  <div class="tab-pane fade show active" id="accesibilidad-tab-pane"            role="tabpanel" aria-labelledby="accesibilidad-tab" tabindex="0">
+        <div class="container mt-5 pt-5">
+        <?php
+            $paged = get_query_var('paged') ? get_query_var('paged') : 1;
 
-    $args = array(
-        'post_type'      => 'post',
-        'posts_per_page' => 4,
-        'paged'          => $paged,
-        'category_name'  => 'accesibilidad',
-    );
+            $args = array(
+                'post_type'      => 'post',
+                'posts_per_page' => 4,
+                'paged'          => $paged,
+                'category_name'  => 'accesibilidad',
+            );
 
-    $blog_query = new WP_Query($args);
-    ?>
+            $blog_query = new WP_Query($args);
+            ?>
 
-    <?php if ($blog_query->have_posts()) : ?>
-        <div class="row">
-            <?php while ($blog_query->have_posts()) : $blog_query->the_post(); ?>
-            <div class="col-3 posicion-imagen-category">
-                <a href="<?php the_permalink(); ?>">
-                        <?php if (has_post_thumbnail()) : ?>
-                            <?php the_post_thumbnail('large', array('class' => 'img-arreglo-category')); ?>
-                        <?php else : ?>
-                            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/placeholder.jpg" alt="Imagen por defecto" class="img-fluid">
-                        <?php endif; ?>
-                    </a>
-                    <span class="p-brown-2 posicion-span-left-category"><?php echo get_the_date(); ?></span>
-                
-            </div>
-            <?php endwhile; ?>
-            <div class="col-2 ps-3 display-flex flex-column justify-content-center align-items-center">
-                <h3><a class="h3-brown pb-2" href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
-                <p class="p-brown-2"><?php echo wp_trim_words(get_the_excerpt(), 20, '...'); ?></p>
-                <div class="w-auto d-flex justify-content-start">
-                    <a class="boton-ver-s" href="<?php the_permalink(); ?>">Ver más</a>
+            <?php if ($blog_query->have_posts()) : ?>
+                <div class="row">
+                    <?php while ($blog_query->have_posts()) : $blog_query->the_post(); ?>
+                    <div class="col-3 posicion-imagen-category">
+                        <a href="<?php the_permalink(); ?>">
+                                <?php if (has_post_thumbnail()) : ?>
+                                    <?php the_post_thumbnail('large', array('class' => 'img-arreglo-category')); ?>
+                                <?php else : ?>
+                                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/placeholder.jpg" alt="Imagen por defecto" class="img-fluid">
+                                <?php endif; ?>
+                            </a>
+                            <span class="p-brown-2 posicion-span-left-category"><?php echo get_the_date(); ?></span>
+                        
+                    </div>
+                    <div class="col-2 ps-3 display-flex flex-column justify-content-center align-items-center">
+                        <h3><a class="h3-brown pb-2" href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
+                        <p class="p-brown-2"><?php echo wp_trim_words(get_the_excerpt(), 20, '...'); ?></p>
+                        <div class="w-auto d-flex justify-content-start">
+                            <a class="boton-ver-s" href="<?php the_permalink(); ?>">Ver más</a>
+                        </div>
+                    </div>
+                    <?php endwhile; ?>
+                    <nav class="paginacion-proyectos" aria-label="Paginación de proyectos">
+                            <?php
+                            echo paginate_links(array(
+                                'total'     => $projects_query->max_num_pages,
+                                'prev_text' => '← Anterior',
+                                'next_text' => 'Siguiente →',
+                                'type'      => 'list',
+                                'current'   => max(1, $paged)
+
+                            ));
+                            ?>
+                    </nav>
                 </div>
-            </div>
+            <?php wp_reset_postdata(); ?>
+
+            <?php else : ?>
+
+                <p>No hay entradas publicadas todavía.</p>
+
+            <?php endif; ?>
         </div>
-<?php wp_reset_postdata(); ?>
+    </div>
+  <div class="tab-pane fade" id="posicionamiento-tab-pane" role="tabpanel" aria-labelledby="posicionamiento-tab" tabindex="0">
 
-<?php else : ?>
+    <div class="container mt-5 pt-5">
+        <?php
+            $paged = get_query_var('paged') ? get_query_var('paged') : 1;
 
-    <p>No hay entradas publicadas todavía.</p>
+            $args = array(
+                'post_type'      => 'post',
+                'posts_per_page' => 4,
+                'paged'          => $paged,
+                'category_name'  => 'posicionamiento',
+            );
 
-<?php endif; ?>
-</div>
+            $blog_query = new WP_Query($args);
+            ?>
+
+            <?php if ($blog_query->have_posts()) : ?>
+                <div class="row">
+                    <?php while ($blog_query->have_posts()) : $blog_query->the_post(); ?>
+                    <div class="col-3 posicion-imagen-category">
+                        <a href="<?php the_permalink(); ?>">
+                                <?php if (has_post_thumbnail()) : ?>
+                                    <?php the_post_thumbnail('large', array('class' => 'img-arreglo-category')); ?>
+                                <?php else : ?>
+                                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/placeholder.jpg" alt="Imagen por defecto" class="img-fluid">
+                                <?php endif; ?>
+                            </a>
+                            <span class="p-brown-2 posicion-span-left-category"><?php echo get_the_date(); ?></span>
+                        
+                    </div>
+                    <div class="col-2 ps-3 display-flex flex-column justify-content-center align-items-center">
+                        <h3><a class="h3-brown pb-2" href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
+                        <p class="p-brown-2"><?php echo wp_trim_words(get_the_excerpt(), 20, '...'); ?></p>
+                        <div class="w-auto d-flex justify-content-start">
+                            <a class="boton-ver-s" href="<?php the_permalink(); ?>">Ver más</a>
+                        </div>
+                    </div>
+                    <?php endwhile; ?>
+                    <nav class="paginacion-proyectos" aria-label="Paginación de proyectos">
+                            <?php
+                            echo paginate_links(array(
+                                'total'     => $projects_query->max_num_pages,
+                                'prev_text' => '← Anterior',
+                                'next_text' => 'Siguiente →',
+                                'type'      => 'list',
+                                'current'   => max(1, $paged)
+
+                            ));
+                            ?>
+                    </nav>
+                </div>
+            <?php wp_reset_postdata(); ?>
+
+            <?php else : ?>
+
+                <p>No hay entradas publicadas todavía.</p>
+
+            <?php endif; ?>
+        </div>
   </div>
-  <div class="tab-pane fade" id="profile-tab-pane" role="tabpanel" aria-labelledby="profile-tab" tabindex="0">...</div>
-  <div class="tab-pane fade" id="contact-tab-pane" role="tabpanel" aria-labelledby="contact-tab" tabindex="0">...</div>
-  <div class="tab-pane fade" id="disabled-tab-pane" role="tabpanel" aria-labelledby="disabled-tab" tabindex="0">...</div>
+  <div class="tab-pane fade" id="seguridad-tab-pane" role="tabpanel" aria-labelledby="seguridad-tab" tabindex="0">
+        <div class="container mt-5 pt-5">
+        <?php
+            $paged = get_query_var('paged') ? get_query_var('paged') : 1;
+
+            $args = array(
+                'post_type'      => 'post',
+                'posts_per_page' => 4,
+                'paged'          => $paged,
+                'category_name'  => 'seguridad',
+            );
+
+            $blog_query = new WP_Query($args);
+            ?>
+
+            <?php if ($blog_query->have_posts()) : ?>
+                <div class="row">
+                    <?php while ($blog_query->have_posts()) : $blog_query->the_post(); ?>
+                    <div class="col-3 posicion-imagen-category">
+                        <a href="<?php the_permalink(); ?>">
+                                <?php if (has_post_thumbnail()) : ?>
+                                    <?php the_post_thumbnail('large', array('class' => 'img-arreglo-category')); ?>
+                                <?php else : ?>
+                                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/placeholder.jpg" alt="Imagen por defecto" class="img-fluid">
+                                <?php endif; ?>
+                            </a>
+                            <span class="p-brown-2 posicion-span-left-category"><?php echo get_the_date(); ?></span>
+                        
+                    </div>
+                    <div class="col-2 ps-3 display-flex flex-column justify-content-center align-items-center">
+                        <h3><a class="h3-brown pb-2" href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
+                        <p class="p-brown-2"><?php echo wp_trim_words(get_the_excerpt(), 20, '...'); ?></p>
+                        <div class="w-auto d-flex justify-content-start">
+                            <a class="boton-ver-s" href="<?php the_permalink(); ?>">Ver más</a>
+                        </div>
+                    </div>
+                    <?php endwhile; ?>
+                    <nav class="paginacion-proyectos" aria-label="Paginación de proyectos">
+                            <?php
+                            echo paginate_links(array(
+                                'total'     => $projects_query->max_num_pages,
+                                'prev_text' => '← Anterior',
+                                'next_text' => 'Siguiente →',
+                                'type'      => 'list',
+                                'current'   => max(1, $paged)
+
+                            ));
+                            ?>
+                    </nav>
+                </div>
+            <?php wp_reset_postdata(); ?>
+
+            <?php else : ?>
+
+                <p>No hay entradas publicadas todavía.</p>
+
+            <?php endif; ?>
+        </div>
+  </div>
+  <div class="tab-pane" id="programacion-tab-pane" role="tabpanel" aria-labelledby="programacion-tab" tabindex="0">
+        <div class="container mt-5 pt-5">
+        <?php
+            $paged = get_query_var('paged') ? get_query_var('paged') : 1;
+
+            $args = array(
+                'post_type'      => 'post',
+                'posts_per_page' => 4,
+                'paged'          => $paged,
+                'category_name'  => 'programacion',
+            );
+
+            $blog_query = new WP_Query($args);
+            ?>
+
+            <?php if ($blog_query->have_posts()) : ?>
+                <div class="row">
+                    <?php while ($blog_query->have_posts()) : $blog_query->the_post(); ?>
+                    <div class="col-3 posicion-imagen-category">
+                        <a href="<?php the_permalink(); ?>">
+                                <?php if (has_post_thumbnail()) : ?>
+                                    <?php the_post_thumbnail('large', array('class' => 'img-arreglo-category')); ?>
+                                <?php else : ?>
+                                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/placeholder.jpg" alt="Imagen por defecto" class="img-fluid">
+                                <?php endif; ?>
+                            </a>
+                            <span class="p-brown-2 posicion-span-left-category"><?php echo get_the_date(); ?></span>
+                        
+                    </div>
+                    <div class="col-2 ps-3 display-flex flex-column justify-content-center align-items-center">
+                        <h3><a class="h3-brown pb-2" href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
+                        <p class="p-brown-2"><?php echo wp_trim_words(get_the_excerpt(), 20, '...'); ?></p>
+                        <div class="w-auto d-flex justify-content-start">
+                            <a class="boton-ver-s" href="<?php the_permalink(); ?>">Ver más</a>
+                        </div>
+                    </div>
+                    <?php endwhile; ?>
+                    <nav class="paginacion-proyectos" aria-label="Paginación de proyectos">
+                            <?php
+                            echo paginate_links(array(
+                                'total'     => $projects_query->max_num_pages,
+                                'prev_text' => '← Anterior',
+                                'next_text' => 'Siguiente →',
+                                'type'      => 'list',
+                                'current'   => max(1, $paged)
+
+                            ));
+                            ?>
+                    </nav>
+                </div>
+            <?php wp_reset_postdata(); ?>
+
+            <?php else : ?>
+
+                <p>No hay entradas publicadas todavía.</p>
+
+            <?php endif; ?>
+        </div>
+  </div>
 </div>
 </div>
 <?php get_footer(); ?>
