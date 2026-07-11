@@ -72,8 +72,8 @@ get_header();
             <?php endif; ?>
 </div>
 
-<div class="display-flex justify-content-center">
-  <ul class="nav nav-underline" id="myTab" role="tablist">
+<div>
+  <ul class="nav nav-underline display-flex justify-content-center" id="myTab" role="tablist">
   <li class="nav-item" role="presentation">
     <button class="nav-link active h2-brown-link" id="accesibilidad-tab" data-bs-toggle="tab" data-bs-target="#accesibilidad-tab-pane" type="button" role="tab" aria-controls="accesibilidad-tab-pane" aria-selected="true">Accesibilidad</button>
   </li>
