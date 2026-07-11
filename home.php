@@ -53,7 +53,7 @@ get_header();
             </div>       
         </div>
 
-        <div class="col-6 ps-3 display-flex flex-column justify-content-center align-items-center">
+        <div class="col-6 posicion-texto-destacado">
             <h3><a class="h3-brown pb-2" href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
             <p class="p-brown-2"><?php echo wp_trim_words(get_the_excerpt(), 20, '...'); ?></p>
             <div class="w-auto d-flex justify-content-end">
