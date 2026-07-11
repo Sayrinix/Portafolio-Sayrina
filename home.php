@@ -106,7 +106,7 @@ get_header();
     <?php if ($blog_query->have_posts()) : ?>
         <div class="row">
             <?php while ($blog_query->have_posts()) : $blog_query->the_post(); ?>
-            <div class="col-3 posicion-imagen-category{">
+            <div class="col-3 posicion-imagen-category">
                 <a href="<?php the_permalink(); ?>">
                         <?php if (has_post_thumbnail()) : ?>
                             <?php the_post_thumbnail('large', array('class' => 'img-arreglo-category')); ?>
@@ -114,7 +114,7 @@ get_header();
                             <img src="<?php echo get_template_directory_uri(); ?>/assets/img/placeholder.jpg" alt="Imagen por defecto" class="img-fluid">
                         <?php endif; ?>
                     </a>
-                    <span class="p-brown-2 posicion-span-left-category">hola</span>
+                    <span class="p-brown-2 posicion-span-left-category"><?php echo get_the_date(); ?></span>
                 
             </div>
             <?php endwhile; ?>
