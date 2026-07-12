@@ -612,7 +612,8 @@ body {
 
 .bg-color-hab {
   background-color: #F8E1DD;
-  width: 100%;
+  width: 100vh;
+  padding: 50px;
 }
 
 .arreglo-img-hab-bl {
