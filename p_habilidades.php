@@ -15,7 +15,7 @@ get_header();
         <div class="col-4">
             <div class="row">
                 <div class="col">
-                    <img src="<?php echo esc_url(get_template_directory_uri() . '/assets/img/habilidad-1.jpg')?>" alt="Un hombre y una mujer trabajando y analizando datos.">
+                    <img class="arreglo-img-hab-bl" src="<?php echo esc_url(get_template_directory_uri() . '/assets/img/habilidad-1.jpg')?>" alt="Un hombre y una mujer trabajando y analizando datos.">
                 </div>
                 <div class="col">
                     <h3 class="h3-brown">Titulo</h3>

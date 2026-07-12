@@ -3,6 +3,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
+    background-position: center;
     z-index: 1;
     height: 500px;
     width: 100%;
@@ -11,4 +12,12 @@
 .bg-color-hab{
     background-color: $color-5;
     width: 100%;
+}
+
+.arreglo-img-hab-bl{
+    height: 190px; 
+    width: 190px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 10px;
 }

@@ -604,6 +604,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
+  background-position: center;
   z-index: 1;
   height: 500px;
   width: 100%;
@@ -612,4 +613,14 @@ body {
 .bg-color-hab {
   background-color: #F8E1DD;
   width: 100%;
+}
+
+.arreglo-img-hab-bl {
+  height: 190px;
+  width: 190px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+  border-radius: 10px;
 }/*# sourceMappingURL=estilos.css.map */
