@@ -7,7 +7,7 @@ get_header();
 <main>
  <div class="metodologia-banner">
  </div>
- <div class="container mt-5 pt-5 d-flex justify-content-center align-items-center h-100">
+ <div class="container mt-5 pt-5 d-flex flex-column justify-content-center align-items-center h-100">
     <div class="row">
        <h1 class="h1-brown text-center">Habilidades Blandas</h1>  
     </div>
