@@ -93,3 +93,19 @@
 .altura-cont-dest{
     height: 300px;
 }
+
+.img-principal-single-blog{
+    height: 470px; 
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 10px;
+}
+
+.img-sec-single-blog{
+   height: 300px; 
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 10px; 
+}
