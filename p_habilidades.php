@@ -11,8 +11,8 @@ get_header();
     <div class="row">
        <h1 class="h1-brown text-center">Habilidades Blandas</h1>  
     </div>
-    <div class="row bg-color-hab">
-        <div>
+    <div class="bg-color-hab">
+        <div class="row">
             <div class="col-4">
                 <div class="row">
                     <div class="col">
