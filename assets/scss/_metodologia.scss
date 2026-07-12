@@ -1,0 +1,14 @@
+.metodologia-banner{
+     background-image: url(../img/banner-met.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+    z-index: 1;
+    height: 500px;
+    width: 100%;
+}
+
+.bg-color-hab{
+    background-color: $color-5;
+    width: 100%;
+}
