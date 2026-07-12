@@ -602,7 +602,7 @@ body {
 .metodologia-banner {
   background-image: url(../img/banner-met.jpg);
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
   position: relative;
   z-index: 1;
   height: 500px;
