@@ -586,4 +586,14 @@ body {
   -o-object-position: center;
      object-position: center;
   border-radius: 10px;
+}
+
+.img-arreglo-single-blog {
+  height: 250px;
+  width: 250px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+  border-radius: 10px;
 }/*# sourceMappingURL=estilos.css.map */

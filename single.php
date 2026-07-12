@@ -70,7 +70,7 @@
                         <article class="d-flex flex-column align-items-center mb-3 pb-3">
                                 <a href="<?php the_permalink(); ?>">
                                     <?php if (has_post_thumbnail()) : ?>
-                                        <?php the_post_thumbnail('large', array('class' => 'img-arreglo-category')); ?>
+                                        <?php the_post_thumbnail('large', array('class' => 'img-arreglo-single-blog')); ?>
                                     <?php else : ?>
                                         <img src="<?php echo get_template_directory_uri(); ?>/assets/img/placeholder.jpg" alt="Imagen por defecto" class="img-fluid">
                                     <?php endif; ?>
