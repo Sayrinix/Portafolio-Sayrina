@@ -111,8 +111,9 @@
 }
 
 .img-arreglo-single-blog{
-    height: 250px;
-    width: 250px; 
+    height: 200px;
+    max-width: 200px;
+    width: 100%;
     object-fit: cover;
     object-position: center;
     border-radius: 10px;

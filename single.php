@@ -50,7 +50,7 @@
                 </div>
                 
             </div>
-            <div class="col-4">
+            <div class="col-4 ps-5 pe-5">
                 <aside>
                      <?php
                         $proyectos_recomendados = new WP_Query(array(
@@ -68,7 +68,7 @@
                         <?php while ($proyectos_recomendados->have_posts()) : $proyectos_recomendados->the_post(); ?>
 
                         <article class="d-flex flex-column align-items-center mb-3 pb-3">
-                                <a href="<?php the_permalink(); ?>">
+                                <a href="<?php the_permalink(); ?>" class="mb-3">
                                     <?php if (has_post_thumbnail()) : ?>
                                         <?php the_post_thumbnail('large', array('class' => 'img-arreglo-single-blog')); ?>
                                     <?php else : ?>
@@ -76,7 +76,7 @@
                                     <?php endif; ?>
                                 </a>
 
-                            <h3 class="h3-brown-s">
+                            <h3 class="h3-brown-s text-center">
                                 <?php the_title(); ?>
                             </h3>
 
