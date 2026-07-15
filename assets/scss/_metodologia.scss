@@ -29,6 +29,9 @@ height: 350px;
 width: 290px;
 border-radius: 10px;
 padding: 20px;
+display: flex;
+flex-direction: column;
+justify-content: center;
 }
 
 .bg-color-tecnicas-2{
@@ -37,13 +40,16 @@ height: 350px;
 width: 290px;
 border-radius: 10px;
 padding: 20px;
+display: flex;
+flex-direction: column;
+justify-content: center;
 }
 
-.carousel-control-prev-icon{
+.carousel-control-prev{
     color: $color-7 !important;
 }
 
-.carousel-control-next-icon{
+.carousel-control-next{
     color: $color-7 !important;
 }
 
