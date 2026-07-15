@@ -74,10 +74,10 @@ get_header();
         </div>
     
  </div>
- <div class="h2-brown text-center">
+ <div class="h2-brown text-center mt-5 pt-5">
     Habilidades Técnicas
  </div>
- <div id="carouselExample" class="carousel slide">
+ <div id="carouselExample" class="carousel slide mt-5">
   <div class="carousel-inner">
     <div class="carousel-item active d-flex justify-content-center">
       <div class="text-center bg-color-tecnicas-1 me-3">
