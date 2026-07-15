@@ -141,6 +141,11 @@ get_header();
         <span class="visually-hidden">Siguiente</span>
     </button>
 </div>
-   
+
+<div class="mt-5 pt-5">
+    <div>
+        <img src="<?php echo esc_url(get_template_directory_uri() . '/assets/img/metodologia.png')?>" alt="">
+    </div>
+</div>
 </main>
 <?php get_footer(); ?>

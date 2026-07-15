@@ -639,4 +639,12 @@ body {
   width: 290px;
   border-radius: 10px;
   padding: 20px;
+}
+
+.carousel-control-prev-icon {
+  color: #493022 !important;
+}
+
+.arousel-control-next-icon {
+  color: #493022 !important;
 }/*# sourceMappingURL=estilos.css.map */
