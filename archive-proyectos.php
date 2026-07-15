@@ -9,7 +9,7 @@ get_header();
 
     </div>
     <div class="container-fluid altura-div-filtros">
-        <div class="d-flex justify-content-center gap-3 mb-5">
+        <div class="d-flex justify-content-center gap-5 mb-5">
             <button class="boton-ver boton-filtro active" data-filter="todos">
                 Todos
             </button>
