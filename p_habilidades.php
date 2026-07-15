@@ -74,57 +74,72 @@ get_header();
         </div>
     
  </div>
- <div class="h2-brown text-center mt-5 pt-5">
-    Habilidades Técnicas
- </div>
- <div id="carouselExample" class="carousel slide mt-5">
-  <div class="carousel-inner">
-    <div class="carousel-item active d-flex justify-content-center">
-      <div class="text-center bg-color-tecnicas-1 me-3">
-        <h3 class="h3-brown">Diseño UX/UI</h3>
-        <p class="p-brown"></p>
-      </div>
-      <div class="text-center bg-color-tecnicas-2 me-3">
-        <h3 class="h3-brown">Diseño UX/UI</h3>
-        <p class="p-brown"></p>
-      </div>
-      <div class="text-center bg-color-tecnicas-1 me-3">
-        <h3 class="h3-brown">Diseño UX/UI</h3>
-        <p class="p-brown"></p>
-      </div>
-      <div class="text-center bg-color-tecnicas-2 me-3">
-        <h3 class="h3-brown">Diseño UX/UI</h3>
-        <p class="p-brown"></p>
-      </div>
+ <div class="text-center mt-5 pt-5">
+    <h2 class="h2-brown">Habilidades Técnicas</h2>
+</div>
+
+<div id="carouselExample" class="carousel slide mt-5">
+    <div class="carousel-inner">
+
+        <div class="carousel-item active">
+            <div class="d-flex justify-content-center">
+                <div class="text-center bg-color-tecnicas-1 me-3">
+                    <h3 class="h3-brown">Diseño UX/UI</h3>
+                    <p class="p-brown"></p>
+                </div>
+
+                <div class="text-center bg-color-tecnicas-2 me-3">
+                    <h3 class="h3-brown">HTML/CSS</h3>
+                    <p class="p-brown"></p>
+                </div>
+
+                <div class="text-center bg-color-tecnicas-1 me-3">
+                    <h3 class="h3-brown">CMS Wordpress</h3>
+                    <p class="p-brown"></p>
+                </div>
+
+                <div class="text-center bg-color-tecnicas-2 me-3">
+                    <h3 class="h3-brown">Javascript</h3>
+                    <p class="p-brown"></p>
+                </div>
+            </div>
+        </div>
+
+        <div class="carousel-item">
+            <div class="d-flex justify-content-center">
+                <div class="text-center bg-color-tecnicas-1 me-3">
+                    <h3 class="h3-brown">Accesibilidad Web</h3>
+                    <p class="p-brown"></p>
+                </div>
+
+                <div class="text-center bg-color-tecnicas-2 me-3">
+                    <h3 class="h3-brown">SEO y Posicionamiento</h3>
+                    <p class="p-brown"></p>
+                </div>
+
+                <div class="text-center bg-color-tecnicas-1 me-3">
+                    <h3 class="h3-brown">Elementor PRO</h3>
+                    <p class="p-brown"></p>
+                </div>
+
+                <div class="text-center bg-color-tecnicas-2 me-3">
+                    <h3 class="h3-brown">Wordpress Headless</h3>
+                    <p class="p-brown"></p>
+                </div>
+            </div>
+        </div>
+
     </div>
-    <div class="carousel-item d-flex justify-content-center">
-      <div class="text-center bg-color-tecnicas-1 me-3">
-        <h3 class="h3-brown">Diseño UX/UI</h3>
-        <p class="p-brown"></p>
-      </div>
-      <div class="text-center bg-color-tecnicas-2 me-3">
-        <h3 class="h3-brown">Diseño UX/UI</h3>
-        <p class="p-brown"></p>
-      </div>
-      <div class="text-center bg-color-tecnicas-1 me-3">
-        <h3 class="h3-brown">Diseño UX/UI</h3>
-        <p class="p-brown"></p>
-      </div>
-      <div class="text-center bg-color-tecnicas-2 me-3">
-        <h3 class="h3-brown">Diseño UX/UI</h3>
-        <p class="p-brown"></p>
-      </div>
-    </div>
-    
-  </div>
-  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Previous</span>
-  </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Next</span>
-  </button>
+
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Anterior</span>
+    </button>
+
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Siguiente</span>
+    </button>
 </div>
    
 </main>
