@@ -144,7 +144,7 @@ get_header();
 <div class="mt-5 pt-5 w-100">
     <h2 class="h2-brown text-center">Metodología</h2>
 </div>
-<div class="mt-3 mb-5 pb-5 posicion-div-met">
+<div class="pt-5 mb-5 pb-5 posicion-div-met">
     <div class="mt-5 w-100 d-flex justify-content-center">
         <img src="<?php echo esc_url(get_template_directory_uri() . '/assets/img/metodologia.png')?>" alt="">
     </div>
