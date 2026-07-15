@@ -719,4 +719,13 @@ body {
   padding: 50px;
   height: auto;
   width: 670px;
+}
+
+.bg-color-cv {
+  background-color: #F8E1DD;
+  height: 385px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }/*# sourceMappingURL=estilos.css.map */
