@@ -82,7 +82,7 @@ get_header();
     <div class="carousel-inner">
 
         <div class="carousel-item active">
-            <div class="d-flex justify-content-center">
+            <div class="d-flex justify-content-center align-items-center">
                 <div class="text-center bg-color-tecnicas-1 me-3">
                     <h3 class="h3-brown pb-3">Diseño UX/UI</h3>
                     <p class="p-brown-2">Diseño interfaces claras, funcionales y centradas en mejorar la experiencia de las personas usuarias.</p>
@@ -106,7 +106,7 @@ get_header();
         </div>
 
         <div class="carousel-item">
-            <div class="d-flex justify-content-center">
+            <div class="d-flex justify-content-center align-items-center">
                 <div class="text-center bg-color-tecnicas-1 me-3">
                     <h3 class="h3-brown pb-3">Accesibilidad Web</h3>
                     <p class="p-brown-2">Creo soluciones digitales más inclusivas, considerando navegación clara, contraste, estructura semántica y diversidad de usuarios.</p>
