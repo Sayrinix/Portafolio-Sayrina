@@ -711,4 +711,10 @@ body {
   justify-content: center;
   width: 100%;
   align-items: center;
+}
+
+.bg-color-contacto-form {
+  background-color: #F8E1DD;
+  border-radius: 10px;
+  padding: 20px;
 }/*# sourceMappingURL=estilos.css.map */
