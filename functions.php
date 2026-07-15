@@ -101,3 +101,30 @@ function sayrina_register_project_post_type() {
 }
 
 add_action('init', 'sayrina_register_project_post_type');
+
+function registrar_taxonomia_estado_proyecto() {
+
+    $labels = array(
+        'name'              => 'Estados de proyecto',
+        'singular_name'     => 'Estado de proyecto',
+        'search_items'      => 'Buscar estados',
+        'all_items'         => 'Todos los estados',
+        'edit_item'         => 'Editar estado',
+        'update_item'       => 'Actualizar estado',
+        'add_new_item'      => 'Agregar nuevo estado',
+        'new_item_name'     => 'Nuevo estado',
+        'menu_name'         => 'Estados de proyecto',
+    );
+
+    $args = array(
+        'hierarchical'      => true,
+        'labels'            => $labels,
+        'show_ui'           => true,
+        'show_admin_column' => true,
+        'query_var'         => true,
+        'rewrite'           => array('slug' => 'estado-proyecto'),
+    );
+
+    register_taxonomy('estado_proyecto', array('proyecto'), $args);
+}
+add_action('init', 'registrar_taxonomia_estado_proyecto');
