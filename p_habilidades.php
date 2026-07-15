@@ -84,8 +84,14 @@ get_header();
         <h3 class="h3-brown">Diseño UX/UI</h3>
         <p class="p-brown"></p>
       </div>
-    </div>
-    <div class="carousel-item">
+      <div class="text-center bg-color-tecnicas-2">
+        <h3 class="h3-brown">Diseño UX/UI</h3>
+        <p class="p-brown"></p>
+      </div>
+      <div class="text-center bg-color-tecnicas-1">
+        <h3 class="h3-brown">Diseño UX/UI</h3>
+        <p class="p-brown"></p>
+      </div>
       <div class="text-center bg-color-tecnicas-2">
         <h3 class="h3-brown">Diseño UX/UI</h3>
         <p class="p-brown"></p>
@@ -96,36 +102,20 @@ get_header();
         <h3 class="h3-brown">Diseño UX/UI</h3>
         <p class="p-brown"></p>
       </div>
-    </div>
-    <div class="carousel-item">
       <div class="text-center bg-color-tecnicas-2">
         <h3 class="h3-brown">Diseño UX/UI</h3>
         <p class="p-brown"></p>
       </div>
-    </div>
-    <div class="carousel-item">
       <div class="text-center bg-color-tecnicas-1">
         <h3 class="h3-brown">Diseño UX/UI</h3>
         <p class="p-brown"></p>
       </div>
-    </div>
-    <div class="carousel-item">
       <div class="text-center bg-color-tecnicas-2">
         <h3 class="h3-brown">Diseño UX/UI</h3>
         <p class="p-brown"></p>
       </div>
     </div>
-    <div class="carousel-item">
-      <div class="text-center bg-color-tecnicas-1">
-        <h3 class="h3-brown">Diseño UX/UI</h3>
-        <p class="p-brown"></p>
-      </div>
-    </div>
-    <div class="carousel-item">
-      <div class="text-center bg-color-tecnicas-2">
-        <h3 class="h3-brown">Diseño UX/UI</h3>
-        <p class="p-brown"></p>
-      </div>
+    
   </div>
   <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
