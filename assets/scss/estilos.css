@@ -708,5 +708,7 @@ body {
   background-color: #F8E1DD;
   height: 385px;
   display: flex;
-  justify-content: baseline;
+  justify-content: center;
+  width: 100%;
+  align-items: center;
 }/*# sourceMappingURL=estilos.css.map */
