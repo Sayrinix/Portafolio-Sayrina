@@ -143,7 +143,7 @@ get_header();
 </div>
 
 <div class="mt-5 pt-5">
-    <div class="mt-5 d-flex justify-content-center">
+    <div class="mt-5 w-100 d-flex justify-content-center">
         <img src="<?php echo esc_url(get_template_directory_uri() . '/assets/img/metodologia.png')?>" alt="">
     </div>
 </div>
