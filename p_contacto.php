@@ -35,7 +35,7 @@ get_header();
         </div>
     </div>
     <div>
-        <div class="mb-3">
+        <div class="mb-5">
             <label class="form-label" for="floatingTextarea">Consulta</label>
         <textarea rows="3" class="form-control" placeholder="Escribe tu consulta..." id="floatingTextarea"></textarea>
         
