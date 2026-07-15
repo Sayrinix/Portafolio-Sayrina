@@ -5,14 +5,14 @@ Template Name: Home
 get_header();
 ?>
 <main>
-<div class="container-fluid">
+
 <div class="bg-image w-100 d-flex justify-content-start ms-5 ps-4 align-items-center h-100">
     <div>
         <p class="p-light">Sayrina Luciano - UX Designer & Web Developer</p>
         <h1 class="h1-light">Cada proyecto cuenta una<br>historia. Esta es la mía.</h1>
     </div>
 </div> 
-</div>
+
 
 <div class="container mb-5 altura-div1">
         <h2 class="h2-brown pb-5 text-center">Próximos Proyectos</h2>
