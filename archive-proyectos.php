@@ -62,7 +62,7 @@ get_header();
                     }
         ?>
 
-        <div class="col-6 proyecto-item" data-category="<?php echo esc_attr(trim($estado_slugs)); ?>">
+        <div class="col-12 col-md-6 proyecto-item" data-category="<?php echo esc_attr(trim($estado_slugs)); ?>">
             <div class="row">
                 <div class="col-6 altura-div-destacada mb-5 mt-5">
                 
