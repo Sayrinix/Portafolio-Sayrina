@@ -623,4 +623,18 @@ body {
   -o-object-position: center;
      object-position: center;
   border-radius: 10px;
+}
+
+.bg-color-tecnicas-1 {
+  background-color: #F8E1DD;
+  height: 350px;
+  width: 295px;
+  border-radius: 10px;
+}
+
+.bg-color-tecnicas-2 {
+  background-color: #E0C4BE;
+  height: 350px;
+  width: 295px;
+  border-radius: 10px;
 }/*# sourceMappingURL=estilos.css.map */

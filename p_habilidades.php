@@ -74,6 +74,68 @@ get_header();
         </div>
     
  </div>
+ <div class="h2-brown text-center">
+    Habilidades Técnicas
+ </div>
+ <div id="carouselExample" class="carousel slide">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <div class="text-center bg-color-tecnicas-1">
+        <h3 class="h3-brown">Diseño UX/UI</h3>
+        <p class="p-brown"></p>
+      </div>
+    </div>
+    <div class="carousel-item active">
+      <div class="text-center bg-color-tecnicas-2">
+        <h3 class="h3-brown">Diseño UX/UI</h3>
+        <p class="p-brown"></p>
+      </div>
+    </div>
+    <div class="carousel-item active">
+      <div class="text-center bg-color-tecnicas-1">
+        <h3 class="h3-brown">Diseño UX/UI</h3>
+        <p class="p-brown"></p>
+      </div>
+    </div>
+    <div class="carousel-item active">
+      <div class="text-center bg-color-tecnicas-2">
+        <h3 class="h3-brown">Diseño UX/UI</h3>
+        <p class="p-brown"></p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <div class="text-center bg-color-tecnicas-1">
+        <h3 class="h3-brown">Diseño UX/UI</h3>
+        <p class="p-brown"></p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <div class="text-center bg-color-tecnicas-2">
+        <h3 class="h3-brown">Diseño UX/UI</h3>
+        <p class="p-brown"></p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <div class="text-center bg-color-tecnicas-1">
+        <h3 class="h3-brown">Diseño UX/UI</h3>
+        <p class="p-brown"></p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <div class="text-center bg-color-tecnicas-2">
+        <h3 class="h3-brown">Diseño UX/UI</h3>
+        <p class="p-brown"></p>
+      </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
    
 </main>
 <?php get_footer(); ?>
