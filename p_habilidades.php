@@ -85,22 +85,22 @@ get_header();
             <div class="d-flex justify-content-center">
                 <div class="text-center bg-color-tecnicas-1 me-3">
                     <h3 class="h3-brown pb-3">Diseño UX/UI</h3>
-                    <p class="p-brown"></p>
+                    <p class="p-brown-2">Diseño interfaces claras, funcionales y centradas en mejorar la experiencia de las personas usuarias.</p>
                 </div>
 
                 <div class="text-center bg-color-tecnicas-2 me-3">
                     <h3 class="h3-brown pb-3">HTML/CSS</h3>
-                    <p class="p-brown"></p>
+                    <p class="p-brown-2">Construyo estructuras web ordenadas, responsivas y visualmente coherentes con buenas prácticas de maquetación.</p>
                 </div>
 
                 <div class="text-center bg-color-tecnicas-1 me-3">
                     <h3 class="h3-brown pb-3">CMS Wordpress</h3>
-                    <p class="p-brown"></p>
+                    <p class="p-brown-2">Desarrollo sitios administrables en WordPress, adaptados a las necesidades del proyecto y del cliente.</p>
                 </div>
 
                 <div class="text-center bg-color-tecnicas-2">
                     <h3 class="h3-brown">Javascript</h3>
-                    <p class="p-brown"></p>
+                    <p class="p-brown-2">Implemento interacciones dinámicas para mejorar la navegación, usabilidad y experiencia dentro del sitio web.</p>
                 </div>
             </div>
         </div>
@@ -109,22 +109,22 @@ get_header();
             <div class="d-flex justify-content-center">
                 <div class="text-center bg-color-tecnicas-1 me-3">
                     <h3 class="h3-brown pb-3">Accesibilidad Web</h3>
-                    <p class="p-brown"></p>
+                    <p class="p-brown-2">Creo soluciones digitales más inclusivas, considerando navegación clara, contraste, estructura semántica y diversidad de usuarios.</p>
                 </div>
 
                 <div class="text-center bg-color-tecnicas-2 me-3">
                     <h3 class="h3-brown pb-3">SEO y Posicionamiento</h3>
-                    <p class="p-brown"></p>
+                    <p class="p-brown-2">Optimizo contenidos y estructura web para mejorar visibilidad, rendimiento y presencia en buscadores.</p>
                 </div>
 
                 <div class="text-center bg-color-tecnicas-1 me-3">
                     <h3 class="h3-brown pb-3">Elementor PRO</h3>
-                    <p class="p-brown"></p>
+                    <p class="p-brown-2">Diseño y construyo sitios profesionales en WordPress usando plantillas, componentes visuales y personalización avanzada.</p>
                 </div>
 
                 <div class="text-center bg-color-tecnicas-2">
                     <h3 class="h3-brown pb-3">Wordpress Headless</h3>
-                    <p class="p-brown"></p>
+                    <p class="p-brown-2">Integro WordPress como gestor de contenido con interfaces modernas desarrolladas mediante tecnologías front-end.</p>
                 </div>
             </div>
         </div>
