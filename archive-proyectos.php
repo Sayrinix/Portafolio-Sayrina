@@ -33,7 +33,7 @@ get_header();
     $paged = get_query_var('paged') ? get_query_var('paged') : 1;
             $projects_query = new WP_Query(array(
                 'post_type'      => 'proyecto',
-                'posts_per_page' => 4,
+                'posts_per_page' => -1,
                 'orderby'        => 'date',
                 'order'          => 'DESC',
                 'paged'          => $paged
@@ -90,20 +90,6 @@ get_header();
         </div>
 
         <?php endwhile; ?>
-    </div>
-    <div class="row">
-    <nav class="paginacion-proyectos" aria-label="Paginación de proyectos">
-                    <?php
-                    echo paginate_links(array(
-                        'total'     => $projects_query->max_num_pages,
-                        'prev_text' => '← Anterior',
-                        'next_text' => 'Siguiente →',
-                        'type'      => 'list',
-                        'current'   => max(1, $paged)
-
-                    ));
-                    ?>
-        </nav>
     </div>
         <?php wp_reset_postdata(); ?>
 
