@@ -15,7 +15,7 @@
                 <?php if (has_post_thumbnail()) : ?>
                  <?php the_post_thumbnail('large', array('class' => 'img-principal-single-blog')); ?> 
                 <?php endif; ?>
-                <div class="d-flex">
+                <div class="d-flex mt-5">
                     <span class="p-brown-2 pe-5"><?php echo get_the_date(); ?></span>
 
                     <?php
@@ -26,11 +26,11 @@
                     <?php endif; ?>
                 </div>
                 <div>
-                    <h1 class="h1-brown"><?php the_title(); ?></h1>
-                    <div class="p-brown-2"><?php the_content(); ?></div>
+                    <h1 class="h1-brown mt-5"><?php the_title(); ?></h1>
+                    <div class="p-brown-2 mt-5"><?php the_content(); ?></div>
                 </div>
                 <div class="row">
-                    <div class="col-5">
+                    <div class="col-5 mt-5">
                         <?php if ($imagen) : ?>
                         <img class="img-sec-single-blog" src="<?php echo esc_url($imagen['url']); ?>" alt="<?php echo esc_attr($imagen['alt']); ?>">
                         <?php endif; ?>    
@@ -42,7 +42,7 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-12">
+                    <div class="col-12 mt-5">
                         <?php if ($conclusion) : ?> 
                         <p class="p-brown-2"><?php echo esc_html($conclusion); ?></p>
                         <?php endif; ?> 

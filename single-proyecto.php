@@ -279,7 +279,7 @@ $oportunidades = get_field('oportunidades_de_mejora');
                             </a>
                         <?php endif; ?>
 
-                        <h3 class="h3-brown-s">
+                        <h3 class="h3-brown-s text-center">
                             <?php echo esc_html($titulo_recomendado ?: get_the_title()); ?>
                         </h3>
 
