@@ -98,7 +98,7 @@ get_header();
                     <p class="p-brown"></p>
                 </div>
 
-                <div class="text-center bg-color-tecnicas-2 me-3">
+                <div class="text-center bg-color-tecnicas-2">
                     <h3 class="h3-brown">Javascript</h3>
                     <p class="p-brown"></p>
                 </div>
@@ -122,7 +122,7 @@ get_header();
                     <p class="p-brown"></p>
                 </div>
 
-                <div class="text-center bg-color-tecnicas-2 me-3">
+                <div class="text-center bg-color-tecnicas-2">
                     <h3 class="h3-brown">Wordpress Headless</h3>
                     <p class="p-brown"></p>
                 </div>
