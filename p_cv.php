@@ -8,10 +8,13 @@ get_header();
     <div class="bg-color-cv">
         <h1 class="h1-brown">Curriculum Vitae</h1>
     </div>
-  <div class="container d-flex justify-content-center w-100">
+  <div class="container">
     <?php if (have_posts()) : ?>
             <?php while (have_posts()) : the_post(); ?>
-                 <?php the_content(); ?>
+            <div class="visor-cv mt-5">
+                <?php the_content(); ?>
+            </div>
+                 
             <?php endwhile; ?>
         <?php endif; ?>   
   </div> 

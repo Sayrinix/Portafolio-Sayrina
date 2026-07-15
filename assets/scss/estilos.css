@@ -728,4 +728,11 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.visor-cv iframe,
+.visor-cv embed,
+.visor-cv object {
+  width: 100%;
+  min-height: 700px;
 }/*# sourceMappingURL=estilos.css.map */
