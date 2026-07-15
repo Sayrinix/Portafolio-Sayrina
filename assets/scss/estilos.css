@@ -249,7 +249,7 @@ body {
 
 .imagen-destacada-arreglo {
   height: 261px;
-  width: 100%;
+  width: 261px;
   -o-object-fit: cover;
      object-fit: cover;
   -o-object-position: center;
