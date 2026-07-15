@@ -62,7 +62,7 @@ get_header();
                     }
         ?>
 
-        <div class="col-12 proyecto-item" data-category="<?php echo esc_attr(trim($estado_slugs)); ?>">
+        <div class="col-6 proyecto-item" data-category="<?php echo esc_attr(trim($estado_slugs)); ?>">
             <div class="row">
                 <div class="col-3 altura-div-destacada mb-5 mt-5">
                 
@@ -73,8 +73,8 @@ get_header();
                     <?php endif; ?>
                 </a>
                
-            </div>
-            <div class="col-3 d-flex flex-column justify-content-end altura-div-destacada mb-5 mt-5 pe-0 me-0">
+                </div>
+                <div class="col-3 d-flex flex-column justify-content-end altura-div-destacada mb-5 mt-5 pe-0 me-0">
                 <?php if ($titulo) : ?>
                 <h3 class="h3-brown"><?php echo esc_html($titulo); ?></h3>
                 <?php endif; ?>
@@ -85,8 +85,11 @@ get_header();
                     <a class="boton-ver" href="<?php the_permalink(); ?>">Ver más</a>
                 </div>
 
+                </div>
             </div>
-             <nav class="paginacion-proyectos" aria-label="Paginación de proyectos">
+        </div>
+            
+         <nav class="paginacion-proyectos" aria-label="Paginación de proyectos">
                     <?php
                     echo paginate_links(array(
                         'total'     => $projects_query->max_num_pages,
@@ -97,11 +100,7 @@ get_header();
 
                     ));
                     ?>
-                </nav>
-            </div>
-        </div>
-            
-        
+        </nav>
         <?php endwhile; ?>
     </div>
         <?php wp_reset_postdata(); ?>
