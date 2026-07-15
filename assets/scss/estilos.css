@@ -645,6 +645,17 @@ body {
   color: #493022 !important;
 }
 
-.arousel-control-next-icon {
+.carousel-control-next-icon {
   color: #493022 !important;
+}
+
+.posicion-div-met {
+  display: flex;
+  position: relative;
+  z-index: 1;
+}
+
+.posicion-met-1 {
+  position: absolute;
+  z-index: 10;
 }/*# sourceMappingURL=estilos.css.map */

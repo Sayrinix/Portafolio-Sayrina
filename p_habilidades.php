@@ -142,9 +142,37 @@ get_header();
     </button>
 </div>
 
-<div class="mt-5 pt-5">
+<div class="mt-5 pt-5 mb-5 pb-5 posicion-div-met">
     <div class="mt-5 w-100 d-flex justify-content-center">
         <img src="<?php echo esc_url(get_template_directory_uri() . '/assets/img/metodologia.png')?>" alt="">
+    </div>
+    <div class="d-flex flex-column justify-content-start w-auto posicion-met-1">
+        <span class="h3-brown">Título</span>
+        <span class="p-brown">parrafo</span>
+    </div>
+    <div class="d-flex flex-column justify-content-start w-auto">
+        <span class="h3-brown">Título</span>
+        <span class="p-brown">parrafo</span>
+    </div>
+    <div class="d-flex flex-column justify-content-start w-auto">
+        <span class="h3-brown">Título</span>
+        <span class="p-brown">parrafo</span>
+    </div>
+    <div class="d-flex flex-column justify-content-start w-auto">
+        <span class="h3-brown">Título</span>
+        <span class="p-brown">parrafo</span>
+    </div>
+    <div class="d-flex flex-column justify-content-end w-auto">
+        <span class="h3-brown">Título</span>
+        <span class="p-brown">parrafo</span>
+    </div>
+    <div class="d-flex flex-column justify-content-end w-auto">
+        <span class="h3-brown">Título</span>
+        <span class="p-brown">parrafo</span>
+    </div>
+    <div class="d-flex flex-column justify-content-end w-auto">
+        <span class="h3-brown">Título</span>
+        <span class="p-brown">parrafo</span>
     </div>
 </div>
 </main>

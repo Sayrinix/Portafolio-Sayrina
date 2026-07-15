@@ -43,6 +43,17 @@ padding: 20px;
     color: $color-7 !important;
 }
 
-.arousel-control-next-icon{
+.carousel-control-next-icon{
     color: $color-7 !important;
+}
+
+.posicion-div-met{
+    display: flex;
+    position: relative;
+    z-index: 1;
+}
+
+.posicion-met-1{
+    position: absolute;
+    z-index: 10;
 }
