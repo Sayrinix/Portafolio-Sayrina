@@ -90,7 +90,8 @@ get_header();
         </div>
 
         <?php endwhile; ?>
-        <nav class="paginacion-proyectos" aria-label="Paginación de proyectos">
+    </div>
+    <nav class="paginacion-proyectos" aria-label="Paginación de proyectos">
                     <?php
                     echo paginate_links(array(
                         'total'     => $projects_query->max_num_pages,
@@ -102,7 +103,6 @@ get_header();
                     ));
                     ?>
         </nav>
-    </div>
         <?php wp_reset_postdata(); ?>
 
         <?php else : ?>
