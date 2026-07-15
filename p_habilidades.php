@@ -15,28 +15,28 @@ get_header();
         <div class="row d-flex justify-content-center">
             <div class="col-6 me-5">
                 <div class="row pb-5">
-                    <div class="col">
+                    <div class="col-6">
                         <img class="arreglo-img-hab-bl" src="<?php echo esc_url(get_template_directory_uri() . '/assets/img/habilidad-1.jpg')?>" alt="Un hombre y una mujer trabajando y analizando datos.">
                     </div>
-                    <div class="col">
+                    <div class="col-6">
                         <h3 class="h3-brown">Capacidad de Análisis</h3>
                         <p class="p-brown-2">Identifico problemas y propongo soluciones claras.</p>
                     </div>
                 </div>
                 <div class="row pb-5">
-                    <div class="col">
+                    <div class="col-6">
                         <img class="arreglo-img-hab-bl" src="<?php echo esc_url(get_template_directory_uri() . '/assets/img/habilidad-2.jpg')?>" alt="Un hombre y una mujer trabajando y analizando datos.">
                     </div>
-                    <div class="col">
+                    <div class="col-6">
                         <h3 class="h3-brown">Perseverancia</h3>
                         <p class="p-brown-2">Mantengo el enfoque pese a los desafíos</p>
                     </div>
                 </div>
                 <div class="row pb-5">
-                    <div class="col">
+                    <div class="col-6">
                         <img class="arreglo-img-hab-bl" src="<?php echo esc_url(get_template_directory_uri() . '/assets/img/habilidad-3.jpg')?>" alt="Un hombre y una mujer trabajando y analizando datos.">
                     </div>
-                    <div class="col">
+                    <div class="col-6">
                         <h3 class="h3-brown">Empatía</h3>
                         <p class="p-brown-2">Comprendo necesidades desde la perspectiva del usuario.</p>
                     </div>
@@ -44,28 +44,28 @@ get_header();
             </div>
             <div class="col-6">
                 <div class="row pb-5">
-                    <div class="col">
+                    <div class="col-6">
                         <img class="arreglo-img-hab-bl" src="<?php echo esc_url(get_template_directory_uri() . '/assets/img/habilidad-4.jpg')?>" alt="Un hombre y una mujer trabajando y analizando datos.">
                     </div>
-                    <div class="col">
+                    <div class="col-6">
                         <h3 class="h3-brown">Comunicación Efectiva</h3>
                         <p class="p-brown-2">Transmito ideas de forma clara y cercana.</p>
                     </div>
                 </div>
                 <div class="row pb-5">
-                    <div class="col">
+                    <div class="col-6">
                         <img class="arreglo-img-hab-bl" src="<?php echo esc_url(get_template_directory_uri() . '/assets/img/habilidad-5.jpg')?>" alt="Un hombre y una mujer trabajando y analizando datos.">
                     </div>
-                    <div class="col">
+                    <div class="col-6">
                         <h3 class="h3-brown">Creatividad</h3>
                         <p class="p-brown-2">Transformo ideas en soluciones visuales funcionales.</p>
                     </div>
                 </div>
                 <div class="row pb-5">
-                    <div class="col">
+                    <div class="col-6">
                         <img class="arreglo-img-hab-bl" src="<?php echo esc_url(get_template_directory_uri() . '/assets/img/habilidad-6.jpg')?>" alt="Un hombre y una mujer trabajando y analizando datos.">
                     </div>
-                    <div class="col">
+                    <div class="col-6">
                         <h3 class="h3-brown">Trabajo en Equipo</h3>
                         <p class="p-brown-2">Colaboro activamente para alcanzar objetivos comunes.</p>
                     </div>
