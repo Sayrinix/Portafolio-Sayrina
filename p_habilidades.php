@@ -78,7 +78,7 @@ get_header();
     <h2 class="h2-brown">Habilidades Técnicas</h2>
 </div>
 
-<div id="carouselExample" class="carousel slide mt-5">
+<div id="carouselExample" class="carousel slide mt-5 mb-5 pb-5">
     <div class="carousel-inner">
 
         <div class="carousel-item active">
