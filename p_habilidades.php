@@ -19,8 +19,8 @@ get_header();
                         <img class="arreglo-img-hab-bl" src="<?php echo esc_url(get_template_directory_uri() . '/assets/img/habilidad-1.jpg')?>" alt="Un hombre y una mujer trabajando y analizando datos.">
                     </div>
                     <div class="col">
-                        <h3 class="h3-brown">Titulo</h3>
-                        <p class="p-brown-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        <h3 class="h3-brown">Capacidad de Análisis</h3>
+                        <p class="p-brown-2">Identifico problemas y propongo soluciones claras.</p>
                     </div>
                 </div>
                 <div class="row pb-5">
@@ -28,8 +28,8 @@ get_header();
                         <img class="arreglo-img-hab-bl" src="<?php echo esc_url(get_template_directory_uri() . '/assets/img/habilidad-2.jpg')?>" alt="Un hombre y una mujer trabajando y analizando datos.">
                     </div>
                     <div class="col">
-                        <h3 class="h3-brown">Titulo</h3>
-                        <p class="p-brown-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        <h3 class="h3-brown">Perseverancia</h3>
+                        <p class="p-brown-2">Mantengo el enfoque pese a los desafíos</p>
                     </div>
                 </div>
                 <div class="row pb-5">
@@ -37,8 +37,8 @@ get_header();
                         <img class="arreglo-img-hab-bl" src="<?php echo esc_url(get_template_directory_uri() . '/assets/img/habilidad-3.jpg')?>" alt="Un hombre y una mujer trabajando y analizando datos.">
                     </div>
                     <div class="col">
-                        <h3 class="h3-brown">Titulo</h3>
-                        <p class="p-brown-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        <h3 class="h3-brown">Empatía</h3>
+                        <p class="p-brown-2">Comprendo necesidades desde la perspectiva del usuario.</p>
                     </div>
                 </div>
             </div>
@@ -48,8 +48,8 @@ get_header();
                         <img class="arreglo-img-hab-bl" src="<?php echo esc_url(get_template_directory_uri() . '/assets/img/habilidad-4.jpg')?>" alt="Un hombre y una mujer trabajando y analizando datos.">
                     </div>
                     <div class="col">
-                        <h3 class="h3-brown">Titulo</h3>
-                        <p class="p-brown-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        <h3 class="h3-brown">Comunicación Efectiva</h3>
+                        <p class="p-brown-2">Transmito ideas de forma clara y cercana.</p>
                     </div>
                 </div>
                 <div class="row pb-5">
@@ -57,8 +57,8 @@ get_header();
                         <img class="arreglo-img-hab-bl" src="<?php echo esc_url(get_template_directory_uri() . '/assets/img/habilidad-5.jpg')?>" alt="Un hombre y una mujer trabajando y analizando datos.">
                     </div>
                     <div class="col">
-                        <h3 class="h3-brown">Titulo</h3>
-                        <p class="p-brown-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        <h3 class="h3-brown">Creatividad</h3>
+                        <p class="p-brown-2">Transformo ideas en soluciones visuales funcionales.</p>
                     </div>
                 </div>
                 <div class="row pb-5">
@@ -66,8 +66,8 @@ get_header();
                         <img class="arreglo-img-hab-bl" src="<?php echo esc_url(get_template_directory_uri() . '/assets/img/habilidad-6.jpg')?>" alt="Un hombre y una mujer trabajando y analizando datos.">
                     </div>
                     <div class="col">
-                        <h3 class="h3-brown">Titulo</h3>
-                        <p class="p-brown-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        <h3 class="h3-brown">Trabajo en Equipo</h3>
+                        <p class="p-brown-2">Colaboro activamente para alcanzar objetivos comunes.</p>
                     </div>
                 </div>
             </div>    
@@ -140,42 +140,6 @@ get_header();
         <span class="carousel-control-next-icon" aria-hidden="true"></span>
         <span class="visually-hidden">Siguiente</span>
     </button>
-</div>
-<div class="mt-5 pt-5 w-100">
-    <h2 class="h2-brown text-center">Metodología</h2>
-</div>
-<div class="pt-5 mb-5 pb-5 posicion-div-met">
-    <div class="mt-5 w-100 d-flex justify-content-center">
-        <img src="<?php echo esc_url(get_template_directory_uri() . '/assets/img/metodologia.png')?>" alt="">
-    </div>
-    <div class="d-flex flex-column justify-content-start w-auto posicion-met-1">
-        <span class="h3-brown">Título</span>
-        <span class="p-brown">parrafo</span>
-    </div>
-    <div class="d-flex flex-column justify-content-start w-auto posicion-met-2">
-        <span class="h3-brown">Título</span>
-        <span class="p-brown">parrafo</span>
-    </div>
-    <div class="d-flex flex-column justify-content-start w-auto posicion-met-3">
-        <span class="h3-brown">Título</span>
-        <span class="p-brown">parrafo</span>
-    </div>
-    <div class="d-flex flex-column justify-content-start w-auto posicion-met-4">
-        <span class="h3-brown">Título</span>
-        <span class="p-brown">parrafo</span>
-    </div>
-    <div class="d-flex flex-column justify-content-end w-auto posicion-met-5">
-        <span class="h3-brown">Título</span>
-        <span class="p-brown">parrafo</span>
-    </div>
-    <div class="d-flex flex-column justify-content-end w-auto posicion-met-6">
-        <span class="h3-brown">Título</span>
-        <span class="p-brown">parrafo</span>
-    </div>
-    <div class="d-flex flex-column justify-content-end w-auto posicion-met-7">
-        <span class="h3-brown">Título</span>
-        <span class="p-brown">parrafo</span>
-    </div>
 </div>
 </main>
 <?php get_footer(); ?>
