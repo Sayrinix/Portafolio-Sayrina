@@ -9,7 +9,23 @@ get_header();
 
     </div>
     <div class="container-fluid altura-div-filtros">
+        <div class="d-flex justify-content-center gap-3 mb-5">
+            <button class="boton-ver boton-filtro active" data-filter="todos">
+                Todos
+            </button>
 
+            <button class="boton-ver boton-filtro" data-filter="finalizados">
+                Finalizados
+            </button>
+
+            <button class="boton-ver boton-filtro" data-filter="en-desarrollo">
+                En desarrollo
+            </button>
+
+            <button class="boton-ver boton-filtro" data-filter="planificados">
+                Planificados
+            </button>
+        </div>
     </div>
   <div class="container d-flex justify-content-center">
     <?php
@@ -33,6 +49,18 @@ get_header();
             $descripcion = get_field('descripcion_breve_del_proyecto');
             $imagen_destacada = get_field('imagen_destacada');
         ?>
+
+        <?php
+                    $terms = get_the_terms(get_the_ID(), 'estado_proyecto');
+                    $estado_slugs = '';
+
+                    if ($terms && !is_wp_error($terms)) {
+                        foreach ($terms as $term) {
+                            $estado_slugs .= $term->slug . ' ';
+                        }
+                    }
+        ?>
+
 
         
             <div class="col-3 altura-div-destacada mb-5 mt-5">
