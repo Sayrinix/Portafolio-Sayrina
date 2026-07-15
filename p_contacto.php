@@ -8,7 +8,7 @@ get_header();
  <div class="bg-color-banner-contacto">
     <h1 class="h1-brown">Contacto</h1>
  </div>
- <div class="container">
+ <div class="container mt-5 pt-5 d-flex justify-content-center">
     <div class="row">
         <div class="col-8">
 <form action="post" class="bg-color-contacto-form">
