@@ -10,7 +10,7 @@ get_header();
  </div>
  <div class="container mt-5 pt-5 d-flex justify-content-center">
     <div class="row">
-        <div class="col-8">
+        <div class="col-12">
 <form action="post" class="bg-color-contacto-form">
     <div class="row">
         <div class="mb-3 col">
