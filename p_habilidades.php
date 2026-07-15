@@ -150,27 +150,27 @@ get_header();
         <span class="h3-brown">Título</span>
         <span class="p-brown">parrafo</span>
     </div>
-    <div class="d-flex flex-column justify-content-start w-auto">
+    <div class="d-flex flex-column justify-content-start w-auto posicion-met-2">
         <span class="h3-brown">Título</span>
         <span class="p-brown">parrafo</span>
     </div>
-    <div class="d-flex flex-column justify-content-start w-auto">
+    <div class="d-flex flex-column justify-content-start w-auto posicion-met-3">
         <span class="h3-brown">Título</span>
         <span class="p-brown">parrafo</span>
     </div>
-    <div class="d-flex flex-column justify-content-start w-auto">
+    <div class="d-flex flex-column justify-content-start w-auto posicion-met-4">
         <span class="h3-brown">Título</span>
         <span class="p-brown">parrafo</span>
     </div>
-    <div class="d-flex flex-column justify-content-end w-auto">
+    <div class="d-flex flex-column justify-content-end w-auto posicion-met-5">
         <span class="h3-brown">Título</span>
         <span class="p-brown">parrafo</span>
     </div>
-    <div class="d-flex flex-column justify-content-end w-auto">
+    <div class="d-flex flex-column justify-content-end w-auto posicion-met-6">
         <span class="h3-brown">Título</span>
         <span class="p-brown">parrafo</span>
     </div>
-    <div class="d-flex flex-column justify-content-end w-auto">
+    <div class="d-flex flex-column justify-content-end w-auto posicion-met-7">
         <span class="h3-brown">Título</span>
         <span class="p-brown">parrafo</span>
     </div>
