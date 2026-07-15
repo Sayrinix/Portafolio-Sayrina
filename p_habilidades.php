@@ -85,19 +85,19 @@ get_header();
         <p class="p-brown"></p>
       </div>
     </div>
-    <div class="carousel-item active">
+    <div class="carousel-item">
       <div class="text-center bg-color-tecnicas-2">
         <h3 class="h3-brown">Diseño UX/UI</h3>
         <p class="p-brown"></p>
       </div>
     </div>
-    <div class="carousel-item active">
+    <div class="carousel-item">
       <div class="text-center bg-color-tecnicas-1">
         <h3 class="h3-brown">Diseño UX/UI</h3>
         <p class="p-brown"></p>
       </div>
     </div>
-    <div class="carousel-item active">
+    <div class="carousel-item">
       <div class="text-center bg-color-tecnicas-2">
         <h3 class="h3-brown">Diseño UX/UI</h3>
         <p class="p-brown"></p>
