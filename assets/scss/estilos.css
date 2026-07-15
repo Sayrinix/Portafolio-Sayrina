@@ -659,47 +659,47 @@ body {
   position: absolute;
   z-index: 10;
   top: 100px;
-  left: 850px;
+  left: 880px;
 }
 
 .posicion-met-2 {
   position: absolute;
   z-index: 10;
-  top: 510px;
-  left: 850px;
+  top: 440px;
+  left: 880px;
 }
 
 .posicion-met-3 {
   position: absolute;
   z-index: 10;
-  top: 910px;
-  left: 850px;
+  top: 840px;
+  left: 880px;
 }
 
 .posicion-met-4 {
   position: absolute;
   z-index: 10;
-  top: 1310px;
-  left: 850px;
+  top: 1240px;
+  left: 880px;
 }
 
 .posicion-met-5 {
   position: absolute;
   z-index: 10;
   top: 265px;
-  left: 375px;
+  left: 355px;
 }
 
 .posicion-met-6 {
   position: absolute;
   z-index: 10;
   top: 675px;
-  left: 375px;
+  left: 355px;
 }
 
 .posicion-met-7 {
   position: absolute;
   z-index: 10;
-  top: 1080px;
-  left: 375px;
+  top: 1050px;
+  left: 355px;
 }/*# sourceMappingURL=estilos.css.map */
