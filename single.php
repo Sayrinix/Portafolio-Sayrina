@@ -29,10 +29,10 @@
                 <div>
                     <h1 class="h1-brown mt-5"><?php the_title(); ?></h1>
                     <div class="mt-5">
-                        <?php if ($contenido) : ?>
+                    <?php if ($contenido) : ?>
                     <p class="p-brown-2"><?php echo esc_html($contenido); ?></p>
                     <?php endif; ?>    
-                    <div>
+                    </div>
                 </div>
                 <div class="row">
                     <div class="col-5 mt-5">
