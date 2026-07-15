@@ -9,6 +9,7 @@
         $titulo_2 = get_field('titulo_2_imagen');
         $imagen = get_field('imagen_secundaria');
         $conclusion = get_field('conclusion_final');
+        $contenido = get_field('contenido');
         ?>
         <div class="row">
             <div class="col-8">
@@ -27,7 +28,11 @@
                 </div>
                 <div>
                     <h1 class="h1-brown mt-5"><?php the_title(); ?></h1>
-                    <div class="p-brown-2 mt-5"><?php the_content(); ?></div>
+                    <div class="mt-5">
+                        <?php if ($contenido) : ?>
+                    <p class="p-brown-2"><?php echo esc_html($contenido); ?></p>
+                    <?php endif; ?>    
+                    <div>
                 </div>
                 <div class="row">
                     <div class="col-5 mt-5">
