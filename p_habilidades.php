@@ -79,38 +79,38 @@ get_header();
  </div>
  <div id="carouselExample" class="carousel slide">
   <div class="carousel-inner">
-    <div class="carousel-item active d-flex">
-      <div class="text-center bg-color-tecnicas-1 me-1">
+    <div class="carousel-item active d-flex justify-content-center">
+      <div class="text-center bg-color-tecnicas-1 me-3">
         <h3 class="h3-brown">Diseño UX/UI</h3>
         <p class="p-brown"></p>
       </div>
-      <div class="text-center bg-color-tecnicas-2 me-1">
+      <div class="text-center bg-color-tecnicas-2 me-3">
         <h3 class="h3-brown">Diseño UX/UI</h3>
         <p class="p-brown"></p>
       </div>
-      <div class="text-center bg-color-tecnicas-1 me-1">
+      <div class="text-center bg-color-tecnicas-1 me-3">
         <h3 class="h3-brown">Diseño UX/UI</h3>
         <p class="p-brown"></p>
       </div>
-      <div class="text-center bg-color-tecnicas-2 me-1">
+      <div class="text-center bg-color-tecnicas-2 me-3">
         <h3 class="h3-brown">Diseño UX/UI</h3>
         <p class="p-brown"></p>
       </div>
     </div>
-    <div class="carousel-item d-flex">
-      <div class="text-center bg-color-tecnicas-1 me-1">
+    <div class="carousel-item d-flex justify-content-center">
+      <div class="text-center bg-color-tecnicas-1 me-3">
         <h3 class="h3-brown">Diseño UX/UI</h3>
         <p class="p-brown"></p>
       </div>
-      <div class="text-center bg-color-tecnicas-2 me-1">
+      <div class="text-center bg-color-tecnicas-2 me-3">
         <h3 class="h3-brown">Diseño UX/UI</h3>
         <p class="p-brown"></p>
       </div>
-      <div class="text-center bg-color-tecnicas-1 me-1">
+      <div class="text-center bg-color-tecnicas-1 me-3">
         <h3 class="h3-brown">Diseño UX/UI</h3>
         <p class="p-brown"></p>
       </div>
-      <div class="text-center bg-color-tecnicas-2 me-1">
+      <div class="text-center bg-color-tecnicas-2 me-3">
         <h3 class="h3-brown">Diseño UX/UI</h3>
         <p class="p-brown"></p>
       </div>
