@@ -658,8 +658,8 @@ body {
 .posicion-met-1 {
   position: absolute;
   z-index: 10;
-  top: 100px;
-  left: 1792px;
+  top: -100px;
+  left: -1792px;
 }
 
 .posicion-met-2 {
