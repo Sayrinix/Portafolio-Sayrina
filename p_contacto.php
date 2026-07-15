@@ -14,28 +14,33 @@ get_header();
 <form action="post" class="bg-color-contacto-form">
     <div class="row">
         <div class="form-floating mb-3 col">
-        <input type="text" class="form-control" id="floatingInput" placeholder="Nombre">
-        <label for="floatingInput">Nombre</label>
+            <label for="floatingInput" class="form-label">Nombre</label>
+        <input type="text" class="form-control form-control-sm" id="floatingInput" placeholder="Nombre">
+        
         </div>
         <div class="form-floating col">
-            <input type="text" class="form-control" id="floatingEmpresa" placeholder="Empresa">
-            <label for="floatingEmpresa">Empresa</label>
+            <label class="form-label" for="floatingEmpresa">Empresa</label>
+            <input type="text" class="form-control form-control-sm" id="floatingEmpresa" placeholder="Empresa">
+            
         </div>
     </div>
     <div class="row">
        <div class="form-floating mb-3 col">
-        <input type="email" class="form-control" id="floatingEmail" placeholder="nombre@ejemplo.com">
-        <label for="floatingEmail">Correo Electrónico</label>
+        <label class="form-label" for="floatingEmail">Correo Electrónico</label>
+        <input type="email" class="form-control form-control-sm" id="floatingEmail" placeholder="nombre@ejemplo.com">
+        
         </div>
         <div class="form-floating mb-3 col">
-        <input type="tel" class="form-control" id="floatingTel" placeholder="+56 X XX XXXX XX">
-        <label for="floatingTel">Número de Teléfono</label>
+            <label class="form-label" for="floatingTel">Número de Teléfono</label>
+        <input type="tel" class="form-control form-control-sm" id="floatingTel" placeholder="+56 X XX XXXX XX">
+        
         </div>
     </div>
     <div>
         <div class="form-floating">
+            <label class="form-label" for="floatingTextarea">Consulta</label>
         <textarea rows="3" class="form-control" placeholder="Escribe tu consulta..." id="floatingTextarea"></textarea>
-        <label for="floatingTextarea">Consulta</label>
+        
         </div>
     </div> 
  </form>
