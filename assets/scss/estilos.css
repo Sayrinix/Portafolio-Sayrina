@@ -645,11 +645,11 @@ body {
   justify-content: center;
 }
 
-.carousel-control-prev {
+.carousel-control-prev span {
   color: #493022 !important;
 }
 
-.carousel-control-next {
+.carousel-control-next span {
   color: #493022 !important;
 }
 
