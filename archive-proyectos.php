@@ -41,7 +41,17 @@ get_header();
             ?>
             <?php if ($projects_query->have_posts()) : ?>
             
-             <?php
+             
+            
+    <div class="row mb-5">
+        <?php while ($projects_query->have_posts()) : $projects_query->the_post(); ?>
+
+        <?php
+            $titulo = get_field('titulo_del_proyecto'); 
+            $descripcion = get_field('descripcion_breve_del_proyecto');
+            $imagen_destacada = get_field('imagen_destacada');
+        ?>
+        <?php
                     $terms = get_the_terms(get_the_ID(), 'estado_proyecto');
                     $estado_slugs = '';
 
@@ -50,20 +60,11 @@ get_header();
                             $estado_slugs .= $term->slug . ' ';
                         }
                     }
-                ?>
-            
-    <div class="row proyecto-item mb-5" data-category="<?php echo esc_attr(trim($estado_slugs)); ?>">
-        <?php while ($projects_query->have_posts()) : $projects_query->the_post(); ?>
-
-        <?php
-            $titulo = get_field('titulo_del_proyecto'); 
-            $descripcion = get_field('descripcion_breve_del_proyecto');
-            $imagen_destacada = get_field('imagen_destacada');
         ?>
 
-
-        
-            <div class="col-3 altura-div-destacada mb-5 mt-5">
+        <div class="col-12 proyecto-item" data-category="<?php echo esc_attr(trim($estado_slugs)); ?>">
+            <div class="row">
+                <div class="col-3 altura-div-destacada mb-5 mt-5">
                 
                 <a href="<?php the_permalink(); ?>">
                     <?php if ($imagen_destacada) : ?>
@@ -85,10 +86,7 @@ get_header();
                 </div>
 
             </div>
-        
-        <?php endwhile; ?>
-
-        <nav class="paginacion-proyectos" aria-label="Paginación de proyectos">
+             <nav class="paginacion-proyectos" aria-label="Paginación de proyectos">
                     <?php
                     echo paginate_links(array(
                         'total'     => $projects_query->max_num_pages,
@@ -100,6 +98,11 @@ get_header();
                     ));
                     ?>
                 </nav>
+            </div>
+        </div>
+            
+        
+        <?php endwhile; ?>
     </div>
         <?php wp_reset_postdata(); ?>
 
