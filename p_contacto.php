@@ -35,12 +35,15 @@ get_header();
         </div>
     </div>
     <div>
-        <div>
+        <div class="mb-3">
             <label class="form-label" for="floatingTextarea">Consulta</label>
         <textarea rows="3" class="form-control" placeholder="Escribe tu consulta..." id="floatingTextarea"></textarea>
         
         </div>
     </div> 
+    <div class="d-flex justify-content-end">
+        <button type="submit" class="boton-ver-s">Enviar</button>
+    </div>
  </form>
         </div>
   
