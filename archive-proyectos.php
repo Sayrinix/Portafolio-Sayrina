@@ -9,7 +9,7 @@ get_header();
 
     </div>
     <div class="container-fluid altura-div-filtros">
-        <div class="d-flex justify-content-center gap-5 mb-5">
+        <div class="filtros-proyectos d-flex justify-content-center gap-5 mb-5">
             <button class="boton-ver boton-filtro active" data-filter="todos">
                 Todos
             </button>
@@ -41,16 +41,7 @@ get_header();
             ?>
             <?php if ($projects_query->have_posts()) : ?>
             
-    <div class="row mb-5">
-        <?php while ($projects_query->have_posts()) : $projects_query->the_post(); ?>
-
-        <?php
-            $titulo = get_field('titulo_del_proyecto'); 
-            $descripcion = get_field('descripcion_breve_del_proyecto');
-            $imagen_destacada = get_field('imagen_destacada');
-        ?>
-
-        <?php
+             <?php
                     $terms = get_the_terms(get_the_ID(), 'estado_proyecto');
                     $estado_slugs = '';
 
@@ -59,6 +50,15 @@ get_header();
                             $estado_slugs .= $term->slug . ' ';
                         }
                     }
+                ?>
+            
+    <div class="row proyecto-item mb-5" data-category="<?php echo esc_attr(trim($estado_slugs)); ?>">
+        <?php while ($projects_query->have_posts()) : $projects_query->the_post(); ?>
+
+        <?php
+            $titulo = get_field('titulo_del_proyecto'); 
+            $descripcion = get_field('descripcion_breve_del_proyecto');
+            $imagen_destacada = get_field('imagen_destacada');
         ?>
 
 
