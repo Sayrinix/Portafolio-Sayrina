@@ -702,4 +702,11 @@ body {
   z-index: 10;
   top: 1050px;
   left: 310px;
+}
+
+.bg-color-banner-contacto {
+  background-color: #F8E1DD;
+  height: 385px;
+  display: flex;
+  justify-content: baseline;
 }/*# sourceMappingURL=estilos.css.map */
