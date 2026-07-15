@@ -62,7 +62,7 @@ get_header();
                     }
         ?>
 
-        <div class="col-6 proyecto-item" data-category="<?php echo esc_attr(trim($estado_slugs)); ?>">
+        <div class="col-12 proyecto-item" data-category="<?php echo esc_attr(trim($estado_slugs)); ?>">
             <div class="row">
                 <div class="col-3 altura-div-destacada mb-5 mt-5">
                 
@@ -88,8 +88,9 @@ get_header();
                 </div>
             </div>
         </div>
-            
-         <nav class="paginacion-proyectos" aria-label="Paginación de proyectos">
+
+        <?php endwhile; ?>
+        <nav class="paginacion-proyectos" aria-label="Paginación de proyectos">
                     <?php
                     echo paginate_links(array(
                         'total'     => $projects_query->max_num_pages,
@@ -101,7 +102,6 @@ get_header();
                     ));
                     ?>
         </nav>
-        <?php endwhile; ?>
     </div>
         <?php wp_reset_postdata(); ?>
 
