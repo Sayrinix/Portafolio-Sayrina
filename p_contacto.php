@@ -11,8 +11,8 @@ get_header();
  <div class="container">
     <div class="row">
         <div class="col-8">
-            <form action="post" class="bg-color-contacto-form">
-    <div>
+<form action="post" class="bg-color-contacto-form">
+    <div class="row">
         <div class="form-floating mb-3 col">
         <input type="text" class="form-control" id="floatingInput" placeholder="Nombre">
         <label for="floatingInput">Nombre</label>
@@ -22,7 +22,7 @@ get_header();
             <label for="floatingEmpresa">Empresa</label>
         </div>
     </div>
-    <div>
+    <div class="row">
        <div class="form-floating mb-3 col">
         <input type="email" class="form-control" id="floatingEmail" placeholder="nombre@ejemplo.com">
         <label for="floatingEmail">Correo Electrónico</label>
@@ -34,7 +34,7 @@ get_header();
     </div>
     <div>
         <div class="form-floating">
-        <textarea class="form-control" placeholder="Escribe tu consulta..." id="floatingTextarea"></textarea>
+        <textarea rows="3" class="form-control" placeholder="Escribe tu consulta..." id="floatingTextarea"></textarea>
         <label for="floatingTextarea">Consulta</label>
         </div>
     </div> 
