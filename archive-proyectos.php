@@ -91,6 +91,7 @@ get_header();
 
         <?php endwhile; ?>
     </div>
+    <div class="row">
     <nav class="paginacion-proyectos" aria-label="Paginación de proyectos">
                     <?php
                     echo paginate_links(array(
@@ -103,6 +104,7 @@ get_header();
                     ));
                     ?>
         </nav>
+    </div>
         <?php wp_reset_postdata(); ?>
 
         <?php else : ?>
