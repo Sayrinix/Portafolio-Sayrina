@@ -174,7 +174,7 @@ body {
 .bg-image {
   background-image: url(../img/banner-home-def.png);
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
   height: 600px;
   width: 100%;
 }

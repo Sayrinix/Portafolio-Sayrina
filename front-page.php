@@ -6,7 +6,7 @@ get_header();
 ?>
 <main>
 
-<div class="bg-image d-flex justify-content-start align-items-center">
+<div class="bg-image ps-5 d-flex justify-content-start align-items-center">
     <div>
         <p class="p-light">Sayrina Luciano - UX Designer & Web Developer</p>
         <h1 class="h1-light">Cada proyecto cuenta una<br>historia. Esta es la mía.</h1>
@@ -14,7 +14,7 @@ get_header();
 </div> 
 
 
-<div class="container mb-5 altura-div1">
+<div class="container mt-5 pb-5 mb-5 altura-div1">
         <h2 class="h2-brown pb-5 text-center">Próximos Proyectos</h2>
         <div class="d-flex mt-5 altura-div2">
             <img class="me-2 imagen-arreglo" src="<?php echo esc_url(get_template_directory_uri() . '/assets/img/proyecto-destacado.png')?>" alt="Persona Mayor Mujer usando un celular">
