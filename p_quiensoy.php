@@ -24,20 +24,24 @@ get_header();
     <div class="row mb-5">
         <div class="col-12 d-flex justify-content-center">
             <h2 class="h2-brown">Enfoque Profesional</h2>
+            <p class="p-brown text-center">Mi enfoque se encuentra en la intersección entre las necesidades de las personas, las posibilidades de la tecnología y los objetivos del negocio.</p>
         </div>
     </div>
     <div class="row d-flex justify-content-center">
         <div class="col-3 enfoque-card">
-            <h3 class="h3-brown pb-3">Soluciones digitales para personas mayores</h3>
-            <p class="p-brown-2">Me interesa desarrollar soluciones digitales accesibles, simples y funcionales que faciliten la experiencia de uso de las personas mayores en entornos digitales.</p>
+            <h3 class="h3-brown pb-3">Usuarios</h3>
+            <p class="p-brown-2"><strong>Diseño centrado en las personas</strong></p>
+            <p class="p-brown-2">Comprender las necesidades, comportamientos y contextos de los usuarios para crear experiencias digitales intuitivas, accesibles y útiles, donde la tecnología responda a problemas reales.</p>
         </div>
         <div class="col-4 enfoque-card">
-            <h3 class="h3-brown pb-3">Posicionamiento Digital para emprendedores</h3>
-            <p class="p-brown-2">Me interesa apoyar a emprendedores y pequeñas marcas en la construcción de una presencia digital sólida, estratégica y coherente. Este enfoque considera el desarrollo de sitios web, optimización SEO, estructura de contenidos e identidad digital</p>
+            <h3 class="h3-brown pb-3">Tecnología</h3>
+            <p class="p-brown-2"><strong>Soluciones digitales que funcionan</strong></p>
+            <p class="p-brown-2">Utilizar el desarrollo y las herramientas tecnológicas para transformar necesidades en soluciones digitales funcionales, escalables y bien construidas, conectando diseño, implementación y mejora continua.</p>
         </div>
         <div class="col-3 enfoque-card">
-            <h3 class="h3-brown pb-3">Investigación en Seguridad Digital</h3>
-            <p class="p-brown-2">Mi interés está especialmente orientado a acercar la seguridad digital a personas y grupos que no siempre cuentan con conocimientos técnicos, promoviendo una cultura digital más informada, responsable y preventiva.</p>
+            <h3 class="h3-brown pb-3">Visión Empresarial</h3>
+            <p class="p-brown-2"><strong>Tecnología con propósito de negocio</strong></p>
+            <p class="p-brown-2">Comprender los objetivos del negocio para desarrollar soluciones que generen valor, utilizando eCommerce, marketing, analítica y métricas para apoyar decisiones y oportunidades de crecimiento.</p>
         </div>
     </div>
 </div>
@@ -61,16 +65,16 @@ get_header();
             <p class="p-brown-2">Accesibilidad como base, no como extra</p>
         </div>
         <div class="col-2 arreglo-valor d-flex align-items-center justify-content-center">
-            <p class="p-brown-2">Visión estratégica para emprendedores</p>
+            <p class="p-brown-2">Decisiones basadas en evidencia</p>
         </div>
         <div class="col-2 arreglo-valor d-flex align-items-center justify-content-center">
-            <p class="p-brown-2">Puente entre lo técnico y lo cotidiano</p>
+            <p class="p-brown-2">Puente entre tecnología y negocio</p>
         </div>
         <div class="col-2 arreglo-valor d-flex align-items-center justify-content-center">
-            <p class="p-brown-2">Seguridad digital con mirada educativa</p>
+            <p class="p-brown-2">Aprendizaje y adaptación continua</p>
         </div>
         <div class="col-2 arreglo-valor d-flex align-items-center justify-content-center">
-            <p class="p-brown-2">Desarrollo con propósito social</p>
+            <p class="p-brown-2">Desarrollo digital con propósito</p>
         </div>
     </div>
     <div class="row mt-5 d-flex justify-content-center">
