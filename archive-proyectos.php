@@ -65,27 +65,29 @@ get_header();
         <div class="col-12 proyecto-item" data-category="<?php echo esc_attr(trim($estado_slugs)); ?>">
             <div class="row">
                 <div class="col-6">
-                <div class="col-6 altura-div-destacada mb-5 mt-5 pe-3">
+                    <div class="row">
+                        <div class="col-6 altura-div-destacada mb-5 mt-5 pe-3">
+                            <a href="<?php the_permalink(); ?>">
+                                <?php if ($imagen_destacada) : ?>
+                                <img class="imagen-destacada-arreglo" src="<?php echo esc_url($imagen_destacada['url']); ?>" 
+                                alt="<?php echo esc_attr($imagen_destacada['alt']); ?>">
+                                <?php endif; ?>
+                            </a>
+                        
+                            </div>
+                            <div class="col-6 d-flex flex-column justify-content-end altura-div-destacada mb-5 mt-5">
+                            <?php if ($titulo) : ?>
+                            <h3 class="h3-brown"><?php echo esc_html($titulo); ?></h3>
+                            <?php endif; ?>
+                            <?php if ($descripcion) : ?>
+                            <p class="p-brown"><?php echo esc_html($descripcion); ?></p>
+                            <?php endif; ?>
+                            <div class="d-flex">
+                                <a class="boton-ver" href="<?php the_permalink(); ?>">Ver más</a>
+                            </div>
+                            </div>
+                    </div>
                 
-                <a href="<?php the_permalink(); ?>">
-                    <?php if ($imagen_destacada) : ?>
-                    <img class="imagen-destacada-arreglo" src="<?php echo esc_url($imagen_destacada['url']); ?>" 
-                    alt="<?php echo esc_attr($imagen_destacada['alt']); ?>">
-                    <?php endif; ?>
-                </a>
-               
-                </div>
-                <div class="col-6 d-flex flex-column justify-content-end altura-div-destacada mb-5 mt-5">
-                <?php if ($titulo) : ?>
-                <h3 class="h3-brown"><?php echo esc_html($titulo); ?></h3>
-                <?php endif; ?>
-                <?php if ($descripcion) : ?>
-                <p class="p-brown"><?php echo esc_html($descripcion); ?></p>
-                <?php endif; ?>
-                <div class="d-flex">
-                    <a class="boton-ver" href="<?php the_permalink(); ?>">Ver más</a>
-                </div>
-                </div>
                 
 
                 </div>
