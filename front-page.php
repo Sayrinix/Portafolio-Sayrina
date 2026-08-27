@@ -52,8 +52,8 @@ get_header();
             </div>
 
             <div class="col-12 col-md-6">
-                <h3 class="h3-brown">Profesión</h3>
-                <p class="pb-3 p-brown">Diseñadora y Desarrolladora Web</p>
+                <h3 class="h3-brown">Titulada de</h3>
+                <p class="pb-3 p-brown">Desarrollo y Diseño Web</p>
             </div>
 
         </div>
@@ -68,8 +68,8 @@ get_header();
             </div>
 
             <div class="col-12 col-md-6">
-                <h3 class="h3-brown">Edad</h3>
-                <p class="pb-3 p-brown">23 años</p>
+                <h3 class="h3-brown">Estudiante de</h3>
+                <p class="pb-3 p-brown">Ingeniería en Ejecución Informática</p>
             </div>
 
         </div>
