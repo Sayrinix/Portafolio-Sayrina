@@ -14,7 +14,7 @@ get_header();
 </div> 
 
 <div class="p-5 mb-5">
-        <h2 class="h2-brown">"Diseño y desarrollo experiencias digitales conectando tecnología,<br>necesidades de usuario y objetivos de negocio."</h2>
+        <p class="h3-brown">"Diseño y desarrollo experiencias digitales conectando tecnología,necesidades de usuario y objetivos de negocio."</p>
     </div>
 
 <div class="container mt-5 pb-5 mb-5 altura-div1">
