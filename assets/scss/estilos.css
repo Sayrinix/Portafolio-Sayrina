@@ -253,7 +253,7 @@ body {
 }
 
 .imagen-destacada-arreglo {
-  height: auto;
+  height: 270px;
   width: 295px;
   -o-object-fit: cover;
      object-fit: cover;
