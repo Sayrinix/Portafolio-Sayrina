@@ -8,7 +8,7 @@ get_header();
 
 <div class="bg-image ps-5 d-flex justify-content-start align-items-center">
     <div>
-        <p class="p-light">Sayrina Luciano - UX Designer & Web Developer</p>
+        <p class="p-light">Sayrina Luciano - Web Development · eCommerce · UX · Digital Experience</p>
         <h1 class="h1-light">Cada proyecto cuenta una<br>historia. Esta es la mía.</h1>
     </div>
 </div> 
@@ -24,7 +24,9 @@ get_header();
             </div>
         </div>
     </div>
-
+    <div class="p-5 mb-5">
+        <p class="p-brown">Diseño y desarrollo experiencias digitales conectando tecnología, necesidades de usuario y objetivos de negocio.</p>
+    </div>
     <div class="container mb-5 pb-5">
         <h2 class="h2-brown pb-5 text-center">¿Quién soy?</h2>
         <div class="d-flex mt-5 altura-div2">
