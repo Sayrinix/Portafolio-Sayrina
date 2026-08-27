@@ -64,9 +64,9 @@ get_header();
 
         <div class="col-12" data-category="<?php echo esc_attr(trim($estado_slugs)); ?>">
             <div class="row">
-                <div class="col-6">
+                <div class="col-5">
                     <div class="row">
-                        <div class="col-3">
+                        <div class="col-6">
                             <a href="<?php the_permalink(); ?>">
                                 <?php if ($imagen_destacada) : ?>
                                 <img class="imagen-destacada-arreglo" src="<?php echo esc_url($imagen_destacada['url']); ?>" 
@@ -75,7 +75,7 @@ get_header();
                             </a>
                         
                             </div>
-                            <div class="col-3 d-flex flex-column justify-content-end imagen-destacada-arreglo">
+                            <div class="col-6 d-flex flex-column justify-content-end imagen-destacada-arreglo">
                             <?php if ($titulo) : ?>
                             <h3 class="h3-brown"><?php echo esc_html($titulo); ?></h3>
                             <?php endif; ?>
