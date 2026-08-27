@@ -30,17 +30,17 @@ get_header();
     <div class="row d-flex justify-content-center">
         <div class="col-3 enfoque-card">
             <h3 class="h3-brown pb-3">Usuarios</h3>
-            <p class="p-brown-2"><strong>Diseño centrado en las personas</strong></p>
+            <p class="p-brown-3"><strong>Diseño centrado en las personas</strong></p>
             <p class="p-brown-2">Comprender las necesidades, comportamientos y contextos de los usuarios para crear experiencias digitales intuitivas, accesibles y útiles, donde la tecnología responda a problemas reales.</p>
         </div>
         <div class="col-4 enfoque-card">
             <h3 class="h3-brown pb-3">Tecnología</h3>
-            <p class="p-brown-2"><strong>Soluciones digitales que funcionan</strong></p>
+            <p class="p-brown-3"><strong>Soluciones digitales que funcionan</strong></p>
             <p class="p-brown-2">Utilizar el desarrollo y las herramientas tecnológicas para transformar necesidades en soluciones digitales funcionales, escalables y bien construidas, conectando diseño, implementación y mejora continua.</p>
         </div>
         <div class="col-3 enfoque-card">
             <h3 class="h3-brown pb-3">Visión Empresarial</h3>
-            <p class="p-brown-2"><strong>Tecnología con propósito de negocio</strong></p>
+            <p class="p-brown-3"><strong>Tecnología con propósito de negocio</strong></p>
             <p class="p-brown-2">Comprender los objetivos del negocio para desarrollar soluciones que generen valor, utilizando eCommerce, marketing, analítica y métricas para apoyar decisiones y oportunidades de crecimiento.</p>
         </div>
     </div>
