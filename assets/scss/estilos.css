@@ -594,8 +594,36 @@ body {
   padding: 50px;
   height: auto;
   width: 670px;
+  max-width: 100%;
 }
 
+/*
+|--------------------------------------------------------------------------
+| CAMPO ANTI-SPAM
+|--------------------------------------------------------------------------
+*/
+.campo-trampa {
+  position: absolute;
+  left: -9999px;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+
+/*
+|--------------------------------------------------------------------------
+| RESPONSIVE
+|--------------------------------------------------------------------------
+*/
+@media (max-width: 767.98px) {
+  .bg-color-contacto-form {
+    width: calc(100vw - 30px);
+    padding: 30px 20px;
+  }
+  .bg-color-banner-contacto {
+    height: 250px;
+  }
+}
 .bg-color-cv {
   background-color: #F8E1DD;
   height: 385px;
