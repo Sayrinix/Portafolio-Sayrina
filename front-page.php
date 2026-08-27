@@ -83,7 +83,7 @@ get_header();
     </div>
 </div>
 
-    <div class="container pb-5">
+    <div class="container pt-5 pb-5">
         <h2 class="h2-brown pb-5 text-center">Habilidades</h2>
         <div class="row pt-5 justify-content-center">
 
