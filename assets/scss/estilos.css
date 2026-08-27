@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Cause:wght@100..900&display=swap");
 * {
   padding: 0;
@@ -252,6 +253,175 @@ body {
   z-index: 10;
 }
 
+/* =========================================================
+   RESPONSIVE HOME
+========================================================= */
+/* ---------------------------------------------------------
+   TABLET
+--------------------------------------------------------- */
+@media (max-width: 991.98px) {
+  /* HERO */
+  .bg-image {
+    height: 500px;
+    background-position: center;
+    padding-left: 30px !important;
+    padding-right: 30px;
+  }
+  /* PRÓXIMOS PROYECTOS / QUIÉN SOY */
+  .altura-div1 {
+    height: auto;
+  }
+  .altura-div2 {
+    height: auto;
+  }
+  .imagen-arreglo {
+    height: 350px;
+  }
+  .fondo-destacado {
+    height: auto;
+    min-height: 250px;
+    padding: 30px 20px;
+  }
+  /* HABILIDADES */
+  .borde-col {
+    height: auto;
+    min-height: 220px;
+    margin-bottom: 40px;
+  }
+  /* PROYECTOS */
+  .imagen-arreglo-2 {
+    height: 300px;
+  }
+}
+/* ---------------------------------------------------------
+   MOBILE
+--------------------------------------------------------- */
+@media (max-width: 767.98px) {
+  /* =====================
+     HERO
+  ===================== */
+  .bg-image {
+    height: 500px;
+    padding-left: 20px !important;
+    padding-right: 20px;
+    background-position: center;
+  }
+  .bg-image .p-light {
+    font-size: 0.9rem;
+    max-width: 90%;
+  }
+  .bg-image .h1-light {
+    font-size: 2.2rem;
+    line-height: 1.15;
+  }
+  /* =====================
+     FRASE PRINCIPAL
+  ===================== */
+  main > .p-5 {
+    padding: 40px 20px !important;
+  }
+  main > .p-5 .h3-brown {
+    font-size: 1.25rem;
+    line-height: 1.5;
+  }
+  /* =====================
+     CONTENEDORES
+  ===================== */
+  .altura-div1,
+  .altura-div2 {
+    height: auto;
+  }
+  /* =====================
+     PRÓXIMOS PROYECTOS
+  ===================== */
+  .imagen-arreglo {
+    width: 100%;
+    height: 280px;
+    margin-right: 0 !important;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  .fondo-destacado {
+    width: 100%;
+    height: auto;
+    min-height: 220px;
+    padding: 30px 20px;
+  }
+  /* =====================
+     QUIÉN SOY
+  ===================== */
+  .container .altura-div2 {
+    width: 100%;
+  }
+  .container .altura-div2 > img {
+    margin-right: 0 !important;
+  }
+  /* =====================
+     HABILIDADES
+  ===================== */
+  .borde-col {
+    border-right: none;
+    border-bottom: solid #493022 1px;
+    height: auto;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+  }
+  .borde-col:last-of-type {
+    border-bottom: none;
+  }
+  /* =====================
+     PROYECTOS
+  ===================== */
+  .imagen-arreglo,
+  .imagen-arreglo-2 {
+    height: 280px;
+    width: 100%;
+  }
+  /* Evitamos que el hover se sienta extraño en táctil */
+  .hover-imagen:hover {
+    transform: none;
+    box-shadow: none;
+  }
+}
+/* ---------------------------------------------------------
+   MOBILE PEQUEÑO
+--------------------------------------------------------- */
+@media (max-width: 575.98px) {
+  /* HERO */
+  .bg-image {
+    height: 450px;
+    padding-left: 18px !important;
+    padding-right: 18px;
+  }
+  .bg-image .h1-light {
+    font-size: 1.8rem;
+  }
+  .bg-image .p-light {
+    font-size: 0.8rem;
+  }
+  /* SECCIONES */
+  .container {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  /* IMÁGENES */
+  .imagen-arreglo,
+  .imagen-arreglo-2 {
+    height: 240px;
+  }
+  /* TÍTULOS */
+  .h2-brown {
+    font-size: 1.8rem;
+  }
+  .h3-brown {
+    font-size: 1.25rem;
+  }
+  /* BOTONES */
+  .boton-ver {
+    width: auto;
+    text-align: center;
+  }
+}
 .imagen-destacada-arreglo {
   width: 100%;
   height: 270px;
