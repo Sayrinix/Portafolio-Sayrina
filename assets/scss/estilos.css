@@ -253,13 +253,16 @@ body {
 }
 
 .imagen-destacada-arreglo {
-  width: 295px;
-  height: 270px;
   -o-object-fit: cover;
      object-fit: cover;
   -o-object-position: center;
      object-position: center;
   border-radius: 10px;
+}
+
+.altura-row-proyectos {
+  width: 295px;
+  height: 270px;
 }
 
 .altura-div-filtros {
