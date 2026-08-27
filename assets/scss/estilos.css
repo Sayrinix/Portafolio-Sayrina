@@ -417,7 +417,7 @@ body {
 
 .bg-color-desc {
   background-color: #E0C4BE;
-  height: 400px;
+  min-height: 400px;
   border-radius: 10px;
 }
 
@@ -428,7 +428,6 @@ body {
   display: flex;
   flex-direction: column;
   align-items: start;
-  margin-right: 30px;
   transition: all 0.3s ease;
 }
 .enfoque-card:hover {
@@ -447,7 +446,7 @@ body {
 
 .arreglo-valor {
   border-right: solid 1px #493022;
-  height: 150px;
+  min-height: 150px;
   padding: 20px;
 }
 
@@ -455,10 +454,155 @@ body {
   background-color: #F8E1DD;
   height: auto;
   border-radius: 10px;
-  width: auto;
   padding: 40px;
 }
 
+@media (max-width: 991.98px) {
+  /* ==============================
+     HERO / PRESENTACIÓN
+  ============================== */
+  .bg-color-qn {
+    height: 350px;
+    padding-left: 30px;
+    padding-right: 30px;
+    text-align: center;
+  }
+  /* ==============================
+     PERFIL
+  ============================== */
+  .arreglo-imagen-perfil {
+    height: 380px;
+  }
+  .bg-color-desc {
+    min-height: auto;
+    padding: 20px;
+  }
+  /* ==============================
+     ENFOQUE PROFESIONAL
+  ============================== */
+  .enfoque-card {
+    min-height: 300px;
+    padding: 25px;
+  }
+  /* ==============================
+     GIRASOL
+  ============================== */
+  .arreglo-girasol {
+    height: 320px;
+  }
+  /* ==============================
+     VALOR DIFERENCIAL
+  ============================== */
+  .arreglo-valor {
+    min-height: 130px;
+    border-right: none;
+    border-bottom: solid 1px #493022;
+  }
+  /* ==============================
+     CTA
+  ============================== */
+  .arreglo-cta {
+    width: 100%;
+    padding: 35px;
+  }
+}
+@media (max-width: 767.98px) {
+  /* ==============================
+     BANNER
+  ============================== */
+  .bg-color-qn {
+    height: 300px;
+    padding: 30px 20px;
+    text-align: center;
+  }
+  .bg-color-qn .h1-brown {
+    font-size: 2rem;
+    line-height: 1.2;
+  }
+  /* ==============================
+     PERFIL
+  ============================== */
+  .arreglo-imagen-perfil {
+    height: 320px;
+    -o-object-position: center;
+       object-position: center;
+  }
+  .bg-color-desc {
+    min-height: auto;
+    padding: 30px 20px;
+  }
+  .bg-color-desc .p-brown {
+    padding: 0 !important;
+    margin: 0;
+  }
+  /* ==============================
+     ENFOQUE PROFESIONAL
+  ============================== */
+  .enfoque-card {
+    min-height: auto;
+    padding: 25px;
+    align-items: flex-start;
+  }
+  .enfoque-card:hover {
+    transform: none;
+    box-shadow: none;
+  }
+  /* ==============================
+     GIRASOL
+  ============================== */
+  .arreglo-girasol {
+    height: 260px;
+  }
+  /* ==============================
+     VALOR DIFERENCIAL
+  ============================== */
+  .arreglo-valor {
+    min-height: 90px;
+    border-right: none;
+    border-bottom: solid 1px #493022;
+    padding: 20px;
+  }
+  .arreglo-valor:last-child {
+    border-bottom: none;
+  }
+  .arreglo-valor .p-brown-2 {
+    margin: 0;
+    text-align: center;
+  }
+  /* ==============================
+     CTA FINAL
+  ============================== */
+  .arreglo-cta {
+    width: 100%;
+    padding: 30px 20px;
+  }
+}
+@media (max-width: 575.98px) {
+  .bg-color-qn {
+    height: 270px;
+    padding-left: 18px;
+    padding-right: 18px;
+  }
+  .bg-color-qn .h1-brown {
+    font-size: 1.8rem;
+  }
+  .arreglo-imagen-perfil {
+    height: 280px;
+  }
+  .arreglo-girasol {
+    height: 220px;
+  }
+  .enfoque-card {
+    padding: 20px;
+  }
+  .arreglo-valor {
+    min-height: 80px;
+    padding: 18px;
+  }
+  .arreglo-cta {
+    padding: 25px 18px;
+  }
+}
 .arreglo-hero-blog {
   height: 470px;
   max-width: -moz-fit-content;
