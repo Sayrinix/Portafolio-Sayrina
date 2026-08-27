@@ -105,7 +105,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['enviar_contacto'])) {
                 */
 
                 // Cambia esto por el correo donde quieres recibir los mensajes.
-                $destinatario = 'TU-CORREO@DOMINIO.CL';
+                $destinatario = 'haglla8@gmail.com';
 
                 $asunto = 'Nuevo mensaje desde el portafolio - ' . $nombre;
 
