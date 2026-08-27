@@ -22,7 +22,7 @@ get_header();
 </div>
 <div class="container mt-5 pt-5">
     <div class="row mb-5">
-        <div class="col-12 d-flex justify-content-center">
+        <div class="col-12 d-flex flex-column align-items-center">
             <h2 class="h2-brown">Enfoque Profesional</h2>
             <p class="p-brown text-center">Mi enfoque se encuentra en la intersección entre las necesidades de las personas, las posibilidades de la tecnología y los objetivos del negocio.</p>
         </div>
