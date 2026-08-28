@@ -402,6 +402,47 @@ body {
   height: 200px;
 }
 
+/* ============================== TABLET / MOBILE ============================== */
+@media (max-width: 767.98px) {
+  .altura-div-filtros {
+    height: auto;
+    min-height: 100px;
+    padding-bottom: 30px;
+  }
+  .altura-imaginaria {
+    height: 140px;
+  }
+  .filtros-proyectos {
+    gap: 15px !important;
+    padding: 0 20px;
+  }
+  .boton-filtro {
+    flex: 1 1 45%;
+    max-width: 180px;
+    text-align: center;
+  }
+}
+/* ============================== MOBILE PEQUEÑO ============================== */
+@media (max-width: 575.98px) {
+  .altura-imaginaria {
+    height: 110px;
+  }
+  .altura-div-filtros {
+    height: auto;
+    padding-bottom: 25px;
+  }
+  .filtros-proyectos {
+    flex-direction: column;
+    align-items: center;
+    gap: 12px !important;
+    padding: 0 15px;
+  }
+  .boton-filtro {
+    width: 100%;
+    max-width: 260px;
+    flex: none;
+  }
+}
 .bg-color-qn {
   background-color: #EFBCBC;
   height: 400px;
