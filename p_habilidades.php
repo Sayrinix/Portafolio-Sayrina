@@ -56,7 +56,7 @@ get_header();
 
     <div class="col-12 col-lg-5">
 
-        <div class="row pb-5 align-items-center">
+        <div class="row pb-5 align-items-center justify-content-center">
             <div class="col-12 col-md-6">
                 <img class="arreglo-img-hab-bl" src="<?php echo esc_url(get_template_directory_uri() . '/assets/img/habilidad-4.jpg')?>" alt="Un hombre y una mujer trabajando y analizando datos.">
             </div>
