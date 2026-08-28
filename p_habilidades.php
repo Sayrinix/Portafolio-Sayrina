@@ -48,12 +48,7 @@ get_header();
                         <p class="p-brown-2">Comprendo necesidades desde la perspectiva del usuario.</p>
                     </div>
                 </div>
-
-            </div>
-        </div>
-    </div>
-
-
+                
     <div class="col-12 col-lg-5">
 
         <div class="row pb-5 align-items-center">
