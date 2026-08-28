@@ -268,3 +268,10 @@ justify-content: center;
     border-right: 3px solid $color-7;
 }
 
+.carousel-control-prev-icon {
+    transform: rotate(-135deg);
+}
+
+.carousel-control-next-icon {
+    transform: rotate(45deg);
+}

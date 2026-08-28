@@ -961,6 +961,14 @@ body {
   border-right: 3px solid #493022;
 }
 
+.carousel-control-prev-icon {
+  transform: rotate(-135deg);
+}
+
+.carousel-control-next-icon {
+  transform: rotate(45deg);
+}
+
 .bg-color-banner-contacto {
   background-color: #F8E1DD;
   height: 385px;
