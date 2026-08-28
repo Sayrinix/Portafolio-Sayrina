@@ -258,3 +258,25 @@ justify-content: center;
     }
 
 }
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-image: none;
+    width: 25px;
+    height: 25px;
+    border-top: 3px solid $color-7;
+    border-right: 3px solid $color-7;
+}
+
+.carousel-control-prev-icon {
+    transform: rotate(-135deg);
+}
+
+.carousel-control-next-icon {
+    transform: rotate(45deg);
+}
+
+.carousel-control-prev:hover .carousel-control-prev-icon,
+.carousel-control-next:hover .carousel-control-next-icon {
+    opacity: 0.6;
+}
