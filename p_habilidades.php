@@ -11,84 +11,107 @@ get_header();
        <h1 class="h1-brown text-center">Habilidades Blandas</h1>  
     </div>
     <div class="container-fluid mt-5 bg-color-hab d-flex flex-column justify-content-center align-items-center h-100">
-    
-        <div class="row d-flex justify-content-center g-4">
 
-            <div class="col-12 col-lg-5 me-lg-5">
+    <div class="row d-flex justify-content-center g-4">
 
-                <div class="row pb-5 align-items-center">
-                    <div class="col-12 col-md-6">
-                        <img class="arreglo-img-hab-bl" src="<?php echo esc_url(get_template_directory_uri() . '/assets/img/habilidad-1.jpg')?>" alt="Un hombre y una mujer trabajando y analizando datos.">
-                    </div>
+        <!-- COLUMNA IZQUIERDA -->
+        <div class="col-12 col-lg-5 me-lg-5">
 
-                    <div class="col-12 col-md-6">
-                        <h3 class="h3-brown">Capacidad de Análisis</h3>
-                        <p class="p-brown-2">Identifico problemas y propongo soluciones claras.</p>
-                    </div>
+            <div class="row pb-5 align-items-center">
+                <div class="col-12 col-md-6">
+                    <img class="arreglo-img-hab-bl"
+                        src="<?php echo esc_url(get_template_directory_uri() . '/assets/img/habilidad-1.jpg')?>"
+                        alt="Un hombre y una mujer trabajando y analizando datos.">
                 </div>
 
-                <div class="row pb-5 align-items-center">
-                    <div class="col-12 col-md-6">
-                        <img class="arreglo-img-hab-bl" src="<?php echo esc_url(get_template_directory_uri() . '/assets/img/habilidad-2.jpg')?>" alt="Un hombre y una mujer trabajando y analizando datos.">
-                    </div>
+                <div class="col-12 col-md-6">
+                    <h3 class="h3-brown">Capacidad de Análisis</h3>
+                    <p class="p-brown-2">Identifico problemas y propongo soluciones claras.</p>
+                </div>
+            </div>
 
-                    <div class="col-12 col-md-6">
-                        <h3 class="h3-brown">Perseverancia</h3>
-                        <p class="p-brown-2">Mantengo el enfoque pese a los desafíos</p>
-                    </div>
+
+            <div class="row pb-5 align-items-center">
+                <div class="col-12 col-md-6">
+                    <img class="arreglo-img-hab-bl"
+                        src="<?php echo esc_url(get_template_directory_uri() . '/assets/img/habilidad-2.jpg')?>"
+                        alt="Un hombre y una mujer trabajando y analizando datos.">
                 </div>
 
-                <div class="row pb-5 align-items-center">
-                    <div class="col-12 col-md-6">
-                        <img class="arreglo-img-hab-bl" src="<?php echo esc_url(get_template_directory_uri() . '/assets/img/habilidad-3.jpg')?>" alt="Un hombre y una mujer trabajando y analizando datos.">
-                    </div>
-
-                    <div class="col-12 col-md-6">
-                        <h3 class="h3-brown">Empatía</h3>
-                        <p class="p-brown-2">Comprendo necesidades desde la perspectiva del usuario.</p>
-                    </div>
+                <div class="col-12 col-md-6">
+                    <h3 class="h3-brown">Perseverancia</h3>
+                    <p class="p-brown-2">Mantengo el enfoque pese a los desafíos.</p>
                 </div>
-                
-    <div class="col-12 col-lg-5">
-
-        <div class="row pb-5 align-items-center">
-            <div class="col-12 col-md-6">
-                <img class="arreglo-img-hab-bl" src="<?php echo esc_url(get_template_directory_uri() . '/assets/img/habilidad-4.jpg')?>" alt="Un hombre y una mujer trabajando y analizando datos.">
             </div>
 
-            <div class="col-12 col-md-6">
-                <h3 class="h3-brown">Comunicación Efectiva</h3>
-                <p class="p-brown-2">Transmito ideas de forma clara y cercana.</p>
+
+            <div class="row pb-5 align-items-center">
+                <div class="col-12 col-md-6">
+                    <img class="arreglo-img-hab-bl"
+                        src="<?php echo esc_url(get_template_directory_uri() . '/assets/img/habilidad-3.jpg')?>"
+                        alt="Un hombre y una mujer trabajando y analizando datos.">
+                </div>
+
+                <div class="col-12 col-md-6">
+                    <h3 class="h3-brown">Empatía</h3>
+                    <p class="p-brown-2">Comprendo necesidades desde la perspectiva del usuario.</p>
+                </div>
             </div>
+
         </div>
+        <!-- FIN COLUMNA IZQUIERDA -->
 
-        <div class="row pb-5 align-items-center">
-            <div class="col-12 col-md-6">
-                <img class="arreglo-img-hab-bl" src="<?php echo esc_url(get_template_directory_uri() . '/assets/img/habilidad-5.jpg')?>" alt="Un hombre y una mujer trabajando y analizando datos.">
+
+        <!-- COLUMNA DERECHA -->
+        <div class="col-12 col-lg-5">
+
+            <div class="row pb-5 align-items-center">
+                <div class="col-12 col-md-6">
+                    <img class="arreglo-img-hab-bl"
+                        src="<?php echo esc_url(get_template_directory_uri() . '/assets/img/habilidad-4.jpg')?>"
+                        alt="Un hombre y una mujer trabajando y analizando datos.">
+                </div>
+
+                <div class="col-12 col-md-6">
+                    <h3 class="h3-brown">Comunicación Efectiva</h3>
+                    <p class="p-brown-2">Transmito ideas de forma clara y cercana.</p>
+                </div>
             </div>
 
-            <div class="col-12 col-md-6">
-                <h3 class="h3-brown">Creatividad</h3>
-                <p class="p-brown-2">Transformo ideas en soluciones visuales funcionales.</p>
+
+            <div class="row pb-5 align-items-center">
+                <div class="col-12 col-md-6">
+                    <img class="arreglo-img-hab-bl"
+                        src="<?php echo esc_url(get_template_directory_uri() . '/assets/img/habilidad-5.jpg')?>"
+                        alt="Un hombre y una mujer trabajando y analizando datos.">
+                </div>
+
+                <div class="col-12 col-md-6">
+                    <h3 class="h3-brown">Creatividad</h3>
+                    <p class="p-brown-2">Transformo ideas en soluciones visuales funcionales.</p>
+                </div>
             </div>
+
+
+            <div class="row pb-5 align-items-center">
+                <div class="col-12 col-md-6">
+                    <img class="arreglo-img-hab-bl"
+                        src="<?php echo esc_url(get_template_directory_uri() . '/assets/img/habilidad-6.jpg')?>"
+                        alt="Un hombre y una mujer trabajando y analizando datos.">
+                </div>
+
+                <div class="col-12 col-md-6">
+                    <h3 class="h3-brown">Trabajo en Equipo</h3>
+                    <p class="p-brown-2">Colaboro activamente para alcanzar objetivos comunes.</p>
+                </div>
+            </div>
+
         </div>
-
-        <div class="row pb-5 align-items-center">
-            <div class="col-12 col-md-6">
-                <img class="arreglo-img-hab-bl" src="<?php echo esc_url(get_template_directory_uri() . '/assets/img/habilidad-6.jpg')?>" alt="Un hombre y una mujer trabajando y analizando datos.">
-            </div>
-
-            <div class="col-12 col-md-6">
-                <h3 class="h3-brown">Trabajo en Equipo</h3>
-                <p class="p-brown-2">Colaboro activamente para alcanzar objetivos comunes.</p>
-            </div>
-        </div>
+        <!-- FIN COLUMNA DERECHA -->
 
     </div>
 
 </div>
-    
- </div>
  <div class="text-center mt-5 pt-5">
     <h2 class="h2-brown">Habilidades Técnicas</h2>
 </div>
